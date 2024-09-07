@@ -1,8 +1,8 @@
 // src/router/index.ts
 import { createRouter, createWebHistory } from 'vue-router';  
 import HomeVue from '@/views/Home.vue';
-import NarrativeView from '@/views/NarrativeDetailView.vue';
-import NarrativeTimelineView from '@/views/NarrativeTimelineView.vue'; // 新增导入  
+import NarrativeView from '@/views/Narrative.vue';
+import NarrativeTimelineView from '@/views/Timeline.vue'; // 新增导入
 
 const routes = [  
   {

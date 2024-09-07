@@ -17,7 +17,6 @@
           <n-card hoverable class="action-card">
             <n-space vertical align="center">
               <n-icon size="40" color="#18A058">
-                <n-icon-add />
               </n-icon>
               <n-h3>Start a New Project</n-h3>
               <n-p style="text-align: center">
@@ -30,10 +29,9 @@
           </n-card>
         </n-gi>
         <n-gi>
-          <n-card hoverable class="action-card">
+          <n-card hoverable class="action-card" >
             <n-space vertical align="center">
               <n-icon size="40" color="#2080F0">
-                <n-icon-folder-open />
               </n-icon>
               <n-h3>Open Existing Project</n-h3>
               <n-p style="text-align: center">
@@ -119,7 +117,7 @@
 <script lang="ts" setup>
 import { ref } from "vue";
 import { useRouter } from "vue-router";
-import { narratives } from "../mock/narratives";
+import { narratives } from "@/mock/narratives";
 
 const router = useRouter();
 

@@ -43,14 +43,13 @@
         </div>
       </template>
       <template #2>
-        <div class="carousel-container">
-          <div class="carousel-buttons">  
-            <n-button @click="viewTimeline" type="secondary">Visual as Timeline</n-button>  
-            <n-button type="default">Visual as Map</n-button>  
-            <n-button type="default">Button 3</n-button>  
-          </div>  
+        <n-space vertical style="margin: 10px">
+            <n-space>
+              <n-button @click="viewTimeline" secondary round>Visual as Timeline</n-button>
+              <n-button secondary round>Visual as Map</n-button>
+            </n-space>
           <event-carousel :events="events" @select-event="selectEvent" />
-        </div>
+        </n-space>
       </template>
     </n-split>
   </div>
@@ -59,10 +58,10 @@
 <script lang="ts" setup>
 import { ref, computed } from "vue";
 import { useRouter, useRoute } from "vue-router";
-import { mockNarratives, Narrative, Event } from "../mock/narrativeData";
-import EntityList from "../components/EntityList.vue";
-import EventForm from "../components/EventForm.vue";
-import EventCarousel from "../components/EventCarousel.vue";
+import { mockNarratives, Narrative, Event } from "@/mock/narrativeData";
+import EntityList from "@/components/EntityList.vue";
+import EventForm from "@/components/EventForm.vue";
+import EventCarousel from "@/components/EventCarousel.vue";
 
 const route = useRoute();
 const router = useRouter();
@@ -80,25 +79,9 @@ const splitSizes = ref<number>(0.7);
 const title = computed(() => narrative.value?.title || "");
 const entities = computed(() => narrative.value?.entities || []);
 const events = computed(() => narrative.value?.events || []);
-const entityOptions = computed(() =>
-  entities.value.map((e) => ({ label: e.name, value: e.id }))
-);
-const eventTypeOptions = computed(() => [
-  { label: "Meeting", value: "meeting" },
-  { label: "Conference", value: "conference" },
-  { label: "Travel", value: "travel" },
-]);
 
 const viewTimeline = () => {
   router.push({ name: "NarrativeTimeline", params: { id: narrativeId } });
-};
-
-const saveEvent = (event: Event) => {
-  // 实现保存事件的逻辑
-};
-
-const clearEventForm = () => {
-  selectedEvent.value = null;
 };
 
 const selectEvent = (event: Event) => {
@@ -143,8 +126,5 @@ const goBack = () => {
 .right-panel {
   height: 100%;
   padding: 10px;
-}
-
-.carousel-container {
 }
 </style>

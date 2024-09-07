@@ -17,7 +17,7 @@
 <script lang="ts" setup>  
 import { ref, watch } from 'vue';  
 import { NForm, NFormItem, NInput, NSelect, NButton, NSpace } from 'naive-ui';  
-import { Entity } from '../mock/narrativeData';  
+import { Entity } from '@/mock/narrativeData';
 
 const props = defineProps<{  
   entity?: Entity | null;  

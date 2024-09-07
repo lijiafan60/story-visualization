@@ -88,7 +88,6 @@ onUnmounted(() => {
 <style scoped>
 .event-carousel {
   height: 100%;
-  padding: 20px;
 }
 
 .event-card {
