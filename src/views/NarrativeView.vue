@@ -1,3 +1,4 @@
+<!-- @/views/NarrativeView -->
 <template>
   <div class="narrative-detail-container">
     <div class="narrative-title">
@@ -46,7 +47,7 @@
         <n-space vertical style="margin: 10px">
             <n-space>
               <n-button @click="viewTimeline" secondary round>Visual as Timeline</n-button>
-              <n-button secondary round>Visual as Map</n-button>
+              <n-button @click="viewMap" secondary round>Visual as Map</n-button>
             </n-space>
           <event-carousel :events="events" @select-event="selectEvent" />
         </n-space>
@@ -82,6 +83,10 @@ const events = computed(() => narrative.value?.events || []);
 
 const viewTimeline = () => {
   router.push({ name: "NarrativeTimeline", params: { id: narrativeId } });
+};
+
+const viewMap = () => {
+  router.push({ name: "NarrativeMap", params: { id: narrativeId } });
 };
 
 const selectEvent = (event: Event) => {

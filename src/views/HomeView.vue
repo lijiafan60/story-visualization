@@ -1,3 +1,4 @@
+<!-- @/views/HomeView -->
 <template>
   <n-layout position="absolute">
     <n-layout-header bordered style="height: 64px; padding: 16px 24px" class="header">
