@@ -1,7 +1,7 @@
 <!-- @/views/HomeView -->
 <template>
   <n-layout position="absolute">
-    <n-layout-header bordered style="height: 64px; padding: 16px 24px" class="header">
+    <n-layout-header bordered class="header">
       <n-space justify="space-between" align="center" style="height: 100%">
         <div></div>
         <n-h2 style="margin: 0">Narrative Visualization Site</n-h2>
@@ -81,7 +81,7 @@
               :bordered="false"
               size="small"
               class="narrative-card"
-              @click="viewNarrative(narrative.id)"
+              @click="goToNarrative(narrative.id)"
             >
               <template #cover>
                 <img
@@ -102,25 +102,14 @@
       </n-card>
     </n-layout-content>
 
-    <n-layout-footer bordered style="height: 64px; padding: 16px 24px">
-      <n-space justify="space-between" align="center">
-        <n-text>© 2023 Narrative Visualization. All rights reserved.</n-text>
-        <n-space>
-          <n-button text>About</n-button>
-          <n-button text>Contact</n-button>
-          <n-button text>Privacy Policy</n-button>
-        </n-space>
-      </n-space>
-    </n-layout-footer>
   </n-layout>
 </template>
 
 <script lang="ts" setup>
 import { ref } from "vue";
-import { useRouter } from "vue-router";
 import { narratives } from "@/mock/narratives";
-
-const router = useRouter();
+import { useNavigation } from '@/router/useNavigation'
+const { goToNarrative } = useNavigation()
 
 const selectedNarrativeId = ref<string | null>(null); // 修改为 string 或 null
 
@@ -131,14 +120,10 @@ const startNewProject = () => {
 const openExistingProject = () => {
   if (selectedNarrativeId.value !== null) {
     console.log("Opening project with id:", selectedNarrativeId.value);
-    router.push({ name: "Narrative", params: { id: selectedNarrativeId.value } });
+    goToNarrative(selectedNarrativeId.value);
   } else {
     console.error("No narrative selected");
   }
-};
-
-const viewNarrative = (id: string) => {
-  router.push({ name: "Narrative", params: { id } });
 };
 
 const narrativeOptions = narratives.map((narrative) => ({
@@ -155,6 +140,8 @@ const logSelectedValue = (value: string | null) => {
 
 <style scoped>
 .header {
+  height: 63px;
+  padding: 16px 24px;
   position: fixed;
   top: 0;
   left: 0;

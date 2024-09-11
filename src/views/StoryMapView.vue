@@ -1,15 +1,24 @@
 
 <template>
-  <div class="storymap-container">
-    <h3>{{ title }} - StoryMap</h3>
-    <div id="mapdiv" ref="mapDiv"></div>
-  </div>
+  <n-layout position="absolute">
+    <n-layout-header  bordered class="header">
+      <n-flex justify="space-between">
+        <n-button @click="goToNarrative(narrativeId)">BACK</n-button>
+        <n-h2 style="margin: 0">{{title}} - Story Map</n-h2>
+        <n-button @click="goToTimeline(narrativeId)">Visual TimeLine</n-button>
+      </n-flex>
+    </n-layout-header>
+    <n-layout-content style="height: 100%">
+      <div id="map" ref="mapDiv"></div>
+    </n-layout-content>
+  </n-layout>
 </template>
 
 <script lang="ts" setup>
 import { ref, onMounted, computed } from 'vue';
 import { useRoute } from 'vue-router';
 import { mockNarratives, Narrative } from "@/mock/narrativeData";
+import {useNavigation} from '@/router/useNavigation';
 
 declare global {
   interface Window {
@@ -19,10 +28,11 @@ declare global {
 
 const route = useRoute();
 const narratives = ref<Narrative[]>(mockNarratives);
-const narrativeId = route.params.id as string;
+const narrativeId = computed(() => route.params.id as string);
+const { goToNarrative, goToTimeline } = useNavigation()
 
 const narrative = computed(() => {
-  return narratives.value.find((narr) => narr.id === narrativeId);
+  return narratives.value.find((nar) => nar.id === narrativeId.value);
 });
 
 const title = computed(() => narrative.value?.title || "");
@@ -59,7 +69,7 @@ function initStoryMap() {
         type: 'slide',
         text: {
           headline: event.title,
-          text: `<p>${event.description}</p><p>Date: ${event.date}</p>`
+          text: `<p>${event.description}</p><p>Date: ${event.startDate} ~ ${event.endDate}</p>`
         },
         location: {
           lat: event.location?.lat,
@@ -75,19 +85,29 @@ function initStoryMap() {
     }
   };
 
-  new window.VCO.StoryMap('mapdiv', storyMapData);
+  new window.VCO.StoryMap('map', storyMapData);
 }
 </script>
 
 <style scoped>
-.storymap-container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+.header {
+  height: 63px;
+  padding: 16px 24px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease;
 }
 
-#mapdiv {
-  flex-grow: 1;
+.header:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#map {
+  flex-grow: 1; /* 让地图填满剩余空间 */
   width: 100%;
 }
 </style>

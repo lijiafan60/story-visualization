@@ -4,7 +4,7 @@
     <div class="narrative-title">
       <h3>{{ title }}</h3>
     </div>
-    <n-float-button @click="goBack">
+    <n-float-button @click="goToHome">
       <n-icon size="30">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -46,8 +46,8 @@
       <template #2>
         <n-space vertical style="margin: 10px">
             <n-space>
-              <n-button @click="viewTimeline" secondary round>Visual as Timeline</n-button>
-              <n-button @click="viewMap" secondary round>Visual as Map</n-button>
+              <n-button @click="goToTimeline(narrativeId)" secondary round>Visual Timeline</n-button>
+              <n-button @click="goToStoryMap(narrativeId)" secondary round>Visual Map</n-button>
             </n-space>
           <event-carousel :events="events" @select-event="selectEvent" />
         </n-space>
@@ -58,20 +58,21 @@
 
 <script lang="ts" setup>
 import { ref, computed } from "vue";
-import { useRouter, useRoute } from "vue-router";
+import { useRoute } from "vue-router";
 import { mockNarratives, Narrative, Event } from "@/mock/narrativeData";
+import { useNavigation } from '@/router/useNavigation';
 import EntityList from "@/components/EntityList.vue";
 import EventForm from "@/components/EventForm.vue";
 import EventCarousel from "@/components/EventCarousel.vue";
 
-const route = useRoute();
-const router = useRouter();
+const route = useRoute()
 
 const narratives = ref<Narrative[]>(mockNarratives);
-const narrativeId = route.params.id as string;
+const narrativeId = computed(() => route.params.id as string);
+const { goToHome, goToStoryMap, goToTimeline } = useNavigation()
 
 const narrative = computed(() => {
-  return narratives.value.find((narr) => narr.id === narrativeId);
+  return narratives.value.find((narr) => narr.id === narrativeId.value);
 });
 
 const selectedEvent = ref<Event | null>(null);
@@ -81,21 +82,10 @@ const title = computed(() => narrative.value?.title || "");
 const entities = computed(() => narrative.value?.entities || []);
 const events = computed(() => narrative.value?.events || []);
 
-const viewTimeline = () => {
-  router.push({ name: "NarrativeTimeline", params: { id: narrativeId } });
-};
-
-const viewMap = () => {
-  router.push({ name: "NarrativeMap", params: { id: narrativeId } });
-};
-
 const selectEvent = (event: Event) => {
   selectedEvent.value = event;
 };
 
-const goBack = () => {
-  router.push({ name: "Home" });
-};
 </script>
 
 <style scoped>

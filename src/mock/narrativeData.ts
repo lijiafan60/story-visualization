@@ -8,13 +8,13 @@ export interface Location {
 
 export interface Event {  
     id: string;  
-    title: string;  
-    startDate: number;  
-    endDate: number;  
+    title: string;
+    type: string;
+    startDate: number;
+    endDate: number;
     location: Location;  
     description: string;  
-    type: string;  
-    relatedEntities: string[];  
+    relatedEntities: string[];
 }  
 
 export interface Entity {  

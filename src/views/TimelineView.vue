@@ -1,9 +1,35 @@
-<template>  
-  <div id="timeline-embed" style="width: 100%; height: 600px;"></div>  
-</template>  
+<template>
+  <n-layout position="absolute">
+    <n-layout-header  bordered class="header">
+      <n-flex justify="space-between">
+        <n-button @click="goToNarrative(narrativeId)">BACK</n-button>
+        <n-h2 style="margin: 0">{{title}} - Time Line</n-h2>
+        <n-button @click="goToTimeline(narrativeId)">Visual TimeLine</n-button>
+      </n-flex>
+    </n-layout-header>
+    <n-layout-content style="height: 100%">
+      <div id="timeline-embed" style=""></div>
+    </n-layout-content>
+  </n-layout>
+</template>
 
-<script lang="ts" setup>  
-import { onMounted } from 'vue';  
+<script lang="ts" setup>
+import { computed, onMounted, ref } from 'vue'
+import { useRoute } from 'vue-router'
+import { mockNarratives, Narrative, Event } from '@/mock/narrativeData'
+import { useNavigation } from '@/router/useNavigation'
+
+const route = useRoute();
+const narratives = ref<Narrative[]>(mockNarratives);
+const narrativeId = computed(() => route.params.id as string);
+const {goToNarrative, goToTimeline} = useNavigation()
+
+const narrative = computed(() => {
+  return narratives.value.find((nar) => nar.id === narrativeId.value);
+});
+
+const title = computed(() => narrative.value?.title || "");
+const events = computed(() => narrative.value?.events || []);
 
 // 引入TimelineJS的CSS和JS  
 const loadTimelineJS = () => {  
@@ -15,54 +41,79 @@ const loadTimelineJS = () => {
   const script = document.createElement('script');  
   script.src = 'https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js';  
   document.body.appendChild(script);  
-};  
+};
 
-const timelineData = {  
-  title: {  
-    text: {  
-      headline: "My Timeline",  
-      text: "<p>A brief description of my timeline.</p>"  
-    }  
-  },  
-  events: [  
-    {  
-      start_date: {  
-        year: "2023",  
-        month: "10",  
-        day: "1"  
-      },  
-      text: {  
-        headline: "Event 1",  
-        text: "<p>Details about event 1.</p>"  
-      }  
-    },  
-    {  
-      start_date: {  
-        year: "2023",  
-        month: "11",  
-        day: "15"  
-      },  
-      text: {  
-        headline: "Event 2",  
-        text: "<p>Details about event 2.</p>"  
-      }  
-    }  
-  ]  
-};  
+// 转换事件数据为TimelineJS格式
+const convertEventToTimelineFormat = (event: Event) => {
+  const startDate = new Date(event.startDate);
+  const endDate = new Date(event.endDate);
+
+  return {
+    start_date: {
+      year: startDate.getFullYear().toString(),
+      month: (startDate.getMonth() + 1).toString(),
+      day: startDate.getDate().toString()
+    },
+    end_date: event.endDate ? {
+      year: endDate.getFullYear().toString(),
+      month: (endDate.getMonth() + 1).toString(),
+      day: endDate.getDate().toString()
+    } : undefined,
+    text: {
+      headline: event.title,
+      text: `<p>${event.description}</p>`
+    },
+    group: event.type,
+  };
+};
+
+
+const timelineData = computed(() => {
+  const data = {
+    title: {
+      text: {
+        headline: title.value,
+        text: narrative.value?.description || '',
+      }
+    },
+    events: events.value.map(convertEventToTimelineFormat)
+  };
+  console.log('Timeline Data:', data);
+  return data;
+});
+
 
 onMounted(() => {  
   loadTimelineJS();  
   const interval = setInterval(() => {  
     if (window.TL) {  
       clearInterval(interval);  
-      new window.TL.Timeline('timeline-embed', timelineData);  
+      new window.TL.Timeline('timeline-embed', timelineData.value);
     }  
   }, 100);  
 });  
 </script>  
 
-<style scoped>  
-#timeline-embed {  
+<style scoped>
+.header {
+  height: 63px;
+  padding: 16px 24px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+.header:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#timeline-embed {
+  width: 100%;
+  height: 93vh;
   margin: 20px 0;  
-}  
+}
 </style>
