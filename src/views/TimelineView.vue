@@ -4,7 +4,7 @@
       <n-flex justify="space-between">
         <n-button @click="goToNarrative(narrativeId)">BACK</n-button>
         <n-h2 style="margin: 0">{{title}} - Time Line</n-h2>
-        <n-button @click="goToTimeline(narrativeId)">Visual TimeLine</n-button>
+        <n-button @click="goToStoryMap(narrativeId)">Visual Map</n-button>
       </n-flex>
     </n-layout-header>
     <n-layout-content style="height: 100%">
@@ -22,7 +22,7 @@ import { useNavigation } from '@/router/useNavigation'
 const route = useRoute();
 const narratives = ref<Narrative[]>(mockNarratives);
 const narrativeId = computed(() => route.params.id as string);
-const {goToNarrative, goToTimeline} = useNavigation()
+const {goToNarrative, goToStoryMap} = useNavigation()
 
 const narrative = computed(() => {
   return narratives.value.find((nar) => nar.id === narrativeId.value);
