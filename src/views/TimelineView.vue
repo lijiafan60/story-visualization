@@ -7,8 +7,8 @@
         <n-button @click="goToStoryMap(narrativeId)">Visual Map</n-button>
       </n-flex>
     </n-layout-header>
-    <n-layout-content style="height: 100%">
-      <div id="timeline-embed" style=""></div>
+    <n-layout-content class="content">
+      <div id="timeline-embed"></div>
     </n-layout-content>
   </n-layout>
 </template>
@@ -109,6 +109,11 @@ onMounted(() => {
 
 .header:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  height: 100%;
+  padding-top: 63px;
 }
 
 #timeline-embed {

@@ -8,7 +8,7 @@
         <n-button @click="goToTimeline(narrativeId)">Visual TimeLine</n-button>
       </n-flex>
     </n-layout-header>
-    <n-layout-content style="height: 100%">
+    <n-layout-content class="content">
       <div id="map" ref="mapDiv"></div>
     </n-layout-content>
   </n-layout>
@@ -104,6 +104,11 @@ function initStoryMap() {
 
 .header:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  height: 100%;
+  padding-top: 63px;
 }
 
 #map {
