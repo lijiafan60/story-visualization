@@ -53,7 +53,7 @@ import {
   NSelect,
   NScrollbar,
 } from "naive-ui";
-import { Event, Entity } from "@/mock/narrativeData";
+import { Event, Entity } from "@/mock/types";
 
 const props = defineProps<{
   event: Event | null;

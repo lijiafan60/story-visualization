@@ -3,7 +3,7 @@
   <n-layout position="absolute">
     <n-layout-header bordered class="header">
       <n-flex justify="space-between">
-        <n-button @click="goToHome">HOME</n-button>
+        <n-button @click="goToHome">主页</n-button>
         <n-h2 style="margin: 0">{{title}}</n-h2>
         <div/>
       </n-flex>
@@ -16,7 +16,7 @@
             <n-split direction="horizontal">
               <template #1>
                 <div class="left-panel">
-                  <entity-list :entities="entities" />
+                  <entity-list :entities="narrative.entities" @update:entities="updateEntities" />
                 </div>
               </template>
               <template #2>
@@ -48,7 +48,8 @@
 <script lang="ts" setup>
 import { ref, computed } from "vue";
 import { useRoute } from "vue-router";
-import { mockNarratives, Narrative, Event } from "@/mock/narrativeData";
+import { Narrative, Event } from "@/mock/types";
+import { mockNarratives } from '@/mock/narratives'
 import { useNavigation } from '@/router/useNavigation';
 import EntityList from "@/components/EntityList.vue";
 import EventForm from "@/components/EventForm.vue";
@@ -61,7 +62,7 @@ const narrativeId = computed(() => route.params.id as string);
 const { goToHome, goToStoryMap, goToTimeline } = useNavigation()
 
 const narrative = computed(() => {
-  return narratives.value.find((narr) => narr.id === narrativeId.value);
+  return narratives.value.find((nar) => nar.id === narrativeId.value);
 });
 
 const selectedEvent = ref<Event | null>(null);

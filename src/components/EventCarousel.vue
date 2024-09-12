@@ -29,7 +29,7 @@
 <script lang="ts" setup>
 import { computed, ref, onMounted, onUnmounted } from "vue";
 import { NCard, NCarousel, NCarouselItem } from "naive-ui";
-import { Event } from "../mock/narrativeData";
+import { Event } from "../mock/types";
 
 const props = defineProps<{
   events: Event[];

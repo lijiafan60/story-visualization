@@ -3,9 +3,9 @@
   <n-layout position="absolute">
     <n-layout-header  bordered class="header">
       <n-flex justify="space-between">
-        <n-button @click="goToNarrative(narrativeId)">BACK</n-button>
-        <n-h2 style="margin: 0">{{title}} - Story Map</n-h2>
-        <n-button @click="goToTimeline(narrativeId)">Visual TimeLine</n-button>
+        <n-button @click="goToNarrative(narrativeId)">返回</n-button>
+        <n-h2 style="margin: 0">{{title}} - 故事地图</n-h2>
+        <n-button @click="goToTimeline(narrativeId)">时间线可视化</n-button>
       </n-flex>
     </n-layout-header>
     <n-layout-content class="content">
@@ -17,8 +17,9 @@
 <script lang="ts" setup>
 import { ref, onMounted, computed } from 'vue';
 import { useRoute } from 'vue-router';
-import { mockNarratives, Narrative } from "@/mock/narrativeData";
-import {useNavigation} from '@/router/useNavigation';
+import { Narrative } from "@/mock/types";
+import { mockNarratives } from '@/mock/narratives'
+import { useNavigation } from '@/router/useNavigation';
 
 declare global {
   interface Window {
@@ -62,7 +63,7 @@ function initStoryMap() {
 
   const storyMapData = {
     storymap: {
-      language: 'en',
+      language: 'zh-cn',
       map_type: 'stamen:toner-lite',
       map_as_image: false,
       slides: events.value.map((event, index) => ({

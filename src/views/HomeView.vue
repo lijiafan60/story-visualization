@@ -4,10 +4,10 @@
     <n-layout-header bordered class="header">
       <n-space justify="space-between" align="center" style="height: 100%">
         <div></div>
-        <n-h2 style="margin: 0">Narrative Visualization Site</n-h2>
+        <n-h2 style="margin: 0">故事地图构建和可视化工具</n-h2>
         <n-space>
-          <n-button>Login</n-button>
-          <n-button type="primary">Sign Up</n-button>
+          <n-button>登录</n-button>
+          <n-button type="primary">注册</n-button>
         </n-space>
       </n-space>
     </n-layout-header>
@@ -62,40 +62,41 @@
 
       <n-card title="Featured Narratives" style="margin-top: 24px">
         <n-carousel
-          show-arrow
-          dot-type="line"
-          :loop="true"
           :autoplay="true"
-          :interval="5000"
-          :slides-per-view="3"
+          :slides-per-view="5"
           :space-between="20"
           draggable
-          :touch="true"
-          :mousewheel="true"
-          arrow-style="background-color: rgba(0, 0, 0, .2); color: #fff;"
-          style="height: 360px"
+          mousewheel
         >
           <n-carousel-item v-for="narrative in narratives" :key="narrative.id">
             <n-card
               :title="narrative.title"
-              :bordered="false"
-              size="small"
               class="narrative-card"
               @click="goToNarrative(narrative.id)"
+              hoverable
             >
               <template #cover>
-                <img
+                <n-image
                   :src="narrative.imageUrl"
                   :alt="narrative.title"
-                  class="narrative-image"
                 />
               </template>
-              <n-p class="narrative-description">{{ narrative.description }}</n-p>
-              <n-space justify="end" class="narrative-button-container">
-                <n-button size="small" @click="viewNarrative(narrative.id)">
-                  View Details
+              <template #footer>
+                <n-p>{{ narrative.description }}</n-p>
+              </template>
+             <template #action>
+              <n-space>
+                <n-button @click="goToNarrative(narrative.id)">
+                  编辑
+                </n-button>
+                <n-button primary @click="goToTimeline(narrative.id)">
+                  叙事时间线
+                </n-button>
+                <n-button @click="goToStoryMap(narrative.id)">
+                  故事地图
                 </n-button>
               </n-space>
+             </template>
             </n-card>
           </n-carousel-item>
         </n-carousel>
@@ -107,9 +108,12 @@
 
 <script lang="ts" setup>
 import { ref } from "vue";
-import { narratives } from "@/mock/narratives";
+import { mockNarratives } from "@/mock/narratives";
 import { useNavigation } from '@/router/useNavigation'
-const { goToNarrative } = useNavigation()
+import { Narrative } from '@/mock/types'
+const { goToNarrative, goToTimeline, goToStoryMap } = useNavigation()
+
+const narratives = ref<Narrative[]>(mockNarratives);
 
 const selectedNarrativeId = ref<string | null>(null); // 修改为 string 或 null
 
@@ -126,7 +130,7 @@ const openExistingProject = () => {
   }
 };
 
-const narrativeOptions = narratives.map((narrative) => ({
+const narrativeOptions = mockNarratives.map((narrative) => ({
   label: narrative.title,
   value: narrative.id, // 保持 ID 为 string 类型
 }));
@@ -172,28 +176,9 @@ const logSelectedValue = (value: string | null) => {
 }
 
 .narrative-card {
-  height: 340px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   margin: 0 10px;
-}
-
-.narrative-image {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
-
-.narrative-description {
-  height: 80px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-}
-
-.narrative-button-container {
-  margin-top: auto;
 }
 </style>

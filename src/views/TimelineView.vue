@@ -2,9 +2,9 @@
   <n-layout position="absolute">
     <n-layout-header  bordered class="header">
       <n-flex justify="space-between">
-        <n-button @click="goToNarrative(narrativeId)">BACK</n-button>
-        <n-h2 style="margin: 0">{{title}} - Time Line</n-h2>
-        <n-button @click="goToStoryMap(narrativeId)">Visual Map</n-button>
+        <n-button @click="goToNarrative(narrativeId)">返回</n-button>
+        <n-h2 style="margin: 0">{{title}} -- 时间线</n-h2>
+        <n-button @click="goToStoryMap(narrativeId)">地图可视化</n-button>
       </n-flex>
     </n-layout-header>
     <n-layout-content class="content">
@@ -16,7 +16,8 @@
 <script lang="ts" setup>
 import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
-import { mockNarratives, Narrative, Event } from '@/mock/narrativeData'
+import { Narrative, Event } from '@/mock/types'
+import { mockNarratives } from '@/mock/narratives'
 import { useNavigation } from '@/router/useNavigation'
 
 const route = useRoute();
@@ -119,6 +120,6 @@ onMounted(() => {
 #timeline-embed {
   width: 100%;
   height: 93vh;
-  margin: 20px 0;  
+  margin: 20px 0;
 }
 </style>
