@@ -41,8 +41,17 @@ const events = computed(() => narrative.value?.events || []);
 
 const mapDiv = ref<HTMLElement | null>(null);
 
+// 辅助函数：格式化日期
+function formatDate(timestamp: number): string {
+  const date = new Date(timestamp);
+  return date.toLocaleDateString('zh-CN', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+}
+
 onMounted(() => {
-  // Ensure StoryMapJS is loaded
   if (typeof window.VCO === 'undefined') {
     const script = document.createElement('script');
     script.src = 'https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js';
@@ -70,7 +79,7 @@ function initStoryMap() {
         type: 'slide',
         text: {
           headline: event.title,
-          text: `<p>${event.description}</p><p>Date: ${event.startDate} ~ ${event.endDate}</p>`
+          text: `<p>${event.description}</p><p>日期: ${formatDate(event.startDate)} ~ ${formatDate(event.endDate)}</p>`
         },
         location: {
           lat: event.location?.lat,
@@ -108,12 +117,12 @@ function initStoryMap() {
 }
 
 .content {
-  height: 100%;
+  height: calc(100vh - 63px);
   padding-top: 63px;
 }
 
 #map {
-  flex-grow: 1; /* 让地图填满剩余空间 */
   width: 100%;
+  height: 100%;
 }
 </style>
