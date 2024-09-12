@@ -20,7 +20,7 @@ export const mockNarratives: Narrative[] = [
           lng: 113.0691
         },
         media: {
-          url: "https://example.com/deng-zhenxun-birthplace.jpg",
+          url: "/images/1911年湖南省长沙县.jpg",
           caption: "邓振询出生地",
           credit: "历史档案馆"
         },
@@ -39,7 +39,7 @@ export const mockNarratives: Narrative[] = [
           lng: 121.4737
         },
         media: {
-          url: "https://example.com/cpc-logo.jpg",
+          url: "/images/中国共产党党徽.png",
           caption: "中国共产党党徽",
           credit: "中国共产党"
         },
@@ -58,7 +58,7 @@ export const mockNarratives: Narrative[] = [
           lng: 116.4074
         },
         media: {
-          url: "https://example.com/ministry-of-foreign-affairs.jpg",
+          url: "",
           caption: "中国外交部大楼",
           credit: "中国外交部"
         },
@@ -107,7 +107,7 @@ export const mockNarratives: Narrative[] = [
           lng: 118.7969
         },
         media: {
-          url: "https://example.com/nanjing-1930s.jpg",
+          url: "/images/1930年代的南京.jpg",
           caption: "1930年代的南京",
           credit: "历史档案馆"
         },
@@ -126,7 +126,7 @@ export const mockNarratives: Narrative[] = [
           lng: 116.4074
         },
         media: {
-          url: "https://example.com/central-academy-of-fine-arts.jpg",
+          url: "/images/中央美术学院.jpg",
           caption: "中央美术学院",
           credit: "中央美术学院官网"
         },
@@ -145,7 +145,7 @@ export const mockNarratives: Narrative[] = [
           lng: 126.6422
         },
         media: {
-          url: "https://example.com/spring-in-beidahuang.jpg",
+          url: "",
           caption: "《春到北大荒》",
           credit: "徐楚光"
         },
@@ -194,7 +194,7 @@ export const mockNarratives: Narrative[] = [
           lng: 116.6780
         },
         media: {
-          url: "https://bkimg.cdn.bcebos.com/pic/9825bc315c6034a85edf0518c81349540923dd54a8e4",
+          url: "/images/广东省潮安县.jpg",
           caption: "广东省潮安县",
           credit: "百度百科"
         },
@@ -213,7 +213,7 @@ export const mockNarratives: Narrative[] = [
           lng: 113.2644
         },
         media: {
-          url: "https://bkimg.cdn.bcebos.com/pic/9345d688d43f8794a4c21f27d31b0ef41bd53a87",
+          url: "/images/中国共产党党徽.png",
           caption: "中国共产党党徽",
           credit: "百度百科"
         },
@@ -232,7 +232,7 @@ export const mockNarratives: Narrative[] = [
           lng: 121.4737
         },
         media: {
-          url: "https://bkimg.cdn.bcebos.com/pic/9f2f070828381f30e924d496a1014c086e06f0e1",
+          url: "",
           caption: "1930年代的上海",
           credit: "百度百科"
         },
@@ -281,7 +281,7 @@ export const mockNarratives: Narrative[] = [
           lng: 120.8944
         },
         media: {
-          url: "https://bkimg.cdn.bcebos.com/pic/b21bb051f8198618367a7ad54bed2e738bd4e6a1",
+          url: "/images/南通.jpg",
           caption: "南通市",
           credit: "百度百科"
         },
@@ -300,7 +300,7 @@ export const mockNarratives: Narrative[] = [
           lng: 116.4074
         },
         media: {
-          url: "https://bkimg.cdn.bcebos.com/pic/9345d688d43f8794a4c27a20db1b0ef41bd53a2f",
+          url: "/images/中央美术学院.jpg",
           caption: "中央美术学院",
           credit: "百度百科"
         },
@@ -319,7 +319,7 @@ export const mockNarratives: Narrative[] = [
           lng: 116.4074
         },
         media: {
-          url: "https://bkimg.cdn.bcebos.com/pic/b8014a90f603738da977a634b41bb051f819ec76",
+          url: "",
           caption: "李耘生作品",
           credit: "百度百科"
         },
@@ -368,7 +368,7 @@ export const mockNarratives: Narrative[] = [
           lng: 120.7589
         },
         media: {
-          url: "https://bkimg.cdn.bcebos.com/pic/9825bc315c6034a85edf4e1ac81349540923dd54",
+          url: "/images/蓬莱县.webp",
           caption: "蓬莱县",
           credit: "百度百科"
         },
@@ -387,7 +387,7 @@ export const mockNarratives: Narrative[] = [
           lng: 117.1201
         },
         media: {
-          url: "https://bkimg.cdn.bcebos.com/pic/9345d688d43f8794a4c27920db1b0ef41bd53a2f",
+          url: "",
           caption: "八路军",
           credit: "百度百科"
         },
@@ -406,7 +406,7 @@ export const mockNarratives: Narrative[] = [
           lng: 104.1954
         },
         media: {
-          url: "https://bkimg.cdn.bcebos.com/pic/9345d688d43f8794a4c27920db1b0ef41bd53a2f",
+          url: "",
           caption: "中国人民解放军",
           credit: "百度百科"
         },
