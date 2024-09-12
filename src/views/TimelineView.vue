@@ -1,6 +1,7 @@
+
 <template>
   <n-layout position="absolute">
-    <n-layout-header  bordered class="header">
+    <n-layout-header bordered class="header">
       <n-flex justify="space-between">
         <n-button @click="goToNarrative(narrativeId)">返回</n-button>
         <n-h2 style="margin: 0">{{title}} -- 时间线</n-h2>
@@ -32,19 +33,17 @@ const narrative = computed(() => {
 const title = computed(() => narrative.value?.title || "");
 const events = computed(() => narrative.value?.events || []);
 
-// 引入TimelineJS的CSS和JS  
-const loadTimelineJS = () => {  
-  const link = document.createElement('link');  
-  link.rel = 'stylesheet';  
-  link.href = 'https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css';  
-  document.head.appendChild(link);  
+const loadTimelineJS = () => {
+  const link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.href = 'https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css';
+  document.head.appendChild(link);
 
-  const script = document.createElement('script');  
-  script.src = 'https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js';  
-  document.body.appendChild(script);  
+  const script = document.createElement('script');
+  script.src = 'https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js';
+  document.body.appendChild(script);
 };
 
-// 转换事件数据为TimelineJS格式
 const convertEventToTimelineFormat = (event: Event) => {
   const startDate = new Date(event.startDate);
   const endDate = new Date(event.endDate);
@@ -68,7 +67,6 @@ const convertEventToTimelineFormat = (event: Event) => {
   };
 };
 
-
 const timelineData = computed(() => {
   const data = {
     title: {
@@ -83,17 +81,16 @@ const timelineData = computed(() => {
   return data;
 });
 
-
-onMounted(() => {  
-  loadTimelineJS();  
-  const interval = setInterval(() => {  
-    if (window.TL) {  
-      clearInterval(interval);  
+onMounted(() => {
+  loadTimelineJS();
+  const interval = setInterval(() => {
+    if (window.TL) {
+      clearInterval(interval);
       new window.TL.Timeline('timeline-embed', timelineData.value);
-    }  
-  }, 100);  
-});  
-</script>  
+    }
+  }, 100);
+});
+</script>
 
 <style scoped>
 .header {
@@ -113,13 +110,18 @@ onMounted(() => {
 }
 
 .content {
-  height: 100%;
+  height: calc(100vh - 63px);
   padding-top: 63px;
+  overflow: hidden;
 }
 
 #timeline-embed {
   width: 100%;
-  height: 93vh;
-  margin: 20px 0;
+  height: 100%;
+  margin: 0;
+}
+
+:deep(.tl-timeline) {
+  height: 100% !important;
 }
 </style>
