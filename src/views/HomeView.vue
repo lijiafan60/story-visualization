@@ -1,4 +1,4 @@
-<!-- @/views/HomeView -->
+
 <template>
   <n-layout position="absolute">
     <n-layout-header bordered class="header">
@@ -19,12 +19,12 @@
             <n-space vertical align="center">
               <n-icon size="40" color="#18A058">
               </n-icon>
-              <n-h3>Start a New Project</n-h3>
+              <n-h3>开始新项目</n-h3>
               <n-p style="text-align: center">
-                Create a new story map from scratch. Begin your narrative journey here.
+                从头开始创建新的故事地图。在这里开启您的叙事之旅。
               </n-p>
               <n-button type="primary" size="large" @click="startNewProject">
-                Create Project
+                创建项目
               </n-button>
             </n-space>
           </n-card>
@@ -34,16 +34,15 @@
             <n-space vertical align="center">
               <n-icon size="40" color="#2080F0">
               </n-icon>
-              <n-h3>Open Existing Project</n-h3>
+              <n-h3>打开现有项目</n-h3>
               <n-p style="text-align: center">
-                Continue working on a previously saved project. Pick up where you left
-                off.
+                继续处理之前保存的项目。从上次停止的地方继续。
               </n-p>
               <n-space align="center">
                 <n-select
                   v-model="selectedNarrativeId"
                   :options="narrativeOptions"
-                  placeholder="Select a Narrative"
+                  placeholder="选择一个叙事"
                   style="width: 200px"
                   @update:value="logSelectedValue"
                 />
@@ -52,7 +51,7 @@
                   @click="openExistingProject"
                   :disabled="!selectedNarrativeId"
                 >
-                  Open Project
+                  打开项目
                 </n-button>
               </n-space>
             </n-space>
@@ -60,7 +59,7 @@
         </n-gi>
       </n-grid>
 
-      <n-card title="Featured Narratives" style="margin-top: 24px">
+      <n-card title="精选叙事" style="margin-top: 24px">
         <n-carousel
           :autoplay="true"
           :slides-per-view="5"
@@ -84,19 +83,19 @@
               <template #footer>
                 <n-p>{{ narrative.description }}</n-p>
               </template>
-             <template #action>
-              <n-space>
-                <n-button @click="goToNarrative(narrative.id)">
-                  编辑
-                </n-button>
-                <n-button primary @click="goToTimeline(narrative.id)">
-                  叙事时间线
-                </n-button>
-                <n-button @click="goToStoryMap(narrative.id)">
-                  故事地图
-                </n-button>
-              </n-space>
-             </template>
+              <template #action>
+                <n-space>
+                  <n-button @click="goToNarrative(narrative.id)">
+                    编辑
+                  </n-button>
+                  <n-button primary @click="goToTimeline(narrative.id)">
+                    叙事时间线
+                  </n-button>
+                  <n-button @click="goToStoryMap(narrative.id)">
+                    故事地图
+                  </n-button>
+                </n-space>
+              </template>
             </n-card>
           </n-carousel-item>
         </n-carousel>
@@ -115,7 +114,7 @@ const { goToNarrative, goToTimeline, goToStoryMap } = useNavigation()
 
 const narratives = ref<Narrative[]>(mockNarratives);
 
-const selectedNarrativeId = ref<string | null>(null); // 修改为 string 或 null
+const selectedNarrativeId = ref<string | null>(null);
 
 const startNewProject = () => {
   console.log("Starting new project");
@@ -132,7 +131,7 @@ const openExistingProject = () => {
 
 const narrativeOptions = mockNarratives.map((narrative) => ({
   label: narrative.title,
-  value: narrative.id, // 保持 ID 为 string 类型
+  value: narrative.id,
 }));
 
 // 调试用的日志函数
