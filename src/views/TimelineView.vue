@@ -63,6 +63,11 @@ const convertEventToTimelineFormat = (event: Event) => {
       headline: event.title,
       text: `<p>${event.description}</p>`
     },
+    media: {
+      url: event.media.url,
+      caption: event.media.caption,
+      credit: event.media.credit
+    },
     group: event.type,
   };
 };
