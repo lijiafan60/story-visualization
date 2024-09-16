@@ -3,18 +3,49 @@
   <n-card class="entity-list-card">
     <n-tabs placement="left">
       <n-tab-pane v-for="type in entityTypes" :key="type" :name="type" :tab="type">
-        <n-space>
-          <n-tag
-            v-for="entity in entitiesByType[type]"
-            :key="entity.id"
-            round
-            size="large"
-            class="entity-tag"
-            :style="getStyleForType(entity.type)"
-          >
-            {{ entity.name }}
-          </n-tag>
-        </n-space>
+        <n-scrollbar>
+          <n-space>
+            <n-popover
+              v-for="entity in entitiesByType[type]"
+              :key="entity.id"
+              trigger="click"
+              placement="right"
+            >
+              <template #trigger>
+                <n-tag
+                  round
+                  size="large"
+                  class="entity-tag"
+                  :style="getStyleForType(entity.type)"
+                >
+                  {{ entity.name }}
+                </n-tag>
+              </template>
+              <div class="entity-popover-content">
+                <n-table :bordered="false" :single-line="false">
+                  <tbody>
+                  <tr>
+                    <td><strong>名称</strong></td>
+                    <td>{{ entity.name }}</td>
+                  </tr>
+                  <tr>
+                    <td><strong>类型</strong></td>
+                    <td>{{ entity.type }}</td>
+                  </tr>
+                  <tr>
+                    <td><strong>描述</strong></td>
+                    <td>{{ entity.desc }}</td>
+                  </tr>
+                  <tr>
+                    <td><strong>关系</strong></td>
+                    <td>{{ entity.relation }}</td>
+                  </tr>
+                  </tbody>
+                </n-table>
+              </div>
+            </n-popover>
+          </n-space>
+        </n-scrollbar>
       </n-tab-pane>
     </n-tabs>
   </n-card>
@@ -22,7 +53,7 @@
 
 <script lang="ts" setup>
 import { computed } from "vue";
-import { NCard, NTabs, NTabPane, NTag } from "naive-ui";
+import { NCard, NTabs, NTabPane, NTag, NPopover, NTable, NSpace, NScrollbar } from "naive-ui";
 import { EntityTypesEnum, entityTypes, Entity } from '@/mock/types';
 
 const props = defineProps<{
@@ -127,6 +158,7 @@ const getStyleForType = (type: EntityTypesEnum) => {
 .entity-tag {
   margin: 4px;
   transition: background-color 0.3s, color 0.3s, transform 0.1s;
+  cursor: pointer;
 }
 
 .entity-tag:hover {
@@ -135,7 +167,8 @@ const getStyleForType = (type: EntityTypesEnum) => {
   transform: scale(1.05);
 }
 
-.entity-tag:active {
-  transform: scale(0.95);
+.entity-popover-content {
+  max-width: 300px;
+  overflow-wrap: break-word;
 }
 </style>
