@@ -16,7 +16,7 @@
             <n-split direction="horizontal">
               <template #1>
                 <div class="left-panel">
-                  <entity-list :entities="narrative.entities" @update:entities="updateEntities" />
+                  <entity-list :entities="narrative.entities"/>
                 </div>
               </template>
               <template #2>
@@ -24,7 +24,6 @@
                   <event-form
                     :event="selectedEvent"
                     :entities="entities"
-                    @save="saveEvent"
                   />
                 </div>
               </template>

@@ -18,7 +18,7 @@
           hoverable
           @click="selectEvent(event)"
         >
-          <p>{{ formatDate(event.startDate) }}</p>
+          <p>{{ formatNDate(event.startDate) }}</p>
           <p class="event-description">{{ event.description }}</p>
         </n-card>
       </n-carousel-item>
@@ -29,7 +29,7 @@
 <script lang="ts" setup>
 import { computed, ref, onMounted, onUnmounted } from "vue";
 import { NCard, NCarousel, NCarouselItem } from "naive-ui";
-import { Event } from "../mock/types";
+import { Event, formatNDate, compareNDates } from '@/mock/types';
 
 const props = defineProps<{
   events: Event[];
@@ -51,12 +51,8 @@ const slidesPerView = computed(() => {
 });
 
 const sortedEvents = computed(() =>
-  [...props.events].sort((a, b) => a.startDate - b.startDate)
+  [...props.events].sort((a, b) => compareNDates(a.startDate, b.startDate))
 );
-
-const formatDate = (timestamp: number) => {
-  return new Date(timestamp).toLocaleDateString();
-};
 
 const selectEvent = (event: Event) => {
   emit("select-event", event);

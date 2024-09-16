@@ -68,8 +68,8 @@ const emit = defineEmits<{
 const form = ref<Event>({
   id: "",
   title: "",
-  startDate: Date.now(),
-  endDate: Date.now(),
+  startDate: {year: "", month: "", day: ""},
+  endDate: {year: "", month: "", day: ""},
   location: { name: "", lat: 0, lng: 0 },
   description: "",
   type: "",
@@ -103,8 +103,8 @@ watch(
       form.value = {
         id: "",
         title: "",
-        startDate: Date.now(),
-        endDate: Date.now(),
+        startDate: {year: "", month: "", day: ""},
+        endDate: {year: "", month: "", day: ""},
         location: { name: "", lat: 0, lng: 0 },
         description: "",
         type: "",

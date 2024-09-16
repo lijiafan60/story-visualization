@@ -17,7 +17,7 @@
 <script lang="ts" setup>
 import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
-import { Narrative, Event } from '@/mock/types'
+import { Narrative, Event, formatNDate } from '@/mock/types'
 import { mockNarratives } from '@/mock/narratives'
 import { useNavigation } from '@/router/useNavigation'
 
@@ -45,19 +45,16 @@ const loadTimelineJS = () => {
 };
 
 const convertEventToTimelineFormat = (event: Event) => {
-  const startDate = new Date(event.startDate);
-  const endDate = new Date(event.endDate);
-
   return {
     start_date: {
-      year: startDate.getFullYear().toString(),
-      month: (startDate.getMonth() + 1).toString(),
-      day: startDate.getDate().toString()
+      year: event.startDate.year,
+      month: event.startDate.month,
+      day: event.startDate.day
     },
     end_date: event.endDate ? {
-      year: endDate.getFullYear().toString(),
-      month: (endDate.getMonth() + 1).toString(),
-      day: endDate.getDate().toString()
+      year: event.endDate.year,
+      month: event.endDate.month,
+      day: event.endDate.day
     } : undefined,
     text: {
       headline: event.title,
