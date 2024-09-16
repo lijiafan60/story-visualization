@@ -70,6 +70,23 @@ export function compareNDates(a: NDate, b: NDate): number {
   return parseInt(a.day) - parseInt(b.day);
 }
 
+// 新增的日期转换函数
+export const dateToTimestamp = (date: Date): number | null => {
+  if (date.year && date.month && date.day) {
+    return new Date(`${date.year}-${date.month}-${date.day}`).getTime();
+  }
+  return null;
+};
+
+export const timestampToDate = (timestamp: number): Date => {
+  const date = new Date(timestamp);
+  return {
+    year: date.getFullYear().toString(),
+    month: (date.getMonth() + 1).toString().padStart(2, '0'),
+    day: date.getDate().toString().padStart(2, '0')
+  };
+};
+
 export enum EntityTypesEnum {
   Person = "PERSON",
   Location = "LOCATION",
@@ -85,6 +102,26 @@ export enum EntityTypesEnum {
 }
 
 export const entityTypes: EntityTypesEnum[] = Object.values(EntityTypesEnum);
+
+export enum EventTypesEnum {
+  Battle = "BATTLE",
+  Rebellion = "REBELLION",
+  Meeting = "MEETING",
+  Strike = "STRIKE",
+  Campaign = "CAMPAIGN",
+  Establish = "ESTABLISH",
+  BaseConstruct = "BASE_CONSTRUCT",
+  Issue = "ISSUE",
+  TreatySign = "TREATY_SIGN",
+  Invade = "INVADE",
+  Appointment = "APPOINTMENT",
+  Movement = "MOVEMENT",
+  Background = "BACKGROUND",
+  Command = "COMMAND",
+  Others = "OTHERS"
+}
+
+export const eventTypes: EventTypesEnum[] = Object.values(EventTypesEnum);
 
 export interface Entity {
   id: string;

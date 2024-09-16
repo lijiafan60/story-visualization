@@ -1,28 +1,33 @@
 <!-- EventForm.vue -->
 <template>
-  <n-card :title="event ? 'Edit Event' : 'Add New Event'" class="event-form-card">
+  <n-card :title="event ? '编辑' : '新建'" class="event-form-card">
     <n-scrollbar>
       <n-form :model="form" @submit.prevent="onSubmit">
-        <n-form-item label="Title">
+        <n-form-item label="标题">
           <n-input v-model:value="form.title" />
         </n-form-item>
-        <n-form-item label="Date">
-          <n-date-picker v-model:value="dateRange" type="daterange" clearable />
-        </n-form-item>
-        <n-form-item label="Location">
+        <n-space>
+            <n-form-item label="开始日期">
+              <flexible-date-picker v-model="form.startDate" />
+            </n-form-item>
+            <n-form-item label="结束日期">
+              <flexible-date-picker v-model="form.endDate" />
+            </n-form-item>
+        </n-space>
+        <n-form-item label="地点">
           <n-input-group>
-            <n-input v-model:value="form.location.name" placeholder="Location name" />
-            <n-input-number v-model:value="form.location.lat" placeholder="Latitude" />
-            <n-input-number v-model:value="form.location.lng" placeholder="Longitude" />
+            <n-input v-model:value="form.location.name" placeholder="地点" />
+            <n-input-number v-model:value="form.location.lat" placeholder="精度" />
+            <n-input-number v-model:value="form.location.lng" placeholder="纬度" />
           </n-input-group>
         </n-form-item>
-        <n-form-item label="Description">
+        <n-form-item label="描述">
           <n-input v-model:value="form.description" type="textarea" />
         </n-form-item>
-        <n-form-item label="Event Type">
+        <n-form-item label="事件类型">
           <n-select v-model:value="form.type" :options="eventTypeOptions" />
         </n-form-item>
-        <n-form-item label="Related Entities">
+        <n-form-item label="相关实体">
           <n-select
             v-model:value="form.relatedEntities"
             multiple
@@ -30,8 +35,8 @@
           />
         </n-form-item>
         <n-space justify="end">
-          <n-button @click="$emit('clear-form')">Clear</n-button>
-          <n-button type="primary" attr-type="submit">Save</n-button>
+          <n-button @click="$emit('clear-form')">清空</n-button>
+          <n-button type="primary" attr-type="submit">保存</n-button>
         </n-space>
       </n-form>
     </n-scrollbar>
@@ -47,13 +52,13 @@ import {
   NInput,
   NInputNumber,
   NInputGroup,
-  NDatePicker,
   NButton,
   NSpace,
   NSelect,
   NScrollbar,
 } from "naive-ui";
-import { Event, Entity } from "@/mock/types";
+import { Event, Entity, eventTypes } from "@/mock/types";
+import FlexibleDatePicker from '@/components/FlexibleDatePicker.vue';
 
 const props = defineProps<{
   event: Event | null;
@@ -76,29 +81,19 @@ const form = ref<Event>({
   relatedEntities: [],
 });
 
-const dateRange = ref<[number, number]>([1183135260000, Date.now()]);
-
 const entityOptions = computed(() => props.entities);
-const eventTypeOptions = ref<{ label: string; value: string }[]>([
-  {
-    label: "No Type",
-    value: "no-type",
-  },
-  {
-    label: "Historical Event",
-    value: "historical-event",
-  },
-  {
-    label: "Natural Event",
-    value: "natural-event",
-  },
-]);
+const eventTypeOptions = computed(() =>
+  eventTypes.map(type => ({
+    label: type.charAt(0) + type.slice(1).toLowerCase().replace('_', ' '),
+    value: type
+  }))
+);
 
 watch(
   () => props.event,
   (newEvent) => {
     if (newEvent) {
-      form.value = { ...newEvent };
+      form.value = JSON.parse(JSON.stringify(newEvent)); // Deep copy
     } else {
       form.value = {
         id: "",
@@ -112,11 +107,11 @@ watch(
       };
     }
   },
-  { immediate: true }
+  { immediate: true, deep: true }
 );
 
 const onSubmit = () => {
-  emit("save-event", form.value);
+  emit("save-event", JSON.parse(JSON.stringify(form.value)));
 };
 </script>
 
