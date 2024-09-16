@@ -35,12 +35,18 @@
           />
         </n-form-item>
         <n-space justify="end">
-          <n-button @click="$emit('clear-form')">清空</n-button>
+          <n-button @click="clearForm">清空</n-button>
           <n-button type="primary" attr-type="submit">保存</n-button>
         </n-space>
       </n-form>
     </n-scrollbar>
   </n-card>
+  <n-modal v-model:show="showConfirmModal" preset="dialog" title="确认" content="确定要保存这个事件吗？">
+    <template #action>
+      <n-button @click="cancelSave">取消</n-button>
+      <n-button type="primary" @click="confirmSave">确认</n-button>
+    </template>
+  </n-modal>
 </template>
 
 <script lang="ts" setup>
@@ -56,6 +62,7 @@ import {
   NSpace,
   NSelect,
   NScrollbar,
+  NModal,
 } from "naive-ui";
 import { Event, Entity, eventTypes } from "@/mock/types";
 import FlexibleDatePicker from '@/components/FlexibleDatePicker.vue';
@@ -110,8 +117,24 @@ watch(
   { immediate: true, deep: true }
 );
 
+const showConfirmModal = ref(false);
+
 const onSubmit = () => {
-  emit("save-event", JSON.parse(JSON.stringify(form.value)));
+  showConfirmModal.value = true;
+};
+
+const confirmSave = () => {
+  const eventToSave = JSON.parse(JSON.stringify(form.value));
+  emit("save-event", eventToSave);
+  showConfirmModal.value = false;
+};
+
+const cancelSave = () => {
+  showConfirmModal.value = false;
+};
+
+const clearForm = () => {
+  emit("clear-form");
 };
 </script>
 

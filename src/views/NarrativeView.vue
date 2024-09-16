@@ -24,6 +24,8 @@
                   <event-form
                     :event="selectedEvent"
                     :entities="entities"
+                    @save-event="saveEvent"
+                    @clear-form="clearForm"
                   />
                 </div>
               </template>
@@ -73,6 +75,27 @@ const events = computed(() => narrative.value?.events || []);
 
 const selectEvent = (event: Event) => {
   selectedEvent.value = event;
+};
+
+const saveEvent = (event: Event) => {
+  if (narrative.value) {
+    if (event.id) {
+      // 编辑现有事件
+      const index = narrative.value.events.findIndex(e => e.id === event.id);
+      if (index !== -1) {
+        narrative.value.events[index] = event;
+      }
+    } else {
+      // 新建事件
+      event.id = Date.now().toString(); // 简单的 ID 生成方式，实际应用中可能需要更复杂的逻辑
+      narrative.value.events.push(event);
+    }
+    selectedEvent.value = null; // 清除选中的事件
+  }
+};
+
+const clearForm = () => {
+  selectedEvent.value = null;
 };
 
 </script>
