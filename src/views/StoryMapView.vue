@@ -1,7 +1,7 @@
 
 <template>
   <n-layout position="absolute">
-    <n-layout-header  bordered class="header">
+    <n-layout-header bordered class="header">
       <n-flex justify="space-between">
         <n-button @click="goToNarrative(narrativeId)">返回</n-button>
         <n-h2 style="margin: 0">{{title}} - 故事地图</n-h2>
@@ -12,14 +12,16 @@
       <div id="map" ref="mapDiv"></div>
     </n-layout-content>
   </n-layout>
+  <n-modal v-model:show="showNoDataModal" preset="dialog" title="提示" content="没有符合条件的数据可以展示" positive-text="确定" @positive-click="handleNoDataConfirm" />
 </template>
 
 <script lang="ts" setup>
-import { ref, onMounted, computed } from 'vue';
+import { ref, onMounted, computed, watch } from 'vue';
 import { useRoute } from 'vue-router';
-import { Narrative } from "@/mock/types";
+import { Narrative, Event } from "@/mock/types";
 import { mockNarratives } from '@/mock/narratives'
 import { useNavigation } from '@/router/useNavigation';
+import { NModal } from 'naive-ui';
 
 declare global {
   interface Window {
@@ -32,6 +34,8 @@ const narratives = ref<Narrative[]>(mockNarratives);
 const narrativeId = computed(() => route.params.id as string);
 const { goToNarrative, goToTimeline } = useNavigation()
 
+const showNoDataModal = ref(false);
+
 const narrative = computed(() => {
   return narratives.value.find((nar) => nar.id === narrativeId.value);
 });
@@ -42,14 +46,56 @@ const events = computed(() => narrative.value?.events || []);
 const mapDiv = ref<HTMLElement | null>(null);
 
 // 辅助函数：格式化日期
-function formatDate(timestamp: number): string {
-  const date = new Date(timestamp);
-  return date.toLocaleDateString('zh-CN', {
+function formatDate(date: { year: string, month: string, day: string }): string {
+  if (!date.year) return '未知日期';
+  const year = parseInt(date.year);
+  const month = date.month ? parseInt(date.month) : 1;
+  const day = date.day ? parseInt(date.day) : 1;
+  return new Date(year, month - 1, day).toLocaleDateString('zh-CN', {
     year: 'numeric',
     month: 'long',
     day: 'numeric'
   });
 }
+
+// 验证事件数据
+function isValidEvent(event: Event): boolean {
+  return (
+    event.location && event.location.lat != 0 && event.location.lng != 0 && event.location.name != ""
+  );
+}
+
+// 过滤并格式化有效的事件数据
+const validEvents = computed(() => {
+  return events.value.filter(isValidEvent).map((event) => ({
+    type: 'slide',
+    text: {
+      headline: event.title,
+      text: `<p>${event.description}</p><p>开始日期: ${formatDate(event.startDate)}${event.endDate ? ` ~ 结束日期: ${formatDate(event.endDate)}` : ''}</p>`
+    },
+    location: {
+      lat: event.location!.lat,
+      lon: event.location!.lng,
+      zoom: 10
+    },
+    media: {
+      url: event.media?.url || '',
+      caption: event.media?.caption || '',
+      credit: event.media?.credit || ''
+    }
+  }));
+});
+
+watch(validEvents, (newValidEvents) => {
+  if (newValidEvents.length === 0) {
+    showNoDataModal.value = true;
+  }
+}, { immediate: true });
+
+const handleNoDataConfirm = () => {
+  showNoDataModal.value = false;
+  goToNarrative(narrativeId.value);
+};
 
 onMounted(() => {
   if (typeof window.VCO === 'undefined') {
@@ -68,35 +114,29 @@ onMounted(() => {
 });
 
 function initStoryMap() {
-  if (!mapDiv.value) return;
+  if (!mapDiv.value || validEvents.value.length === 0) return;
 
   const storyMapData = {
     storymap: {
       language: 'zh-cn',
       map_type: 'stamen:toner-lite',
       map_as_image: false,
-      slides: events.value.map((event, index) => ({
-        type: 'slide',
-        text: {
-          headline: event.title,
-          text: `<p>${event.description}</p><p>日期: ${formatDate(event.startDate)} ~ ${formatDate(event.endDate)}</p>`
-        },
-        location: {
-          lat: event.location?.lat,
-          lon: event.location?.lng,
-          zoom: 10
-        },
-        media: {
-          url: event.media?.url || '',
-          caption: event.media?.caption || '',
-          credit: event.media?.credit || ''
-        }
-      }))
+      slides: validEvents.value
     }
   };
 
   new window.VCO.StoryMap('map', storyMapData);
 }
+
+// 自动关闭弹窗并返回上一页
+watch(showNoDataModal, (newValue) => {
+  if (newValue) {
+    setTimeout(() => {
+      showNoDataModal.value = false;
+      goToNarrative(narrativeId.value);
+    }, 3000); // 3秒后自动关闭并返回
+  }
+});
 </script>
 
 <style scoped>
