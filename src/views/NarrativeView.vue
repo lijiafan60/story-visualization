@@ -16,7 +16,7 @@
             <n-split direction="horizontal">
               <template #1>
                 <div class="left-panel">
-                  <entity-list :entities="narrative.entities"/>
+                  <entity-list :entities="entities"/>
                 </div>
               </template>
               <template #2>
@@ -47,18 +47,20 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, computed } from "vue";
+import { ref, computed, onMounted } from "vue";
 import { useRoute } from "vue-router";
-import { Narrative, Event } from "@/mock/types";
-import { mockNarratives } from '@/mock/narratives'
+import { Event } from "@/mock/types";
 import { useNavigation } from '@/router/useNavigation';
 import EntityList from "@/components/EntityList.vue";
 import EventForm from "@/components/EventForm.vue";
 import EventCarousel from "@/components/EventCarousel.vue";
+import { useNarrativesStore } from '@/stores'
+import { storeToRefs } from 'pinia'
 
 const route = useRoute()
+const narrativesStore = useNarrativesStore()
+const { narratives } = storeToRefs(narrativesStore)
 
-const narratives = ref<Narrative[]>(mockNarratives);
 const narrativeId = computed(() => route.params.id as string);
 const { goToHome, goToStoryMap, goToTimeline } = useNavigation()
 
@@ -77,18 +79,14 @@ const selectEvent = (event: Event) => {
   selectedEvent.value = event;
 };
 
-const saveEvent = (event: Event) => {
+const saveEvent = async (event: Event) => {
   if (narrative.value) {
     if (event.id) {
       // 编辑现有事件
-      const index = narrative.value.events.findIndex(e => e.id === event.id);
-      if (index !== -1) {
-        narrative.value.events[index] = event;
-      }
+      await narrativesStore.updateEventInNarrative(narrativeId.value, event);
     } else {
       // 新建事件
-      event.id = narrative.value.events.length + 1;
-      narrative.value.events.push(event);
+      await narrativesStore.addEventToNarrative(narrativeId.value, event);
     }
   }
 };
@@ -97,6 +95,9 @@ const clearForm = () => {
   selectedEvent.value = null;
 };
 
+onMounted(async () => {
+  await narrativesStore.fetchNarratives(narrativeId.value);
+});
 </script>
 
 <style scoped>
