@@ -15,11 +15,7 @@
             </n-form-item>
         </n-space>
         <n-form-item label="地点">
-          <n-input-group>
-            <n-input v-model:value="form.location.name" placeholder="地点" />
-            <n-input-number v-model:value="form.location.lat" placeholder="精度" />
-            <n-input-number v-model:value="form.location.lng" placeholder="纬度" />
-          </n-input-group>
+          <location-picker v-model="form.location" />
         </n-form-item>
         <n-form-item label="描述">
           <n-input v-model:value="form.description" type="textarea" />
@@ -56,8 +52,6 @@ import {
   NForm,
   NFormItem,
   NInput,
-  NInputNumber,
-  NInputGroup,
   NButton,
   NSpace,
   NSelect,
@@ -66,6 +60,7 @@ import {
 } from "naive-ui";
 import { Event, Entity, eventTypes } from "@/mock/types";
 import FlexibleDatePicker from '@/components/FlexibleDatePicker.vue';
+import LocationPicker from '@/components/LocationPicker.vue'
 
 const props = defineProps<{
   event: Event | null;

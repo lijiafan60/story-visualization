@@ -13,6 +13,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
     "@vicons/ionicons5": "^0.12.0",
     "axios": "^1.7.4",
     "leaflet": "^1.9.4",
