@@ -87,10 +87,9 @@ const saveEvent = (event: Event) => {
       }
     } else {
       // 新建事件
-      event.id = Date.now().toString(); // 简单的 ID 生成方式，实际应用中可能需要更复杂的逻辑
+      event.id = narrative.value.events.length + 1;
       narrative.value.events.push(event);
     }
-    selectedEvent.value = null; // 清除选中的事件
   }
 };
 

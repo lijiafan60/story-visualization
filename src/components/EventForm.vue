@@ -88,7 +88,12 @@ const form = ref<Event>({
   relatedEntities: [],
 });
 
-const entityOptions = computed(() => props.entities);
+const entityOptions = computed(() =>
+  props.entities.map(entity => ({
+    label: entity.name,
+    value: entity.name
+  })).filter(option => !form.value.relatedEntities.includes(option.value))
+);
 const eventTypeOptions = computed(() =>
   eventTypes.map(type => ({
     label: type.charAt(0) + type.slice(1).toLowerCase().replace('_', ' '),
