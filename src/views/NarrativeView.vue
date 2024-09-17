@@ -81,13 +81,7 @@ const selectEvent = (event: Event) => {
 
 const saveEvent = async (event: Event) => {
   if (narrative.value) {
-    if (event.id) {
-      // 编辑现有事件
-      await narrativesStore.updateEventInNarrative(narrativeId.value, event);
-    } else {
-      // 新建事件
-      await narrativesStore.addEventToNarrative(narrativeId.value, event);
-    }
+      await narrativesStore.saveEventToNarrative(narrativeId.value, event);
   }
 };
 

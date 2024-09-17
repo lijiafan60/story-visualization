@@ -20,15 +20,17 @@ export const useNarrativesStore = defineStore('narratives', {
   }),
   actions: {
     async fetchNarratives() {
-      this.loading = true
-      this.error = null
-      try {
-        this.narratives = await api.getNarratives()
-      } catch (err) {
-        this.error = 'Failed to fetch narratives'
-        console.error(err)
-      } finally {
-        this.loading = false
+      if (this.narratives.length === 0) {
+        this.loading = true
+        this.error = null
+        try {
+          this.narratives = await api.getNarratives()
+        } catch (err) {
+          this.error = 'Failed to fetch narratives'
+          console.error(err)
+        } finally {
+          this.loading = false
+        }
       }
     },
     addNarrative(narrative: Narrative) {
@@ -38,14 +40,6 @@ export const useNarrativesStore = defineStore('narratives', {
       const index = this.narratives.findIndex(n => n.id === updatedNarrative.id)
       if (index !== -1) {
         this.narratives[index] = updatedNarrative
-      }
-    },
-    saveNarrative(narrative: Narrative) {
-      if (narrative.id) {
-        this.updateNarrative(narrative)
-      } else {
-        narrative.id = this.narratives.length + 1
-        this.addNarrative(narrative)
       }
     },
     addEventToNarrative(narrativeId: string, event: Event) {
@@ -70,9 +64,20 @@ export const useNarrativesStore = defineStore('narratives', {
       if (event.id) {
         this.updateEventInNarrative(narrativeId, event)
       } else {
-        event.id = Date.now().toString()
-        this.addEventToNarrative(narrativeId, event)
+        const narrative = this.narratives.find(n => n.id === narrativeId)
+        if (narrative) {
+          event.id = (narrative.events?.length ?? 0 + 1).toString()
+          this.addEventToNarrative(narrativeId, event)
+        }
       }
+    },
+    // 新增：重置数据到初始状态
+    resetToMockData() {
+      this.narratives = mockNarratives
     }
-  }
+  },
+  persist: {
+    key: 'narratives-store',
+    storage: localStorage,
+  },
 })
