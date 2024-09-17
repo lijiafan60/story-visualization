@@ -40,11 +40,10 @@
               </n-p>
               <n-space align="center">
                 <n-select
-                  v-model="selectedNarrativeId"
+                  v-model:value="selectedNarrativeId"
                   :options="narrativeOptions"
                   placeholder="选择一个叙事"
                   style="width: 200px"
-                  @update:value="logSelectedValue"
                 />
                 <n-button
                   size="large"
@@ -101,27 +100,29 @@
         </n-carousel>
       </n-card>
     </n-layout-content>
-
   </n-layout>
 </template>
 
 <script lang="ts" setup>
-import { ref } from "vue";
-import { mockNarratives } from "@/mock/narratives";
+import { ref, computed, onMounted } from "vue";
 import { useNavigation } from '@/router/useNavigation'
-import { Narrative } from '@/mock/types'
-const { goToNarrative, goToTimeline, goToStoryMap } = useNavigation()
+import { useNarrativesStore } from '@/stores'
+import { storeToRefs } from 'pinia'
 
-const narratives = ref<Narrative[]>(mockNarratives);
+const { goToNarrative, goToTimeline, goToStoryMap } = useNavigation()
+const narrativesStore = useNarrativesStore()
+const { narratives } = storeToRefs(narrativesStore)
 
 const selectedNarrativeId = ref<string | null>(null);
 
 const startNewProject = () => {
   console.log("Starting new project");
+  // Here you might want to call a store action to create a new narrative
+  // narrativesStore.createNarrative()
 };
 
 const openExistingProject = () => {
-  if (selectedNarrativeId.value !== null) {
+  if (selectedNarrativeId.value) {
     console.log("Opening project with id:", selectedNarrativeId.value);
     goToNarrative(selectedNarrativeId.value);
   } else {
@@ -129,16 +130,16 @@ const openExistingProject = () => {
   }
 };
 
-const narrativeOptions = mockNarratives.map((narrative) => ({
-  label: narrative.title,
-  value: narrative.id,
-}));
+const narrativeOptions = computed(() =>
+  narratives.value.map((narrative) => ({
+    label: narrative.title,
+    value: narrative.id,
+  }))
+);
 
-// 调试用的日志函数
-const logSelectedValue = (value: string | null) => {
-  console.log("Selected narrative ID:", value);
-  selectedNarrativeId.value = value;
-};
+onMounted(async () => {
+  await narrativesStore.fetchNarratives()
+})
 </script>
 
 <style scoped>
