@@ -1,4 +1,4 @@
-
+<!-- @/views/TimelineView -->
 <template>
   <n-layout position="absolute">
     <n-layout-header bordered class="header">
@@ -18,15 +18,17 @@
 <script lang="ts" setup>
 import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
-import { Narrative, Event } from '@/mock/types'
-import { mockNarratives } from '@/mock/narratives'
+import { Event } from '@/mock/types'
 import { useNavigation } from '@/router/useNavigation'
 import { NModal } from 'naive-ui'
+import { useNarrativesStore } from '@/stores'
+import { storeToRefs } from 'pinia'
 
 const route = useRoute();
-const narratives = ref<Narrative[]>(mockNarratives);
+const narrativesStore = useNarrativesStore();
+const { narratives } = storeToRefs(narrativesStore);
 const narrativeId = computed(() => route.params.id as string);
-const {goToNarrative, goToStoryMap} = useNavigation()
+const { goToNarrative, goToStoryMap } = useNavigation()
 
 const showNoDataModal = ref(false);
 
@@ -108,7 +110,8 @@ const handleNoDataConfirm = () => {
   goToNarrative(narrativeId.value);
 };
 
-onMounted(() => {
+onMounted(async () => {
+  await narrativesStore.fetchNarratives();
   loadTimelineJS();
   const interval = setInterval(() => {
     if (window.TL) {

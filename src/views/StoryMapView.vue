@@ -1,4 +1,4 @@
-
+<!-- @/views/StoryMapView -->
 <template>
   <n-layout position="absolute">
     <n-layout-header bordered class="header">
@@ -18,10 +18,11 @@
 <script lang="ts" setup>
 import { ref, onMounted, computed, watch } from 'vue';
 import { useRoute } from 'vue-router';
-import { Narrative, Event } from "@/mock/types";
-import { mockNarratives } from '@/mock/narratives'
+import { Event } from "@/mock/types";
 import { useNavigation } from '@/router/useNavigation';
 import { NModal } from 'naive-ui';
+import { useNarrativesStore } from '@/stores'
+import { storeToRefs } from 'pinia'
 
 declare global {
   interface Window {
@@ -30,7 +31,8 @@ declare global {
 }
 
 const route = useRoute();
-const narratives = ref<Narrative[]>(mockNarratives);
+const narrativesStore = useNarrativesStore();
+const { narratives } = storeToRefs(narrativesStore);
 const narrativeId = computed(() => route.params.id as string);
 const { goToNarrative, goToTimeline } = useNavigation()
 
@@ -97,7 +99,8 @@ const handleNoDataConfirm = () => {
   goToNarrative(narrativeId.value);
 };
 
-onMounted(() => {
+onMounted(async () => {
+  await narrativesStore.fetchNarratives();
   if (typeof window.VCO === 'undefined') {
     const script = document.createElement('script');
     script.src = 'https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js';
@@ -112,6 +115,7 @@ onMounted(() => {
     initStoryMap();
   }
 });
+
 
 function initStoryMap() {
   if (!mapDiv.value || validEvents.value.length === 0) return;
