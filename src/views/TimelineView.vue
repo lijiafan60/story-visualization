@@ -12,19 +12,23 @@
       <div id="timeline-embed"></div>
     </n-layout-content>
   </n-layout>
+  <n-modal v-model:show="showNoDataModal" preset="dialog" title="提示" content="没有符合条件的数据可以展示" positive-text="确定" @positive-click="handleNoDataConfirm" />
 </template>
 
 <script lang="ts" setup>
 import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
-import { Narrative, Event, formatNDate } from '@/mock/types'
+import { Narrative, Event } from '@/mock/types'
 import { mockNarratives } from '@/mock/narratives'
 import { useNavigation } from '@/router/useNavigation'
+import { NModal } from 'naive-ui'
 
 const route = useRoute();
 const narratives = ref<Narrative[]>(mockNarratives);
 const narrativeId = computed(() => route.params.id as string);
 const {goToNarrative, goToStoryMap} = useNavigation()
+
+const showNoDataModal = ref(false);
 
 const narrative = computed(() => {
   return narratives.value.find((nar) => nar.id === narrativeId.value);
@@ -44,51 +48,74 @@ const loadTimelineJS = () => {
   document.body.appendChild(script);
 };
 
+const isValidDate = (date: { year: string, month: string, day: string }) => {
+  return date.year && date.year.trim() !== '';
+};
+
 const convertEventToTimelineFormat = (event: Event) => {
+  if (!isValidDate(event.startDate)) {
+    return null;
+  }
+
   return {
     start_date: {
-      year: event.startDate.year,
-      month: event.startDate.month,
-      day: event.startDate.day
+      year: parseInt(event.startDate.year),
+      month: event.startDate.month ? parseInt(event.startDate.month) : undefined,
+      day: event.startDate.day ? parseInt(event.startDate.day) : undefined
     },
-    end_date: event.endDate ? {
-      year: event.endDate.year,
-      month: event.endDate.month,
-      day: event.endDate.day
+    end_date: event.endDate && isValidDate(event.endDate) ? {
+      year: parseInt(event.endDate.year),
+      month: event.endDate.month ? parseInt(event.endDate.month) : undefined,
+      day: event.endDate.day ? parseInt(event.endDate.day) : undefined
     } : undefined,
     text: {
       headline: event.title,
       text: `<p>${event.description}</p>`
     },
-    media: {
+    media: event.media && event.media.url ? {
       url: event.media.url,
       caption: event.media.caption,
       credit: event.media.credit
-    },
+    } : undefined,
     group: event.type,
   };
 };
 
 const timelineData = computed(() => {
-  const data = {
+  const validEvents = events.value
+    .map(convertEventToTimelineFormat)
+    .filter(event => event !== null);
+
+  if (validEvents.length === 0) {
+    // eslint-disable-next-line vue/no-side-effects-in-computed-properties
+    showNoDataModal.value = true;
+    return null;
+  }
+
+  return {
     title: {
       text: {
         headline: title.value,
         text: narrative.value?.description || '',
       }
     },
-    events: events.value.map(convertEventToTimelineFormat)
+    events: validEvents
   };
-  console.log('Timeline Data:', data);
-  return data;
 });
+
+const handleNoDataConfirm = () => {
+  showNoDataModal.value = false;
+  goToNarrative(narrativeId.value);
+};
 
 onMounted(() => {
   loadTimelineJS();
   const interval = setInterval(() => {
     if (window.TL) {
       clearInterval(interval);
-      new window.TL.Timeline('timeline-embed', timelineData.value);
+      if (timelineData.value) {
+        new window.TL.Timeline('timeline-embed', timelineData.value);
+      }
     }
   }, 100);
 });
