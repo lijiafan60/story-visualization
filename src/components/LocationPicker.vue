@@ -7,7 +7,7 @@
       <n-button @click="clearLocation">清空</n-button>
       <n-button @click="toggleMap">{{ isMapVisible ? '隐藏地图' : '展开地图' }}</n-button>
     </n-input-group>
-    <p v-if="selectedLocation">
+    <p v-if="selectedLocation && selectedLocation.lat != undefined && selectedLocation.lng != undefined">
       坐标：({{ selectedLocation.lat.toFixed(6) }}, {{ selectedLocation.lng.toFixed(6) }})
     </p>
     <p v-else>未选择位置</p>
@@ -80,6 +80,10 @@ async function initMap(): Promise<void> {
 }
 
 function addMarker(lng: number, lat: number): void {
+  if (isNaN(lng) || isNaN(lat)) {
+    console.error('Invalid coordinates:', lng, lat);
+    return;
+  }
   if (marker) {
     map.remove(marker);
   }
@@ -136,6 +140,10 @@ async function searchLocation(): Promise<void> {
 }
 
 async function updateLocation(lng: number, lat: number, name: string = ''): Promise<void> {
+  if (isNaN(lng) || isNaN(lat)) {
+    console.error('Invalid coordinates:', lng, lat);
+    return;
+  }
   if (isUpdatingFromMap) return;
   isUpdatingFromMap = true;
 
@@ -187,7 +195,7 @@ async function toggleMap(): Promise<void> {
 watch(() => props.modelValue, async (newValue: Location | null) => {
   if (isUpdatingFromMap) return;
 
-  if (newValue) {
+  if (newValue&& !isNaN(newValue.lng) && !isNaN(newValue.lat)) {
     locationName.value = newValue.name;
     selectedLocation.value = newValue;
     isMapVisible.value = true;
