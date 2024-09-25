@@ -57,16 +57,20 @@ export const useNarrativesStore = defineStore('narratives', {
         const eventIndex = narrative.events.findIndex(e => e.id === updatedEvent.id)
         if (eventIndex !== -1) {
           narrative.events[eventIndex] = updatedEvent
+        } else {
+          console.error("updateEventInNarrative: eventIndex == -1")
         }
       }
     },
     saveEventToNarrative(narrativeId: string, event: Event) {
       if (event.id) {
+        console.log("update event", event)
         this.updateEventInNarrative(narrativeId, event)
       } else {
         const narrative = this.narratives.find(n => n.id === narrativeId)
         if (narrative) {
           event.id = (narrative.events?.length ?? 1).toString()
+          console.log("new event", event)
           this.addEventToNarrative(narrativeId, event)
         }
       }
@@ -82,20 +86,24 @@ export const useNarrativesStore = defineStore('narratives', {
     },
     updateEntityInNarrative(narrativeId: string, updatedEntity: Entity) {
       const narrative = this.narratives.find(n => n.id === narrativeId)
-      if (narrative && narrative.events) {
-        const eventIndex = narrative.events.findIndex(e => e.id === updatedEntity.id)
-        if (eventIndex !== -1) {
-          narrative.events[eventIndex] = updatedEntity
+      if (narrative && narrative.entities) {
+        const entityIndex = narrative.entities.findIndex(e => e.id === updatedEntity.id)
+        if (entityIndex !== -1) {
+          narrative.entities[entityIndex] = updatedEntity
+        } else {
+          console.error("updateEntityInNarrative: eventIndex == -1")
         }
       }
     },
     saveEntityToNarrative(narrativeId: string, entity: Entity) {
       if (entity.id) {
+        console.log("update entity", entity)
         this.updateEntityInNarrative(narrativeId, entity)
       } else {
         const narrative = this.narratives.find(n => n.id === narrativeId)
         if (narrative) {
           entity.id = (narrative.events?.length ?? 1).toString()
+          console.log("new entity", entity)
           this.addEntityToNarrative(narrativeId, entity)
         }
       }
