@@ -31,7 +31,7 @@
           />
         </n-form-item>
         <n-space justify="end">
-          <n-button @click="clearForm">清空</n-button>
+          <n-button @click="clearForm">清空/新建</n-button>
           <n-button type="primary" attr-type="submit">保存</n-button>
         </n-space>
       </n-form>
@@ -125,6 +125,16 @@ const onSubmit = () => {
 
 const confirmSave = () => {
   const eventToSave = JSON.parse(JSON.stringify(form.value));
+  form.value = {
+    id: "",
+    title: "",
+    startDate: {year: "", month: "", day: ""},
+    endDate: {year: "", month: "", day: ""},
+    location: { name: "", lat: 0, lng: 0 },
+    description: "",
+    type: "",
+    relatedEntities: [],
+  };
   emit("save-event", eventToSave);
   showConfirmModal.value = false;
 };
@@ -134,6 +144,16 @@ const cancelSave = () => {
 };
 
 const clearForm = () => {
+  form.value = {
+    id: "",
+    title: "",
+    startDate: {year: "", month: "", day: ""},
+    endDate: {year: "", month: "", day: ""},
+    location: { name: "", lat: 0, lng: 0 },
+    description: "",
+    type: "",
+    relatedEntities: [],
+  };
   emit("clear-form");
 };
 </script>
