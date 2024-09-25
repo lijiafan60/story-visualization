@@ -16,7 +16,7 @@
             <n-split direction="horizontal">
               <template #1>
                 <div class="left-panel">
-                  <entity-list :entities="entities"/>
+                  <entity-list :entities="entities" @save-entity="saveEntity"/>
                 </div>
               </template>
               <template #2>
@@ -88,6 +88,17 @@ const saveEvent = async (event: Event) => {
 const clearForm = () => {
   selectedEvent.value = null;
 };
+
+const saveEntity = async (entity: Entity) => {
+  if (narrative.value) {
+    await narrativesStore.saveEntityToNarrative(narrativeId.value, entity);
+    // 更新本地 entities 数组
+    if (!entities.value.find(e => e.id === entity.id)) {
+      entities.value.push(entity);
+    }
+  }
+};
+
 
 onMounted(async () => {
   await narrativesStore.fetchNarratives(narrativeId.value);

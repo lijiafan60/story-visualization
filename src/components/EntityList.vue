@@ -4,7 +4,7 @@
     <n-tabs placement="left" type="card">
       <n-tab-pane name="ALL" tab="ALL">
         <n-scrollbar>
-          <n-space>
+          <n-space align="center" justify="start" style="padding: 8px;">
             <n-popover
               v-for="entity in props.entities"
               :key="entity.id"
@@ -40,12 +40,17 @@
                 </n-table>
               </div>
             </n-popover>
+            <n-button circle type="primary" @click="showCreateModal()">
+              <template #icon>
+                <n-icon><add-icon /></n-icon>
+              </template>
+            </n-button>
           </n-space>
         </n-scrollbar>
       </n-tab-pane>
       <n-tab-pane v-for="type in entityTypes" :key="type" :name="type" :tab="type">
         <n-scrollbar>
-          <n-space>
+          <n-space align="center" justify="start" style="padding: 8px;">
             <n-popover
               v-for="entity in entitiesByType[type]"
               :key="entity.id"
@@ -81,21 +86,76 @@
                 </n-table>
               </div>
             </n-popover>
+            <n-button circle type="primary" @click="showCreateModal(type)">
+              <template #icon>
+                <n-icon><add-icon /></n-icon>
+              </template>
+            </n-button>
           </n-space>
         </n-scrollbar>
       </n-tab-pane>
     </n-tabs>
   </n-card>
+
+  <n-modal
+    v-model:show="showModal"
+    preset="card"
+    title="新建实体"
+    :style="{ width: '460px' }"
+    :mask-closable="false"
+  >
+    <n-form
+      ref="formRef"
+      :model="formModel"
+      :rules="rules"
+      label-placement="left"
+      label-width="80"
+      require-mark-placement="right-hanging"
+      size="medium"
+    >
+      <n-form-item label="名称" path="name">
+        <n-input v-model:value="formModel.name" placeholder="输入实体名称">
+        </n-input>
+      </n-form-item>
+      <n-form-item label="类型" path="type">
+        <n-select
+          v-model:value="formModel.type"
+          :options="entityTypeOptions"
+          placeholder="选择实体类型"
+        >
+        </n-select>
+      </n-form-item>
+      <n-form-item label="描述" path="desc">
+        <n-input
+          v-model:value="formModel.desc"
+          type="textarea"
+          placeholder="输入实体描述"
+          :autosize="{ minRows: 3, maxRows: 5 }"
+        />
+      </n-form-item>
+    </n-form>
+    <template #footer>
+      <n-space justify="end">
+        <n-button @click="closeModal" :style="{ marginRight: '12px' }">取消</n-button>
+        <n-button type="primary" @click="createEntity" :loading="submitting">
+          {{ submitting ? '保存中...' : '保存' }}
+        </n-button>
+      </n-space>
+    </template>
+  </n-modal>
 </template>
 
 <script lang="ts" setup>
-import { computed } from "vue";
-import { NCard, NTabs, NTabPane, NTag, NPopover, NTable, NSpace, NScrollbar } from "naive-ui";
+import { ref, computed } from "vue";
+import { NCard, NTabs, NTabPane, NTag, NPopover, NTable, NSpace, NScrollbar, NButton, NModal, NForm, NFormItem, NInput, NSelect, NIcon } from "naive-ui";
+import { Add as AddIcon } from "@vicons/ionicons5";
 import { EntityTypesEnum, entityTypes, Entity } from '@/mock/types';
 
 const props = defineProps<{
   entities: Entity[];
 }>();
+
+const emit = defineEmits(['save-entity']);
 
 const entitiesByType = computed(() => {
   return entityTypes.reduce((acc, type) => {
@@ -184,6 +244,59 @@ const getStyleForType = (type: EntityTypesEnum) => {
     '--hover-bg-color': colors.hoverColor,
     '--hover-text-color': colors.hoverTextColor,
   };
+};
+const showModal = ref(false);
+const formRef = ref(null);
+const formModel = ref({
+  name: '',
+  type: null as EntityTypesEnum | null,
+  desc: ''
+});
+
+const rules = {
+  name: {
+    required: true,
+    message: '请输入实体名称',
+    trigger: 'blur'
+  },
+  type: {
+    required: true,
+    message: '请选择实体类型',
+    trigger: ['blur', 'change']
+  }
+};
+
+const entityTypeOptions = entityTypes.map(type => ({
+  label: type,
+  value: type
+}));
+
+const showCreateModal = (type?: EntityTypesEnum) => {
+  formModel.value = {
+    name: '',
+    type: type || null,
+    desc: ''
+  };
+  showModal.value = true;
+};
+
+const closeModal = () => {
+  showModal.value = false;
+};
+
+const createEntity = () => {
+  formRef.value?.validate((errors: any) => {
+    if (!errors) {
+      const newEntity: Entity = {
+        id: Date.now().toString(),
+        name: formModel.value.name,
+        type: formModel.value.type!,
+        desc: formModel.value.desc
+      };
+      emit('save-entity', newEntity);
+      closeModal();
+    }
+  });
 };
 </script>
 

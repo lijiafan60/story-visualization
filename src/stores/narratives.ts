@@ -1,6 +1,6 @@
 
 import { defineStore } from 'pinia'
-import { Narrative, Event } from '@/mock/types'
+import { Narrative, Event, type Entity } from '@/mock/types'
 import { mockNarratives } from '@/mock/narratives' // 导入mock数据
 
 // 模拟API服务
@@ -66,8 +66,37 @@ export const useNarrativesStore = defineStore('narratives', {
       } else {
         const narrative = this.narratives.find(n => n.id === narrativeId)
         if (narrative) {
-          event.id = (narrative.events?.length ?? 0 + 1).toString()
+          event.id = (narrative.events?.length ?? 1).toString()
           this.addEventToNarrative(narrativeId, event)
+        }
+      }
+    },
+    addEntityToNarrative(narrativeId: string, entity: Entity) {
+      const narrative = this.narratives.find(n => n.id === narrativeId)
+      if (narrative) {
+        if (!narrative.entities) {
+          narrative.entities = []
+        }
+        narrative.entities.push(entity)
+      }
+    },
+    updateEntityInNarrative(narrativeId: string, updatedEntity: Entity) {
+      const narrative = this.narratives.find(n => n.id === narrativeId)
+      if (narrative && narrative.events) {
+        const eventIndex = narrative.events.findIndex(e => e.id === updatedEntity.id)
+        if (eventIndex !== -1) {
+          narrative.events[eventIndex] = updatedEntity
+        }
+      }
+    },
+    saveEntityToNarrative(narrativeId: string, entity: Entity) {
+      if (entity.id) {
+        this.updateEntityInNarrative(narrativeId, entity)
+      } else {
+        const narrative = this.narratives.find(n => n.id === narrativeId)
+        if (narrative) {
+          entity.id = (narrative.events?.length ?? 1).toString()
+          this.addEntityToNarrative(narrativeId, entity)
         }
       }
     },
