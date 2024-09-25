@@ -1,7 +1,48 @@
 
 <template>
   <n-card class="entity-list-card">
-    <n-tabs placement="left">
+    <n-tabs placement="left" type="card">
+      <n-tab-pane name="ALL" tab="ALL">
+        <n-scrollbar>
+          <n-space>
+            <n-popover
+              v-for="entity in props.entities"
+              :key="entity.id"
+              trigger="click"
+              placement="right"
+            >
+              <template #trigger>
+                <n-tag
+                  round
+                  size="large"
+                  class="entity-tag"
+                  :style="getStyleForType(entity.type)"
+                >
+                  {{ entity.name }}
+                </n-tag>
+              </template>
+              <div class="entity-popover-content">
+                <n-table :bordered="false" :single-line="false">
+                  <tbody>
+                  <tr>
+                    <td><strong>名称</strong></td>
+                    <td>{{ entity.name }}</td>
+                  </tr>
+                  <tr>
+                    <td><strong>类型</strong></td>
+                    <td>{{ entity.type }}</td>
+                  </tr>
+                  <tr>
+                    <td><strong>描述</strong></td>
+                    <td>{{ entity.desc }}</td>
+                  </tr>
+                  </tbody>
+                </n-table>
+              </div>
+            </n-popover>
+          </n-space>
+        </n-scrollbar>
+      </n-tab-pane>
       <n-tab-pane v-for="type in entityTypes" :key="type" :name="type" :tab="type">
         <n-scrollbar>
           <n-space>
@@ -35,10 +76,6 @@
                   <tr>
                     <td><strong>描述</strong></td>
                     <td>{{ entity.desc }}</td>
-                  </tr>
-                  <tr>
-                    <td><strong>关系</strong></td>
-                    <td>{{ entity.relation }}</td>
                   </tr>
                   </tbody>
                 </n-table>
