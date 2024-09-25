@@ -59,6 +59,11 @@ const convertEventToTimelineFormat = (event: Event) => {
     return null;
   }
 
+  // 创建相关实体的HTML字符串
+  const relatedEntitiesHtml = event.relatedEntities && event.relatedEntities.length > 0
+    ? `<p><strong>相关实体：</strong> ${event.relatedEntities.join(', ')}</p>`
+    : '';
+
   return {
     start_date: {
       year: parseInt(event.startDate.year),
@@ -72,7 +77,7 @@ const convertEventToTimelineFormat = (event: Event) => {
     } : undefined,
     text: {
       headline: event.title,
-      text: `<p>${event.description}</p>`
+      text: `<p>${event.description}</p>${relatedEntitiesHtml}`
     },
     media: event.media && event.media.url ? {
       url: event.media.url,

@@ -49,7 +49,7 @@ const mapDiv = ref<HTMLElement | null>(null);
 
 // 辅助函数：格式化日期
 function formatDate(date: { year: string, month: string, day: string }): string {
-  if (!date.year) return '未知日期';
+  if (!date.year) return '';
   const year = parseInt(date.year);
   const month = date.month ? parseInt(date.month) : 1;
   const day = date.day ? parseInt(date.day) : 1;
@@ -67,25 +67,40 @@ function isValidEvent(event: Event): boolean {
   );
 }
 
-// 过滤并格式化有效的事件数据
 const validEvents = computed(() => {
-  return events.value.filter(isValidEvent).map((event) => ({
-    type: 'slide',
-    text: {
-      headline: event.title,
-      text: `<p>${event.description}</p><p>开始日期: ${formatDate(event.startDate)}${event.endDate ? ` ~ 结束日期: ${formatDate(event.endDate)}` : ''}</p>`
-    },
-    location: {
-      lat: event.location!.lat,
-      lon: event.location!.lng,
-      zoom: 10
-    },
-    media: {
-      url: event.media?.url || '',
-      caption: event.media?.caption || '',
-      credit: event.media?.credit || ''
-    }
-  }));
+  return events.value.filter(isValidEvent).map((event) => {
+    // 创建相关实体的HTML字符串
+    const relatedEntitiesHtml = event.relatedEntities && event.relatedEntities.length > 0
+      ? `<p><strong>相关实体：</strong> ${event.relatedEntities.join(', ')}</p>`
+      : '';
+
+    // 格式化日期字符串
+    const startDate = formatDate(event.startDate);
+    const endDate = event.endDate ? formatDate(event.endDate) : '';
+    const dateString = endDate ? `${startDate} ~ ${endDate}` : startDate;
+
+    return {
+      type: 'slide',
+      text: {
+        headline: event.title,
+        text: `
+              <p>${event.description}</p>
+              ${dateString ? `<p>日期: ${dateString}</p>` : ''}
+              ${relatedEntitiesHtml}
+        `
+      },
+      location: {
+        lat: event.location!.lat,
+        lon: event.location!.lng,
+        zoom: 10
+      },
+      media: {
+        url: event.media?.url || '',
+        caption: event.media?.caption || '',
+        credit: event.media?.credit || ''
+      }
+    };
+  });
 });
 
 watch(validEvents, (newValidEvents) => {
