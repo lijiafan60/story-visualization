@@ -100,7 +100,7 @@
   <n-modal
     v-model:show="showModal"
     preset="card"
-    title="新建实体"
+    title="新建实例"
     :style="{ width: '460px' }"
     :mask-closable="false"
   >
@@ -114,14 +114,14 @@
       size="medium"
     >
       <n-form-item label="名称" path="name">
-        <n-input v-model:value="formModel.name" placeholder="输入实体名称">
+        <n-input v-model:value="formModel.name" placeholder="输入实例名称">
         </n-input>
       </n-form-item>
       <n-form-item label="类型" path="type">
         <n-select
           v-model:value="formModel.type"
           :options="entityTypeOptions"
-          placeholder="选择实体类型"
+          placeholder="选择实例类型"
         >
         </n-select>
       </n-form-item>
@@ -129,7 +129,7 @@
         <n-input
           v-model:value="formModel.desc"
           type="textarea"
-          placeholder="输入实体描述"
+          placeholder="输入实例描述"
           :autosize="{ minRows: 3, maxRows: 5 }"
         />
       </n-form-item>
@@ -256,12 +256,12 @@ const formModel = ref({
 const rules = {
   name: {
     required: true,
-    message: '请输入实体名称',
+    message: '请输入实例名称',
     trigger: 'blur'
   },
   type: {
     required: true,
-    message: '请选择实体类型',
+    message: '请选择实例类型',
     trigger: ['blur', 'change']
   }
 };

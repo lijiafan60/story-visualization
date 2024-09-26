@@ -69,9 +69,9 @@ function isValidEvent(event: Event): boolean {
 
 const validEvents = computed(() => {
   return events.value.filter(isValidEvent).map((event) => {
-    // 创建相关实体的HTML字符串
+    // 创建相关实例的HTML字符串
     const relatedEntitiesHtml = event.relatedEntities && event.relatedEntities.length > 0
-      ? `<p><strong>相关实体：</strong> ${event.relatedEntities.join(', ')}</p>`
+      ? `<p><strong>相关实例：</strong> ${event.relatedEntities.join(', ')}</p>`
       : '';
 
     // 格式化日期字符串

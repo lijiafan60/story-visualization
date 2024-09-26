@@ -23,7 +23,7 @@
         <n-form-item label="事件类型">
           <n-select v-model:value="form.type" :options="eventTypeOptions" />
         </n-form-item>
-        <n-form-item label="相关实体">
+        <n-form-item label="相关实例">
           <n-select
             v-model:value="form.relatedEntities"
             multiple

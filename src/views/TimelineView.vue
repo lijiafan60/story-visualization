@@ -59,9 +59,9 @@ const convertEventToTimelineFormat = (event: Event) => {
     return null;
   }
 
-  // 创建相关实体的HTML字符串
+  // 创建相关实例的HTML字符串
   const relatedEntitiesHtml = event.relatedEntities && event.relatedEntities.length > 0
-    ? `<p><strong>相关实体：</strong> ${event.relatedEntities.join(', ')}</p>`
+    ? `<p><strong>相关实例：</strong> ${event.relatedEntities.join(', ')}</p>`
     : '';
 
   return {
