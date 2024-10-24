@@ -26,12 +26,7 @@ export function formatNDate(date: NDate, separator: string = '-'): string | null
     const monthNum = parseInt(month, 10);
     if (!isNaN(monthNum) && monthNum >= 1 && monthNum <= 12) {
       parts.push(monthNum.toString().padStart(2, '0'));
-    } else {
-      parts.push('??');
     }
-  } else if (year || day) {
-    // 如果有年或日，但没有月，用 '??' 占位
-    parts.push('??');
   }
 
   if (day) {
@@ -39,12 +34,7 @@ export function formatNDate(date: NDate, separator: string = '-'): string | null
     const dayNum = parseInt(day, 10);
     if (!isNaN(dayNum) && dayNum >= 1 && dayNum <= 31) {
       parts.push(dayNum.toString().padStart(2, '0'));
-    } else {
-      parts.push('??');
     }
-  } else if (year || month) {
-    // 如果有年或月，但没有日，用 '??' 占位
-    parts.push('??');
   }
 
   // 如果没有有效部分，返回 null
