@@ -3,7 +3,6 @@
   <n-card class="entity-list-card">
     <n-tabs placement="left" type="card">
       <n-tab-pane name="ALL" tab="ALL">
-        <n-scrollbar>
           <n-space align="center" justify="start" style="padding: 8px;">
             <n-popover
               v-for="entity in props.entities"
@@ -46,10 +45,8 @@
               </template>
             </n-button>
           </n-space>
-        </n-scrollbar>
       </n-tab-pane>
       <n-tab-pane v-for="type in entityTypes" :key="type" :name="type" :tab="type">
-        <n-scrollbar>
           <n-space align="center" justify="start" style="padding: 8px;">
             <n-popover
               v-for="entity in entitiesByType[type]"
@@ -92,7 +89,6 @@
               </template>
             </n-button>
           </n-space>
-        </n-scrollbar>
       </n-tab-pane>
     </n-tabs>
   </n-card>
@@ -303,6 +299,7 @@ const createEntity = () => {
 <style scoped>
 .entity-list-card {
   height: 100%;
+  overflow-y: auto;
 }
 
 .entity-tag {
