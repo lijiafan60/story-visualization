@@ -75,7 +75,7 @@
             >
               <template #cover>
                 <n-image
-                  :src="narrative.imageUrl"
+                  :src=getImageUrl(narrative.title)
                   :alt="narrative.title"
                 />
               </template>
@@ -136,6 +136,10 @@ const narrativeOptions = computed(() =>
     value: narrative.id,
   }))
 );
+
+const getImageUrl = (name) => {
+  return `/images/${name}.png`
+};
 
 onMounted(async () => {
   await narrativesStore.fetchNarratives()
