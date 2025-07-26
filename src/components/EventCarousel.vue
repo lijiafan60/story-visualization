@@ -1,97 +1,70 @@
 <!-- src/components/EventCarousel.vue -->
 <template>
-  <div class="event-carousel" @wheel.passive="handleWheel">
-    <n-carousel
-      ref="carousel"
-      :loop="false"
-      show-arrow
-      dot-type="line"
-      :autoplay="false"
-      :slides-per-view="slidesPerView"
-      :space-between="20"
-      draggable
-    >
-      <n-carousel-item v-for="event in sortedEvents" :key="event.id">
-        <n-card
-          :title="event.title"
-          class="event-card"
-          hoverable
-          @click="selectEvent(event)"
-        >
-          <p>{{ formatNDate(event.startDate) }}</p>
-          <p class="event-description">{{ event.description }}</p>
-        </n-card>
-      </n-carousel-item>
-    </n-carousel>
+  <div class="event-carousel">
+    <n-flex>
+      <n-card
+        v-for="event in sortedEvents"
+        :key="event.id"
+        :title="event.title"
+        class="event-card"
+        hoverable
+        embedded
+        @click="selectEvent(event)"
+      >
+        <p>{{ formatNDate(event.startDate) }}</p>
+        <p class="event-description">{{ event.description }}</p>
+      </n-card>
+    </n-flex>
   </div>
 </template>
 
 <script lang="ts" setup>
-import { computed, ref, onMounted, onUnmounted } from "vue";
-import { NCard, NCarousel, NCarouselItem } from "naive-ui";
-import { Event, formatNDate, compareNDates } from '@/mock/types';
+import { computed, ref, onMounted, onUnmounted } from 'vue'
+import { Event, formatNDate, compareNDates } from '@/mock/types'
 
 const props = defineProps<{
-  events: Event[];
-}>();
+  events: Event[]
+}>()
 
 const emit = defineEmits<{
-  (e: "select-event", event: Event): void;
-}>();
+  (e: 'select-event', event: Event): void
+}>()
 
-const carousel = ref(null);
-const windowWidth = ref(window.innerWidth);
-
-const CARD_WIDTH = 250; // Width of each card in pixels
-const CARD_MARGIN = 20; // Space between cards in pixels
-
-const slidesPerView = computed(() => {
-  const availableWidth = windowWidth.value - 40; // Subtracting 40px for container padding
-  return Math.max(1, Math.floor(availableWidth / (CARD_WIDTH + CARD_MARGIN)));
-});
+const windowWidth = ref(window.innerWidth)
 
 const sortedEvents = computed(() =>
   [...props.events].sort((a, b) => compareNDates(a.startDate, b.startDate))
-);
+)
 
 const selectEvent = (event: Event) => {
-  emit("select-event", event);
-};
-
-const handleWheel = (e: WheelEvent) => {
-  if (carousel.value) {
-    if (e.deltaY > 0) {
-      carousel.value.next();
-    } else {
-      carousel.value.prev();
-    }
-  }
-};
+  emit('select-event', event)
+}
 
 const handleResize = () => {
-  windowWidth.value = window.innerWidth;
-};
+  windowWidth.value = window.innerWidth
+}
 
 onMounted(() => {
-  window.addEventListener("resize", handleResize);
-});
+  window.addEventListener('resize', handleResize)
+})
 
 onUnmounted(() => {
-  window.removeEventListener("resize", handleResize);
-});
+  window.removeEventListener('resize', handleResize)
+})
 </script>
 
 <style scoped>
 .event-carousel {
+  margin: 20px;
   height: 100%;
+  overflow: auto;
 }
 
 .event-card {
   width: 250px; /* Fixed width for all cards */
   height: 200px; /* Fixed height for all cards */
-  display: flex;
-  flex-direction: column;
   cursor: pointer;
+  border-radius: 10px 20px;
 }
 
 .event-card img {
