@@ -94,21 +94,13 @@ export enum EntityTypesEnum {
 export const entityTypes: EntityTypesEnum[] = Object.values(EntityTypesEnum);
 
 export enum EventTypesEnum {
-  Battle = "BATTLE",
-  Rebellion = "REBELLION",
-  Meeting = "MEETING",
-  Strike = "STRIKE",
-  Campaign = "CAMPAIGN",
-  Establish = "ESTABLISH",
-  BaseConstruct = "BASE_CONSTRUCT",
-  Issue = "ISSUE",
-  TreatySign = "TREATY_SIGN",
-  Invade = "INVADE",
-  Appointment = "APPOINTMENT",
-  Movement = "MOVEMENT",
-  Background = "BACKGROUND",
-  Command = "COMMAND",
-  Others = "OTHERS"
+  Connect = "社交",
+  Life = "人生",
+  Work = "作品",
+  Movement = "迁移",
+  Activity = "文娱活动",
+  Political = "政治事件",
+  Rebellion = "反叛"
 }
 
 export const eventTypes: EventTypesEnum[] = Object.values(EventTypesEnum);
@@ -136,7 +128,7 @@ export interface Media {
 export interface Event {  
     id: string;  
     title: string;
-    type: string;
+    type: EventTypesEnum;
     startDate: NDate;
     endDate: NDate;
     location: Location;
