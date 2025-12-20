@@ -9370,7 +9370,7 @@ export const mockNarratives: Narrative[] = [
           '鲁迅赴良友图书印刷公司访赵家璧，交所编《中国新文学大系•小说二集》稿，并接受赵所赠《今日欧美小说之动向》一本，同时还将事先写好的信交给他。信中说：“小说的末一本，也已校完了，今呈上，并目录一份。”信中还说：“向培良的《我离开十字街头》，是他那时的代表作，应该选入。但这一篇是单行本（光华书局出版），不知会不会发生版权问题。所以现在不订在一起，请先生酌定，因为我对于出版法之类，实在不了然。”赵家璧回忆说：“选材中值得一提的是对于向培良的作品。向培良是鲁迅领导的《莽原》的撰稿人。鲁迅对这个文学青年一直热情帮助，谆谆指导。他的第一个短篇集《飘渺的梦》就是由鲁迅编选列入《乌合丛书》，与《呐喊》、《彷徨》同时出版的。到1926年鲁迅离京赴厦门后，向就与高长虹结成一伙，到上海成立‘狂飙社’，写文章谩骂鲁迅，后来更走上堕落的道路。但鲁迅在选编本书时，对于向培良在文学创作上前期的某些作品，还是加以肯定。……后来《我离开十字街头》确因版权问题不能收入，但鲁迅在导言中还是从本书里摘录了一大段引文，并对作者早年创作的几个短篇下了实事求是的评价。……向培良名下入选三篇，两篇选自《飘渺的梦》，一篇选入自《莽原》。对于‘狂飙社’另一个成员尚钺，本书中同样入选他的两个短篇。”回忆还说：“那天双手捧到选稿时，心中不知应当说怎样感谢的话才能表达我当时的真情实感。在他殷切地询问《大系》其他各卷的进程后，忽然从他的口袋里摸出一封信交给我。他说：‘怕见不到你，所以写了这封信准备留交，你慢慢看吧。’其实他既写了信，完全可以邮寄；就是为了郑重起见，还是亲自送来。如今回忆，百感交集。”（赵家璧：《回忆鲁迅编选<中国新文学大系•小说二集>》，见《鲁迅回忆录》二集）',
         startDate: { year: '1935', month: '02', day: '28' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '良友图书印刷公司', lat: 31.25, lng: 121.49 },
+        location: { name: '良友图书印刷公司', lat: 31.27, lng: 121.49},
         media: '',
         relatedEntities: ['鲁迅', '赵家璧']
       },
@@ -9490,7 +9490,7 @@ export const mockNarratives: Narrative[] = [
           '鲁迅晚同许广平往全家福赴李小峰、蔡漱六夫妇邀宴，同席还有周建人、郁达夫、王映霞、潘梓年、许钦文、孙伏园、孙福熙等7人。',
         startDate: { year: '1927', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '全家福', lat: 31.24, lng: 121.48 },
+        location: {  },
         media: '',
         relatedEntities: ['鲁迅', '周建人']
       },
@@ -9514,7 +9514,7 @@ export const mockNarratives: Narrative[] = [
           '鲁迅晚同许广平往全家福赴李小峰、蔡漱六夫妇邀宴，同席还有周建人、郁达夫、王映霞、潘梓年、许钦文、孙伏园、孙福熙等7人。',
         startDate: { year: '1927', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '全家福', lat: 31.24, lng: 121.48 },
+        location: { name: '全家福', lat: 31.21, lng: 121.44 },
         media: '',
         relatedEntities: ['鲁迅', '王映霞']
       },
@@ -9526,7 +9526,7 @@ export const mockNarratives: Narrative[] = [
           '鲁迅晚同许广平往全家福赴李小峰、蔡漱六夫妇邀宴，同席还有周建人、郁达夫、王映霞、潘梓年、许钦文、孙伏园、孙福熙等7人。',
         startDate: { year: '1927', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '全家福', lat: 31.24, lng: 121.48 },
+        location: { name: '全家福', lat: 31.21, lng: 121.44 },
         media: '',
         relatedEntities: ['鲁迅', '潘梓年']
       },
@@ -9538,7 +9538,7 @@ export const mockNarratives: Narrative[] = [
           '鲁迅晚同许广平往全家福赴李小峰、蔡漱六夫妇邀宴，同席还有周建人、郁达夫、王映霞、潘梓年、许钦文、孙伏园、孙福熙等7人。',
         startDate: { year: '1927', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '全家福', lat: 31.24, lng: 121.48 },
+        location: { name: '全家福', lat: 31.21, lng: 121.44 },
         media: '',
         relatedEntities: ['鲁迅', '许钦文']
       },
@@ -9550,7 +9550,7 @@ export const mockNarratives: Narrative[] = [
           '鲁迅晚同许广平往全家福赴李小峰、蔡漱六夫妇邀宴，同席还有周建人、郁达夫、王映霞、潘梓年、许钦文、孙伏园、孙福熙等7人。',
         startDate: { year: '1927', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '全家福', lat: 31.24, lng: 121.48 },
+        location: { name: '全家福', lat: 31.21, lng: 121.44 },
         media: '',
         relatedEntities: ['鲁迅', '孙伏园']
       },
@@ -9562,7 +9562,7 @@ export const mockNarratives: Narrative[] = [
           '鲁迅晚同许广平往全家福赴李小峰、蔡漱六夫妇邀宴，同席还有周建人、郁达夫、王映霞、潘梓年、许钦文、孙伏园、孙福熙等7人。',
         startDate: { year: '1927', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '全家福', lat: 31.24, lng: 121.48 },
+        location: { name: '全家福', lat: 31.21, lng: 121.44 },
         media: '',
         relatedEntities: ['鲁迅', '孙福熙']
       },
@@ -9574,7 +9574,7 @@ export const mockNarratives: Narrative[] = [
           '鲁迅晚同许广平往全家福赴李小峰、蔡漱六夫妇邀宴，同席还有周建人、郁达夫、王映霞、潘梓年、许钦文、孙伏园、孙福熙等7人。',
         startDate: { year: '1927', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '全家福', lat: 31.24, lng: 121.48 },
+        location: { name: '全家福', lat: 31.21, lng: 121.44 },
         media: '',
         relatedEntities: ['鲁迅', '许广平']
       },
@@ -9585,7 +9585,7 @@ export const mockNarratives: Narrative[] = [
         description: '下午同许广平前往北新书局访李小峰、蔡漱六，并邀三弟周建人同至陶乐春晚饭。',
         startDate: { year: '1927', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '北新书局', lat: 31.24, lng: 121.49 },
+        location: { name: '北新书局', lat: 31.21, lng: 121.44 },
         media: '',
         relatedEntities: ['鲁迅', '李小峰']
       },
@@ -9596,7 +9596,7 @@ export const mockNarratives: Narrative[] = [
         description: '下午同许广平前往北新书局访李小峰、蔡漱六，并邀三弟周建人同至陶乐春晚饭。',
         startDate: { year: '1927', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '北新书局', lat: 31.24, lng: 121.49 },
+        location: { name: '北新书局', lat: 31.21, lng: 121.44 },
         media: '',
         relatedEntities: ['鲁迅', '蔡漱六']
       },
@@ -10008,7 +10008,7 @@ export const mockNarratives: Narrative[] = [
         description: '鲁迅陪同柔石往北新书局访李小峰。后又至商务印书馆看书。',
         startDate: { year: '1928', month: '11', day: '27' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '北新书局', lat: 31.24, lng: 121.49 },
+        location: { name: '北新书局', lat: 31.21, lng: 121.44 },
         media: '',
         relatedEntities: ['鲁迅', '李小峰']
       },
@@ -10019,7 +10019,7 @@ export const mockNarratives: Narrative[] = [
         description: '鲁迅陪同柔石往北新书局访李小峰。后又至商务印书馆看书。',
         startDate: { year: '1928', month: '11', day: '27' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '北新书局', lat: 31.24, lng: 121.49 },
+        location: { name: '北新书局', lat: 31.21, lng: 121.44},
         media: '',
         relatedEntities: ['柔石', '李小峰']
       },
@@ -10127,7 +10127,7 @@ export const mockNarratives: Narrative[] = [
           '饭后归途中在北新书局门市部取书刊数种。晚间，林语堂、孙伏园、孙福熙来访，谈至夜分。',
         startDate: { year: '1927', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '爱多亚路长耕里（今延安东路158弄）的共和旅馆', lat: 31.24, lng: 121.5 },
+        location: { name: '爱多亚路长耕里（今延安东路158弄）的共和旅馆', lat: 31.23, lng: 121.49},
         media: '',
         relatedEntities: ['林语堂', '鲁迅']
       },
@@ -10139,7 +10139,7 @@ export const mockNarratives: Narrative[] = [
           '饭后归途中在北新书局门市部取书刊数种。晚间，林语堂、孙伏园、孙福熙来访，谈至夜分。',
         startDate: { year: '1927', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '爱多亚路长耕里（今延安东路158弄）的共和旅馆', lat: 31.24, lng: 121.5 },
+        location: { name: '爱多亚路长耕里（今延安东路158弄）的共和旅馆', lat: 31.23, lng: 121.48 },
         media: '',
         relatedEntities: ['孙伏园', '鲁迅']
       },
@@ -10151,7 +10151,7 @@ export const mockNarratives: Narrative[] = [
           '饭后归途中在北新书局门市部取书刊数种。晚间，林语堂、孙伏园、孙福熙来访，谈至夜分。',
         startDate: { year: '1927', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '爱多亚路长耕里（今延安东路158弄）的共和旅馆', lat: 31.24, lng: 121.5 },
+        location: { name: '爱多亚路长耕里（今延安东路158弄）的共和旅馆', lat: 31.23, lng: 121.49},
         media: '',
         relatedEntities: ['孙福熙', '鲁迅']
       },
@@ -10418,7 +10418,7 @@ export const mockNarratives: Narrative[] = [
         description: '五月十三日至德国领事馆为“法西斯蒂”暴行递抗议书。',
         startDate: { year: '1933', month: '05', day: '13' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '德国领事馆', lat: 31.25, lng: 121.5 },
+        location: {  },
         media: '',
         relatedEntities: ['鲁迅', '“法西斯蒂”暴行']
       },
@@ -10704,30 +10704,7 @@ export const mockNarratives: Narrative[] = [
         media: '',
         relatedEntities: ['许广平', '宇留川潘个人绘画展览会']
       },
-      {
-        id: '129',
-        title: '鲁迅参观德国S.SEKIR小画展览会',
-        type: '',
-        description:
-          '鲁迅与许广平等往外滩参观德国S.SEKIR小画展览会。展览会展出作品200余幅，鲁迅选购其中4幅，准备在编印《奔流》成用作插图。鲁迅迁居上海后，为了提倡木刻版画和编印书刊，还不断购买了许多插图本书籍。',
-        startDate: { year: '1928', month: '03', day: '22' },
-        endDate: { year: '', month: '', day: '' },
-        location: { name: '外滩', lat: 31.24, lng: 121.5 },
-        media: '',
-        relatedEntities: ['鲁迅', '德国S.SEKIR小画展览会']
-      },
-      {
-        id: '130',
-        title: '许广平参观德国S.SEKIR小画展览会',
-        type: '',
-        description:
-          '鲁迅与许广平等往外滩参观德国S.SEKIR小画展览会。展览会展出作品200余幅，鲁迅选购其中4幅，准备在编印《奔流》成用作插图。鲁迅迁居上海后，为了提倡木刻版画和编印书刊，还不断购买了许多插图本书籍。',
-        startDate: { year: '1928', month: '03', day: '22' },
-        endDate: { year: '', month: '', day: '' },
-        location: { name: '外滩', lat: 31.24, lng: 121.5 },
-        media: '',
-        relatedEntities: ['许广平', '德国S.SEKIR小画展览会']
-      },
+
       {
         id: '131',
         title: '鲁迅参观乔小画室春季展览会',
@@ -10956,7 +10933,7 @@ export const mockNarratives: Narrative[] = [
           '鲁迅托黄源以二百元从现代书局赎回瞿秋白译稿两部。过去现代书局曾向鲁迅约过稿，鲁迅便于1933年8月及11月间向现代书局推荐与洽商瞿秋白的译作《高尔基论文集》和《现实——马克思主义论文集》两部译稿。但被“第三种人”把持的现代书局扣压了几年，鲁迅虽曾数次催促，都未得到答复。本年6月下旬，鲁迅知道瞿秋白被杀害的消息后，便决定将瞿秋白的遗作从现代书局赎回，准备整理出版',
         startDate: { year: '1935', month: '08', day: '12' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '现代书局', lat: 31.24, lng: 121.49 },
+        location: { name: '现代书局', lat: 31.24, lng: 121.48 },
         media: '',
         relatedEntities: ['鲁迅', '瞿秋白译稿两部']
       },
@@ -11202,7 +11179,7 @@ export const mockNarratives: Narrative[] = [
           '国民党特务追踪搜捕鲁迅，鲁迅被迫第二次离寓避难，至2月28日回寓。（避难于日本人所经营的花园庄）',
         startDate: { year: '1931', month: '01', day: '20' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '日本人所经营的花园庄', lat: 31.24, lng: 121.49 },
+        location: { name: '日本人所经营的花园庄', lat: 31.23, lng: 121.47 },
         media: '',
         relatedEntities: ['鲁迅']
       },
@@ -11226,7 +11203,7 @@ export const mockNarratives: Narrative[] = [
           '鲁迅午后同许广平抵上海，暂寓爱多亚路长耕里（今延安东路158弄）的共和旅馆。从此定居上海，开始了新的战斗生活。',
         startDate: { year: '1927', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '爱多亚路长耕里（今延安东路158弄）的共和旅馆', lat: 31.24, lng: 121.5 },
+        location: { name: '爱多亚路长耕里（今延安东路158弄）的共和旅馆', lat: 31.23, lng: 121.47 },
         media: '',
         relatedEntities: ['鲁迅']
       },
@@ -12694,7 +12671,7 @@ export const mockNarratives: Narrative[] = [
           '鲁迅午后同许广平抵上海，暂寓爱多亚路长耕里（今延安东路158弄）的共和旅馆。从此定居上海，开始了新的战斗生活。',
         startDate: { year: '1927', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '爱多亚路长耕里（今延安东路158弄）的共和旅馆', lat: 31.24, lng: 121.5 },
+        location: { name: '爱多亚路长耕里（今延安东路158弄）的共和旅馆', lat: 31.23, lng: 121.48 },
         media: '',
         relatedEntities: ['鲁迅']
       },
@@ -12964,7 +12941,7 @@ export const mockNarratives: Narrative[] = [
         description: '鲁迅陪同柔石往北新书局访李小峰。后又至商务印书馆看书。',
         startDate: { year: '1928', month: '11', day: '27' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '北新书局', lat: 31.24, lng: 121.49 },
+        location: { name: '北新书局', lat: 31.21, lng: 121.44 },
         media: '',
         relatedEntities: ['鲁迅', '李小峰']
       },
@@ -12975,7 +12952,7 @@ export const mockNarratives: Narrative[] = [
         description: '鲁迅陪同柔石往北新书局访李小峰。后又至商务印书馆看书。',
         startDate: { year: '1928', month: '11', day: '27' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '北新书局', lat: 31.24, lng: 121.49 },
+        location: { name: '北新书局', lat: 31.21, lng: 121.44 },
         media: '',
         relatedEntities: ['柔石', '李小峰']
       },
@@ -13023,7 +13000,7 @@ export const mockNarratives: Narrative[] = [
           '饭后归途中在北新书局门市部取书刊数种。晚间，林语堂、孙伏园、孙福熙来访，谈至夜分。',
         startDate: { year: '1927', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '爱多亚路长耕里（今延安东路158弄）的共和旅馆', lat: 31.24, lng: 121.5 },
+        location: {  },
         media: '',
         relatedEntities: ['林语堂', '鲁迅']
       },
@@ -13035,7 +13012,7 @@ export const mockNarratives: Narrative[] = [
           '饭后归途中在北新书局门市部取书刊数种。晚间，林语堂、孙伏园、孙福熙来访，谈至夜分。',
         startDate: { year: '1927', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '爱多亚路长耕里（今延安东路158弄）的共和旅馆', lat: 31.24, lng: 121.5 },
+        location: {  },
         media: '',
         relatedEntities: ['孙伏园', '鲁迅']
       },
@@ -13047,7 +13024,7 @@ export const mockNarratives: Narrative[] = [
           '饭后归途中在北新书局门市部取书刊数种。晚间，林语堂、孙伏园、孙福熙来访，谈至夜分。',
         startDate: { year: '1927', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '爱多亚路长耕里（今延安东路158弄）的共和旅馆', lat: 31.24, lng: 121.5 },
+        location: { name: '爱多亚路长耕里（今延安东路158弄）的共和旅馆', lat: 31.23, lng: 121.49},
         media: '',
         relatedEntities: ['孙福熙', '鲁迅']
       },
