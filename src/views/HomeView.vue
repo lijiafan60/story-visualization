@@ -17,12 +17,19 @@
         <n-gi>
           <n-card hoverable class="action-card">
             <n-space vertical align="center">
-              <n-icon size="40" color="#18A058">
-              </n-icon>
+              <n-icon size="40" color="#18A058"/>
               <n-h3>开始新项目</n-h3>
               <n-p style="text-align: center">
                 从头开始创建新的故事地图。在这里开启您的叙事之旅。
               </n-p>
+              <n-space align="center">
+                <n-select
+                  :options="options123"
+                  placeholder="不限"
+                  style="width: 100px"
+                />
+                <n-input placeholder="请输入关键词"></n-input>
+              </n-space>
               <n-button type="primary" size="large" @click="startNewProject">
                 创建项目
               </n-button>
@@ -115,6 +122,37 @@ const { narratives } = storeToRefs(narrativesStore)
 
 const selectedNarrativeId = ref<string | null>(null);
 
+const options123 = [
+  {
+    label: '不限',
+    value: 'none',
+  },
+  {
+    label: '人物',
+    value: 'people',
+  },
+
+  {
+    label: '组织',
+    value: 'org',
+  },
+  {
+    label: '事件',
+    value: 'eve',
+  },
+  {
+    label: '文献资源',
+    value: 'doc',
+  },
+  {
+    label: '时间',
+    value: 'time'
+  },
+  {
+    label: '地点',
+    value: 'locate'
+  }
+]
 const startNewProject = () => {
   console.log("Starting new project");
   // Here you might want to call a store action to create a new narrative

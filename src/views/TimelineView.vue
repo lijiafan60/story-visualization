@@ -3,16 +3,22 @@
   <n-layout position="absolute">
     <n-layout-header bordered class="header">
       <n-flex justify="space-between">
-        <n-button @click="goToNarrative(narrativeId)">返回</n-button>
+        <n-button round @click="goToNarrative(narrativeId)">返回</n-button>
         <n-h2 style="margin: 0">{{title}} -- 时间线</n-h2>
-        <n-button @click="goToStoryMap(narrativeId)">地图可视化</n-button>
+        <n-space>
+          <n-button @click="activeToKnowledge()" secondary round>知识图谱</n-button>
+          <n-button @click="goToStoryMap(narrativeId)" secondary round>地图可视化</n-button>
+        </n-space>
       </n-flex>
     </n-layout-header>
-    <n-layout-content class="content">
+    <n-layout-content class="content" id="drawer-target">
       <div id="timeline-embed"></div>
     </n-layout-content>
   </n-layout>
   <n-modal v-model:show="showNoDataModal" preset="dialog" title="提示" content="没有符合条件的数据可以展示" positive-text="确定" @positive-click="handleNoDataConfirm" />
+  <n-drawer v-model:show="active" :width="600" :placement="right" to="#drawer-target">
+    <n-drawer-content title="知识图谱"/>
+  </n-drawer>
 </template>
 
 <script lang="ts" setup>
@@ -114,6 +120,11 @@ const handleNoDataConfirm = () => {
   showNoDataModal.value = false;
   goToNarrative(narrativeId.value);
 };
+
+const active = ref(false)
+const activeToKnowledge = () => {
+  active.value = true
+}
 
 onMounted(async () => {
   await narrativesStore.fetchNarratives();

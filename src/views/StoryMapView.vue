@@ -5,14 +5,21 @@
       <n-flex justify="space-between">
         <n-button @click="goToNarrative(narrativeId)">返回</n-button>
         <n-h2 style="margin: 0">{{title}} - 故事地图</n-h2>
-        <n-button @click="goToTimeline(narrativeId)">时间线可视化</n-button>
+        <n-space>
+
+        <n-button @click="activeToKnowledge()" secondary round>知识图谱</n-button>
+        <n-button @click="goToTimeline(narrativeId)" secondary round>时间线可视化</n-button>
+        </n-space>
       </n-flex>
     </n-layout-header>
-    <n-layout-content class="content">
+    <n-layout-content class="content" id="drawer-target">
       <div id="map" ref="mapDiv"></div>
     </n-layout-content>
   </n-layout>
   <n-modal v-model:show="showNoDataModal" preset="dialog" title="提示" content="没有符合条件的数据可以展示" positive-text="确定" @positive-click="handleNoDataConfirm" />
+  <n-drawer v-model:show="active" :width="600" :placement="right" to="#drawer-target">
+    <n-drawer-content title="知识图谱"/>
+  </n-drawer>
 </template>
 
 <script lang="ts" setup>
@@ -131,6 +138,10 @@ onMounted(async () => {
   }
 });
 
+const active = ref(false)
+const activeToKnowledge = () => {
+  active.value = true
+}
 
 function initStoryMap() {
   if (!mapDiv.value || validEvents.value.length === 0) return;
