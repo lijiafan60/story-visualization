@@ -99,6 +99,8 @@ export enum EventTypesEnum {
   Heath = "健康",
   Creat = "作品创作",
   Work = "作品",
+  Counterwork = "对抗",
+  Judicial = "司法",
   Movement = "迁移",
   Activity = "文娱活动",
   Political = "政治事件",
