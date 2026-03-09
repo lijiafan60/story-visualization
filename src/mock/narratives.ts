@@ -10824,14 +10824,15 @@ export const mockNarratives: Narrative[] = [
       },
       {
         id: '141',
-        title: '鲁迅演讲内容《绘画杂论》',
+        title: '鲁迅演讲内容《离骚与反离骚》',
         type: EventTypesEnum.Speech,
-        description: '鲁迅应邀到中华艺术大学作题为《绘画杂论》的演讲。',
-        startDate: { year: '1930', month: '02', day: '21' },
+        description:
+          '鲁迅应上海暨南大学学生周正扶（当时是暨南大学历史社会学系一年级学生，为该校“坚冰社”的主要成员该社以研究社会科学为宗旨）等邀请，前往该校演讲，题为《离骚与反离骚》。记录稿载1930年1月18日《暨南校刊》第28、29、30、31、32期合刊。署周鲁迅演讲，郭博如（策）记。曾否经本人审定，不详。未收集。',
+        startDate: { year: '1929', month: '12', day: '04' },
         endDate: { year: '', month: '', day: '' },
-        location: { name: '中华艺术大学', lat: 31.27, lng: 121.49 },
+        location: { name: '暨南大学', lat: 31.27, lng: 121.41 },
         media: '',
-        relatedEntities: ['鲁迅', '《绘画杂论》']
+        relatedEntities: ['鲁迅', '《离骚与反离骚》']
       },
       {
         id: '142',
