@@ -113,8 +113,12 @@ export const useNarrativesStore = defineStore('narratives', {
       this.narratives = mockNarratives
     }
   },
-  persist: {
-    key: 'narratives-store',
-    storage: localStorage,
-  },
+  // 开发时关闭持久化：否则会一直从 localStorage 恢复旧 narratives，
+  // fetchNarratives 又因 length > 0 跳过拉取，改 mock 文件后刷新也不生效。
+  persist: import.meta.env.PROD
+    ? {
+        key: 'narratives-store',
+        storage: localStorage,
+      }
+    : false,
 })
