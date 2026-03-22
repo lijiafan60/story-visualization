@@ -121,9 +121,9 @@ def generate_narrative(file):
                     }
                 else:
                     event["location"] = {"name": location_name, "lat": 0, "lng": 0}
-
             # 处理描述
-            event["description"] = str(row['原文']) if pd.notna(row['原文']) else ""
+            # 原文太长了
+            # event["description"] = str(row['原文']) if pd.notna(row['原文']) else ""
 
             events.append(event)
 
@@ -164,12 +164,12 @@ def python_to_ts(data):
         return json.dumps(str(data), ensure_ascii=False)
 
 # 生成叙事数据
-excel_file = "./src/tool/事件与逮捕时间地点汇总.xlsx"
+excel_file = "./src/tool/事件与逮捕时间地点汇总_del_地点.xlsx"
 # 目前从一个 Excel 构造一个叙事对象，这里统一包装成数组，符合 Narrative[] 类型
 narratives_data = [generate_narrative(excel_file)]
 
 # 将输出写入文件
-with open("./src/tool/out_sjydbsjddhz.ts", "w", encoding="utf-8") as f:
+with open("./src/tool/out_sjydbsjddhz_地点.ts", "w", encoding="utf-8") as f:
     # 写入 TypeScript 头部
     f.write('import { Narrative, EntityTypesEnum, EventTypesEnum } from "@/mock/types";\n\n')
     f.write('export const mockNarratives: Narrative[] = ')
