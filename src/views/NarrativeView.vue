@@ -6,7 +6,7 @@
         <n-button @click="goToHome" secondary round>主页</n-button>
         <n-h2 style="margin: 0">{{ title }}</n-h2>
         <n-flex>
-          <n-button @click="activeToKnowledge()" secondary round>知识图谱</n-button>
+          <n-button @click="activeToKnowledge()" secondary round>关系网络</n-button>
           <n-button @click="goToTimeline(narrativeId)" secondary round>叙事时间线</n-button>
           <n-button @click="goToStoryMap(narrativeId)" secondary round>叙事地图</n-button>
         </n-flex>
@@ -33,15 +33,15 @@
     </n-layout-content>
   </n-layout>
 
-  <n-drawer v-model:show="active" :width="600" :placement="right" to="#drawer-target">
-    <n-drawer-content title="知识图谱"/>
+  <n-drawer v-model:show="active" :width="600" placement="right" to="#drawer-target">
+    <n-drawer-content title="关系网络"/>
   </n-drawer>
 </template>
 
 <script lang="ts" setup>
 import { ref, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
-import { Event } from '@/mock/types'
+import { Event, type Entity } from '@/mock/types'
 import { useNavigation } from '@/router/useNavigation'
 import EntityList from '@/components/EntityList.vue'
 import EventForm from '@/components/EventForm.vue'
@@ -83,10 +83,6 @@ const clearForm = () => {
 const saveEntity = async (entity: Entity) => {
   if (narrative.value) {
     await narrativesStore.saveEntityToNarrative(narrativeId.value, entity)
-    // 更新本地 entities 数组
-    if (!entities.value.find((e) => e.id === entity.id)) {
-      entities.value.push(entity)
-    }
   }
 }
 
@@ -96,7 +92,7 @@ const activeToKnowledge = () => {
 }
 
 onMounted(async () => {
-  await narrativesStore.fetchNarratives(narrativeId.value)
+  await narrativesStore.fetchNarratives()
 })
 </script>
 

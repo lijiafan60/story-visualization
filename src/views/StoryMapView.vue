@@ -3,7 +3,7 @@
   <n-layout position="absolute">
     <n-layout-header bordered class="header">
       <n-flex justify="space-between">
-        <n-button @click="goToNarrative(narrativeId)">返回</n-button>
+        <n-button @click="goToNarrative(narrativeId)" secondary round>返回</n-button>
         <n-h2 style="margin: 0">{{title}} - 故事地图</n-h2>
         <n-space>
           <n-button @click="goToTimeline(narrativeId)" secondary round>故事描述</n-button>
@@ -17,8 +17,8 @@
     </n-layout-content>
   </n-layout>
   <n-modal v-model:show="showNoDataModal" preset="dialog" title="提示" content="没有符合条件的数据可以展示" positive-text="确定" @positive-click="handleNoDataConfirm" />
-  <n-drawer v-model:show="active" :width="600" :placement="right" to="#drawer-target">
-    <n-drawer-content title="知识图谱"/>
+  <n-drawer v-model:show="active" :width="600" placement="right" to="#drawer-target">
+    <n-drawer-content title="关系网络"/>
   </n-drawer>
 </template>
 

@@ -81,8 +81,8 @@ def generate_narrative(file):
                 "description": "",
                 "startDate": {"year": "", "month": "", "day": ""},
                 "endDate": {"year": "", "month": "", "day": ""},
-                "location": "",
-                "media": "",
+                "location": { "name": '', "lat": 0, "lng": 0 },
+                "media": {"url": "", "caption": "", "credit": ""},
                 "relatedEntities": []
             }
 

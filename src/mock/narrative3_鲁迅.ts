@@ -14,7 +14,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '女子师范大学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '易培基']
       },
       {
@@ -25,7 +25,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '中央公园', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '齐宗颐']
       },
       {
@@ -36,7 +36,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '景云里二十三号', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许广平']
       },
       {
@@ -47,7 +47,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '景云里二十三号', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许广平']
       },
       {
@@ -58,7 +58,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['蔡元培', '鲁迅']
       },
       {
@@ -69,7 +69,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '09', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '海婴']
       },
       {
@@ -80,7 +80,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '10', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '海婴']
       },
       {
@@ -91,7 +91,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '增田涉']
       },
       {
@@ -102,7 +102,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '01', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '“民权保障同盟会”执行委员']
       },
       {
@@ -113,7 +113,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '02', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '宋庆龄宅', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '肖伯纳']
       },
       {
@@ -125,7 +125,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杨铨']
       },
       {
@@ -136,7 +136,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '鹿地亘']
       },
       {
@@ -147,7 +147,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '内山完造']
       },
       {
@@ -159,7 +159,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '鲁迅母亲']
       },
       {
@@ -171,7 +171,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '鲁迅母亲']
       },
       {
@@ -183,7 +183,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '“左联”执委会执行委员']
       },
       {
@@ -195,7 +195,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['茅盾', '“左联”执委会执行委员']
       },
       {
@@ -207,7 +207,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['周扬', '“左联”执委会执行委员']
       },
       {
@@ -219,7 +219,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['周文', '“左联”执委会执行委员']
       },
       {
@@ -231,7 +231,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['胡风', '“左联”执委会执行委员']
       },
       {
@@ -243,7 +243,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['沙汀', '“左联”执委会执行委员']
       },
       {
@@ -255,7 +255,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['艾芜', '“左联”执委会执行委员']
       },
       {
@@ -267,7 +267,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['任白戈', '“左联”执委会执行委员']
       },
       {
@@ -279,7 +279,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许遐']
       },
       {
@@ -291,7 +291,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茹纯']
       },
       {
@@ -303,7 +303,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '邓当世']
       },
       {
@@ -315,7 +315,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '乐雯']
       },
       {
@@ -327,7 +327,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '张禄如']
       },
       {
@@ -339,7 +339,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '01', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '陈学昭']
       },
       {
@@ -351,7 +351,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '08', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['廖立峨', '鲁迅']
       },
       {
@@ -363,7 +363,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '04', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '陈烟桥']
       },
       {
@@ -375,7 +375,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '06', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杨铨']
       },
       {
@@ -387,7 +387,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '05', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '国民政府']
       },
       {
@@ -399,7 +399,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '12', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '周扬']
       },
       {
@@ -411,7 +411,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '上海北四川路公啡咖啡馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '沈端先']
       },
       {
@@ -423,7 +423,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '上海北四川路公啡咖啡馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '柔石']
       },
       {
@@ -435,7 +435,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '上海北四川路公啡咖啡馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '冯乃超']
       },
       {
@@ -447,7 +447,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '上海北四川路公啡咖啡馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '冯雪峰']
       },
       {
@@ -459,7 +459,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '上海北四川路公啡咖啡馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '柔石']
       },
       {
@@ -471,7 +471,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '横光利一']
       },
       {
@@ -483,7 +483,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '司徒乔']
       },
       {
@@ -495,7 +495,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李霁野']
       },
       {
@@ -507,7 +507,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '蔡元培']
       },
       {
@@ -519,7 +519,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '宋庆龄']
       },
       {
@@ -531,7 +531,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '江丰生']
       },
       {
@@ -543,7 +543,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茅盾']
       },
       {
@@ -555,7 +555,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄源']
       },
       {
@@ -567,7 +567,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黎烈文']
       },
       {
@@ -578,7 +578,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '夏衍']
       },
       {
@@ -590,7 +590,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郁达夫']
       },
       {
@@ -602,7 +602,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '胡愈之']
       },
       {
@@ -614,7 +614,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许寿裳']
       },
       {
@@ -626,7 +626,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '晓角']
       },
       {
@@ -638,7 +638,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '晓角']
       },
       {
@@ -650,7 +650,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '08', day: '31' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '武者小路实笃']
       },
       {
@@ -662,7 +662,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '08', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杨霁云']
       },
       {
@@ -674,7 +674,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '08', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -686,7 +686,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '晓角']
       },
       {
@@ -698,7 +698,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '晓角']
       },
       {
@@ -710,7 +710,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '08', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '欧阳山']
       },
       {
@@ -722,7 +722,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '08', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '王正朔']
       },
       {
@@ -734,7 +734,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '08', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茅盾']
       },
       {
@@ -746,7 +746,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹白']
       },
       {
@@ -758,7 +758,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赵家璧']
       },
       {
@@ -770,7 +770,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '时玳']
       },
       {
@@ -782,7 +782,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹白']
       },
       {
@@ -794,7 +794,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '徐懋庸']
       },
       {
@@ -806,7 +806,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茅盾']
       },
       {
@@ -818,7 +818,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '须藤五百三病']
       },
       {
@@ -830,7 +830,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '普实克']
       },
       {
@@ -842,7 +842,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '雅罗斯拉夫•普实克']
       },
       {
@@ -854,7 +854,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '姚克']
       },
       {
@@ -866,7 +866,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '颜黎民']
       },
       {
@@ -878,7 +878,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['史济行', '齐涵之']
       },
       {
@@ -890,7 +890,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '史济行']
       },
       {
@@ -902,7 +902,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '03', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '汪金门']
       },
       {
@@ -914,7 +914,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -926,7 +926,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '徐懋庸']
       },
       {
@@ -938,7 +938,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹聚仁']
       },
       {
@@ -950,7 +950,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '夏传经']
       },
       {
@@ -962,7 +962,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '阮善先']
       },
       {
@@ -974,7 +974,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茅盾']
       },
       {
@@ -986,7 +986,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '陈蜕']
       },
       {
@@ -998,7 +998,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['陈蜕', '邹鲁风']
       },
       {
@@ -1010,7 +1010,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄苹荪']
       },
       {
@@ -1022,7 +1022,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -1034,7 +1034,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '01', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '陈蜕']
       },
       {
@@ -1045,7 +1045,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茅盾']
       },
       {
@@ -1057,7 +1057,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李小峰']
       },
       {
@@ -1069,7 +1069,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '叶紫']
       },
       {
@@ -1081,7 +1081,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '台静农']
       },
       {
@@ -1093,7 +1093,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赵家璧']
       },
       {
@@ -1104,7 +1104,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茅盾']
       },
       {
@@ -1116,7 +1116,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杨霁云']
       },
       {
@@ -1128,7 +1128,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '增井经夫']
       },
       {
@@ -1140,7 +1140,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '周剑英']
       },
       {
@@ -1152,7 +1152,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '徐懋庸']
       },
       {
@@ -1164,7 +1164,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杨霁云']
       },
       {
@@ -1176,7 +1176,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '周楞伽']
       },
       {
@@ -1188,7 +1188,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧三']
       },
       {
@@ -1200,7 +1200,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '叶紫']
       },
       {
@@ -1212,7 +1212,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '邱遇']
       },
       {
@@ -1224,7 +1224,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '聂绀弩']
       },
       {
@@ -1236,7 +1236,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '王冶秋']
       },
       {
@@ -1248,7 +1248,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -1260,7 +1260,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '台静农']
       },
       {
@@ -1272,7 +1272,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章锡琛']
       },
       {
@@ -1284,7 +1284,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李霁野']
       },
       {
@@ -1296,7 +1296,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '增田涉']
       },
       {
@@ -1308,7 +1308,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赖少麒']
       },
       {
@@ -1319,7 +1319,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茅盾']
       },
       {
@@ -1330,7 +1330,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '费慎祥']
       },
       {
@@ -1342,7 +1342,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -1354,7 +1354,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赵家璧']
       },
       {
@@ -1365,7 +1365,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '楼炜春']
       },
       {
@@ -1377,7 +1377,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '孟十还']
       },
       {
@@ -1389,7 +1389,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黎烈文']
       },
       {
@@ -1401,7 +1401,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许寿裳']
       },
       {
@@ -1412,7 +1412,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郑振铎']
       },
       {
@@ -1424,7 +1424,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '越丁']
       },
       {
@@ -1436,7 +1436,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '康郁']
       },
       {
@@ -1448,7 +1448,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '04', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '镰田诚一']
       },
       {
@@ -1460,7 +1460,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['镰田寿', '镰田诚一']
       },
       {
@@ -1472,7 +1472,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '直入']
       },
       {
@@ -1484,7 +1484,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '越山']
       },
       {
@@ -1496,7 +1496,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '04', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赵家璧']
       },
       {
@@ -1508,7 +1508,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '03', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '中华艺术大学底楼大厅', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中国左翼作家联盟常务委员']
       },
       {
@@ -1520,7 +1520,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '05', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '舒新城']
       },
       {
@@ -1532,7 +1532,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李霁野']
       },
       {
@@ -1544,7 +1544,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '韦素园']
       },
       {
@@ -1556,7 +1556,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '陶元庆']
       },
       {
@@ -1568,7 +1568,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '寓所', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '潘汉年']
       },
       {
@@ -1580,7 +1580,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '易培基']
       },
       {
@@ -1592,7 +1592,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -1604,7 +1604,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '江绍原']
       },
       {
@@ -1616,7 +1616,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李小峰']
       },
       {
@@ -1628,7 +1628,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '内山完造']
       },
       {
@@ -1640,7 +1640,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '鹿地亘']
       },
       {
@@ -1652,7 +1652,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '池田幸子']
       },
       {
@@ -1664,7 +1664,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['胡风', '鹿地亘']
       },
       {
@@ -1676,7 +1676,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['胡风', '池田幸子']
       },
       {
@@ -1688,7 +1688,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鹿地亘', '池田幸子']
       },
       {
@@ -1700,7 +1700,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹白信']
       },
       {
@@ -1712,7 +1712,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '八仙桥青年会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '林夫']
       },
       {
@@ -1724,7 +1724,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '八仙桥青年会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '陈烟桥']
       },
       {
@@ -1736,7 +1736,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '八仙桥青年会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '白危']
       },
       {
@@ -1748,7 +1748,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '八仙桥青年会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄新波']
       },
       {
@@ -1760,7 +1760,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '八仙桥青年会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹白']
       },
       {
@@ -1772,7 +1772,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹白信']
       },
       {
@@ -1784,7 +1784,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茅盾']
       },
       {
@@ -1796,7 +1796,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '普实克']
       },
       {
@@ -1808,7 +1808,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '05', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '王冶秋']
       },
       {
@@ -1820,7 +1820,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '05', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹白']
       },
       {
@@ -1832,7 +1832,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '05', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -1844,7 +1844,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '05', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '徐懋庸']
       },
       {
@@ -1856,7 +1856,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '冯雪峰']
       },
       {
@@ -1868,7 +1868,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '何家槐']
       },
       {
@@ -1880,7 +1880,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -1892,7 +1892,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '柳爱竹']
       },
       {
@@ -1904,7 +1904,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '唐英伟']
       },
       {
@@ -1916,7 +1916,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赖少麒']
       },
       {
@@ -1928,7 +1928,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '胡风信']
       },
       {
@@ -1940,7 +1940,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '山本初枝']
       },
       {
@@ -1952,7 +1952,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -1964,7 +1964,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -1976,7 +1976,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '孟十还']
       },
       {
@@ -1988,7 +1988,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '陈此生']
       },
       {
@@ -1999,7 +1999,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茅盾']
       },
       {
@@ -2010,7 +2010,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郑振铎']
       },
       {
@@ -2021,7 +2021,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黎烈文']
       },
       {
@@ -2032,7 +2032,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄源']
       },
       {
@@ -2044,7 +2044,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '05', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄源']
       },
       {
@@ -2056,7 +2056,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '04', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '山本初枝']
       },
       {
@@ -2068,7 +2068,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '04', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '增田涉']
       },
       {
@@ -2080,7 +2080,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '04', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李桦']
       },
       {
@@ -2092,7 +2092,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '庚']
       },
       {
@@ -2104,7 +2104,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '旅隼']
       },
       {
@@ -2116,7 +2116,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '瞿秋白']
       },
       {
@@ -2128,7 +2128,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹聚仁']
       },
       {
@@ -2140,7 +2140,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -2152,7 +2152,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许寿裳']
       },
       {
@@ -2164,7 +2164,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '今村铁研']
       },
       {
@@ -2176,7 +2176,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '增田涉']
       },
       {
@@ -2188,7 +2188,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '冯剑丞']
       },
       {
@@ -2200,7 +2200,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '徐訏']
       },
       {
@@ -2212,7 +2212,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '目加田诚']
       },
       {
@@ -2224,7 +2224,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '小川环树']
       },
       {
@@ -2236,7 +2236,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '敖']
       },
       {
@@ -2248,7 +2248,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '庚']
       },
       {
@@ -2260,7 +2260,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄源']
       },
       {
@@ -2272,7 +2272,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -2284,7 +2284,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧红']
       },
       {
@@ -2296,7 +2296,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杜德机']
       },
       {
@@ -2308,7 +2308,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赵家璧']
       },
       {
@@ -2320,7 +2320,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -2332,7 +2332,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧红']
       },
       {
@@ -2344,7 +2344,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '且介']
       },
       {
@@ -2356,7 +2356,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '良友图书印刷公司', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赵家璧']
       },
       {
@@ -2368,7 +2368,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郑振铎']
       },
       {
@@ -2380,7 +2380,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茅盾']
       },
       {
@@ -2392,7 +2392,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '增田涉']
       },
       {
@@ -2404,7 +2404,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杨霁云']
       },
       {
@@ -2416,7 +2416,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -2428,7 +2428,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '孟十还']
       },
       {
@@ -2440,7 +2440,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郑振铎']
       },
       {
@@ -2452,7 +2452,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '何干']
       },
       {
@@ -2464,7 +2464,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '栾廷石']
       },
       {
@@ -2476,7 +2476,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '姚克']
       },
       {
@@ -2488,7 +2488,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['郑振铎', '鲁迅']
       },
       {
@@ -2500,7 +2500,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '02', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郑振铎']
       },
       {
@@ -2512,7 +2512,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧三']
       },
       {
@@ -2523,7 +2523,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '倪朔尔']
       },
       {
@@ -2535,7 +2535,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '倪朔尔']
       },
       {
@@ -2547,7 +2547,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '谭女士']
       },
       {
@@ -2559,7 +2559,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郑振铎']
       },
       {
@@ -2571,7 +2571,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '山本初枝']
       },
       {
@@ -2583,7 +2583,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '亚力舍夫']
       },
       {
@@ -2594,7 +2594,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '张承禄']
       },
       {
@@ -2606,7 +2606,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赵令仪']
       },
       {
@@ -2618,7 +2618,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '增田涉']
       },
       {
@@ -2630,7 +2630,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郁达夫']
       },
       {
@@ -2642,7 +2642,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '唐弢']
       },
       {
@@ -2654,7 +2654,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黎烈文']
       },
       {
@@ -2666,7 +2666,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '唐俟']
       },
       {
@@ -2678,7 +2678,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '瞿秋白']
       },
       {
@@ -2689,7 +2689,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '09', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '瓦扬–古久里']
       },
       {
@@ -2700,7 +2700,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '瞿秋白夫妇']
       },
       {
@@ -2712,7 +2712,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', 'L']
       },
       {
@@ -2724,7 +2724,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '09', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许钦文']
       },
       {
@@ -2736,7 +2736,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '08', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '南云楼', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李小峰']
       },
       {
@@ -2748,7 +2748,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '08', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '南云楼', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郁达夫']
       },
       {
@@ -2760,7 +2760,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '08', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '南云楼', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -2772,7 +2772,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '08', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '南云楼', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杨骚']
       },
       {
@@ -2784,7 +2784,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '08', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '南云楼', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '林语堂']
       },
       {
@@ -2796,7 +2796,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '08', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '南云楼', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '衣萍']
       },
       {
@@ -2808,7 +2808,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '08', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '南云楼', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曙天']
       },
       {
@@ -2820,7 +2820,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '06', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '白莽']
       },
       {
@@ -2832,7 +2832,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '06', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '陈君涵']
       },
       {
@@ -2844,7 +2844,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '03', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '韦素园']
       },
       {
@@ -2856,7 +2856,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '01', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -2868,7 +2868,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许霞']
       },
       {
@@ -2880,7 +2880,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '奔流社同人']
       },
       {
@@ -2892,7 +2892,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '12', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '陈濬']
       },
       {
@@ -2904,7 +2904,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '12', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -2915,7 +2915,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '周建人']
       },
       {
@@ -2927,7 +2927,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '全家福', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李小峰']
       },
       {
@@ -2939,7 +2939,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '全家福', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '蔡漱六']
       },
       {
@@ -2951,7 +2951,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '全家福', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '周建人']
       },
       {
@@ -2963,7 +2963,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '全家福', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郁达夫']
       },
       {
@@ -2975,7 +2975,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '全家福', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '王映霞']
       },
       {
@@ -2987,7 +2987,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '全家福', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '潘梓年']
       },
       {
@@ -2999,7 +2999,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '全家福', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许钦文']
       },
       {
@@ -3011,7 +3011,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '全家福', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '孙伏园']
       },
       {
@@ -3023,7 +3023,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '全家福', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '孙福熙']
       },
       {
@@ -3035,7 +3035,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '全家福', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许广平']
       },
       {
@@ -3047,7 +3047,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '台静农']
       },
       {
@@ -3059,7 +3059,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李霁野']
       },
       {
@@ -3070,7 +3070,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '周建人']
       },
       {
@@ -3081,7 +3081,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许广平']
       },
       {
@@ -3092,7 +3092,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '孙伏园']
       },
       {
@@ -3103,7 +3103,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '孙福熙']
       },
       {
@@ -3114,7 +3114,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '林语堂']
       },
       {
@@ -3125,7 +3125,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '北新书局', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李小峰']
       },
       {
@@ -3136,7 +3136,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '北新书局', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '蔡漱六']
       },
       {
@@ -3147,7 +3147,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '陶乐春', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '周建人']
       },
       {
@@ -3159,7 +3159,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '02', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '宋庆龄寓所', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧伯纳']
       },
       {
@@ -3171,7 +3171,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '陈赓']
       },
       {
@@ -3182,7 +3182,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '05', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '爵禄饭店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李立三']
       },
       {
@@ -3194,7 +3194,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '斯诺Edgar Parks Snow']
       },
       {
@@ -3206,7 +3206,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '冯雪峰']
       },
       {
@@ -3217,7 +3217,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['白莽', '殷夫']
       },
       {
@@ -3229,7 +3229,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['萧三', '“左联”负责人']
       },
       {
@@ -3240,7 +3240,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '吴朗西']
       },
       {
@@ -3251,7 +3251,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '大雅楼', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['陈望道', '茅盾']
       },
       {
@@ -3263,7 +3263,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -3275,7 +3275,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '徐诗荃']
       },
       {
@@ -3287,7 +3287,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄源']
       },
       {
@@ -3299,7 +3299,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '隼']
       },
       {
@@ -3311,7 +3311,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '隼']
       },
       {
@@ -3323,7 +3323,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '台静农']
       },
       {
@@ -3335,7 +3335,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['王钧初', '胡蛮']
       },
       {
@@ -3347,7 +3347,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -3359,7 +3359,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '增田涉']
       },
       {
@@ -3371,7 +3371,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄源']
       },
       {
@@ -3383,7 +3383,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李桦']
       },
       {
@@ -3395,7 +3395,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -3407,7 +3407,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '直入']
       },
       {
@@ -3419,7 +3419,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '干']
       },
       {
@@ -3431,7 +3431,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '何干']
       },
       {
@@ -3443,7 +3443,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '隼']
       },
       {
@@ -3455,7 +3455,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '旅隼']
       },
       {
@@ -3467,7 +3467,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '04', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -3479,7 +3479,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '04', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹聚仁']
       },
       {
@@ -3491,7 +3491,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '乐雯']
       },
       {
@@ -3503,7 +3503,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '张禄如']
       },
       {
@@ -3515,7 +3515,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '乐雯']
       },
       {
@@ -3527,7 +3527,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '吴渤']
       },
       {
@@ -3539,7 +3539,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -3551,7 +3551,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -3562,7 +3562,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郑振铎']
       },
       {
@@ -3574,7 +3574,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '南京路饭店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '巴金']
       },
       {
@@ -3585,7 +3585,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '巴金']
       },
       {
@@ -3596,7 +3596,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '张沛']
       },
       {
@@ -3608,7 +3608,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '苗挺']
       },
       {
@@ -3620,7 +3620,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '隼']
       },
       {
@@ -3632,7 +3632,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '吉冈恒夫']
       },
       {
@@ -3644,7 +3644,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '大陆新村', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '吉冈恒夫']
       },
       {
@@ -3656,7 +3656,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '张梓生']
       },
       {
@@ -3668,7 +3668,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郑振铎']
       },
       {
@@ -3680,7 +3680,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄棘']
       },
       {
@@ -3692,7 +3692,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '白道']
       },
       {
@@ -3704,7 +3704,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '及锋']
       },
       {
@@ -3716,7 +3716,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '公汗']
       },
       {
@@ -3728,7 +3728,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '公汗']
       },
       {
@@ -3740,7 +3740,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杨潮']
       },
       {
@@ -3752,7 +3752,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '楼炜春']
       },
       {
@@ -3764,7 +3764,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '苗挺']
       },
       {
@@ -3776,7 +3776,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '徐诗荃']
       },
       {
@@ -3788,7 +3788,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '邓当世']
       },
       {
@@ -3800,7 +3800,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '直']
       },
       {
@@ -3812,7 +3812,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '王志之']
       },
       {
@@ -3824,7 +3824,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许遐']
       },
       {
@@ -3836,7 +3836,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '千爱里', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茅盾']
       },
       {
@@ -3848,7 +3848,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '千爱里', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郑振铎']
       },
       {
@@ -3860,7 +3860,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '31' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '姚克']
       },
       {
@@ -3872,7 +3872,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '公汗']
       },
       {
@@ -3884,7 +3884,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '鲁迅家', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '瞿秋白']
       },
       {
@@ -3896,7 +3896,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '隋洛文']
       },
       {
@@ -3908,7 +3908,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '12', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '史沫特莱']
       },
       {
@@ -3920,7 +3920,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '12', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '林庚白']
       },
       {
@@ -3932,7 +3932,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '冯雪峰']
       },
       {
@@ -3944,7 +3944,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '隋洛文']
       },
       {
@@ -3955,7 +3955,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '11', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '丰子恺']
       },
       {
@@ -3966,7 +3966,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '11', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '陶元庆']
       },
       {
@@ -3978,7 +3978,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '11', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '江绍原']
       },
       {
@@ -3990,7 +3990,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '11', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郑伯奇']
       },
       {
@@ -4002,7 +4002,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '11', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '蒋光慈']
       },
       {
@@ -4014,7 +4014,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '11', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '段可情']
       },
       {
@@ -4026,7 +4026,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '11', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -4038,7 +4038,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '11', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '江绍原']
       },
       {
@@ -4050,7 +4050,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '11', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李霁野']
       },
       {
@@ -4062,7 +4062,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '06', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '宋庆龄']
       },
       {
@@ -4074,7 +4074,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '05', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '时玳']
       },
       {
@@ -4086,7 +4086,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '05', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -4098,7 +4098,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '05', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '唐弢']
       },
       {
@@ -4110,7 +4110,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '05', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '陆诒']
       },
       {
@@ -4122,7 +4122,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '05', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -4134,7 +4134,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '05', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李霁野']
       },
       {
@@ -4146,7 +4146,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '05', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '台静农']
       },
       {
@@ -4158,7 +4158,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '王冶秋']
       },
       {
@@ -4170,7 +4170,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '颜黎民']
       },
       {
@@ -4182,7 +4182,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杜和銮']
       },
       {
@@ -4194,7 +4194,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '陈佩骥']
       },
       {
@@ -4206,7 +4206,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赵家璧']
       },
       {
@@ -4218,7 +4218,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹白']
       },
       {
@@ -4230,7 +4230,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹白']
       },
       {
@@ -4242,7 +4242,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '03', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -4254,7 +4254,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '03', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '唐英伟']
       },
       {
@@ -4266,7 +4266,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '03', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹白']
       },
       {
@@ -4278,7 +4278,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '03', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '唐弢']
       },
       {
@@ -4290,7 +4290,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '巴惠尔•艾丁格尔']
       },
       {
@@ -4302,7 +4302,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -4314,7 +4314,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '冯宾符']
       },
       {
@@ -4326,7 +4326,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杨霁云']
       },
       {
@@ -4338,7 +4338,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许寿裳']
       },
       {
@@ -4350,7 +4350,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '徐訏']
       },
       {
@@ -4362,7 +4362,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '王冶秋']
       },
       {
@@ -4374,7 +4374,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '台静农']
       },
       {
@@ -4386,7 +4386,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '山本初枝']
       },
       {
@@ -4398,7 +4398,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赵家璧']
       },
       {
@@ -4409,7 +4409,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄源']
       },
       {
@@ -4421,7 +4421,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '孟十还']
       },
       {
@@ -4432,7 +4432,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '清水三郎']
       },
       {
@@ -4444,7 +4444,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '王冶秋']
       },
       {
@@ -4456,7 +4456,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郑振铎']
       },
       {
@@ -4468,7 +4468,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '叶紫']
       },
       {
@@ -4480,7 +4480,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹聚仁']
       },
       {
@@ -4492,7 +4492,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '叶紫']
       },
       {
@@ -4504,7 +4504,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -4516,7 +4516,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -4528,7 +4528,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李霁野']
       },
       {
@@ -4540,7 +4540,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '增田涉']
       },
       {
@@ -4552,7 +4552,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '张慧']
       },
       {
@@ -4564,7 +4564,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -4576,7 +4576,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧红']
       },
       {
@@ -4588,7 +4588,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赵家璧']
       },
       {
@@ -4600,7 +4600,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '且介']
       },
       {
@@ -4612,7 +4612,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赵家璧']
       },
       {
@@ -4624,7 +4624,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杨霁云']
       },
       {
@@ -4636,7 +4636,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -4648,7 +4648,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧红']
       },
       {
@@ -4660,7 +4660,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杨霁云']
       },
       {
@@ -4672,7 +4672,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '梁园豫菜馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -4684,7 +4684,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '梁园豫菜馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧红']
       },
       {
@@ -4696,7 +4696,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '梁园豫菜馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '聂绀弩夫妇']
       },
       {
@@ -4708,7 +4708,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '梁园豫菜馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '叶紫']
       },
       {
@@ -4720,7 +4720,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '梁园豫菜馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茅盾']
       },
       {
@@ -4732,7 +4732,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '金肇野']
       },
       {
@@ -4744,7 +4744,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李桦']
       },
       {
@@ -4756,7 +4756,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杨霁云']
       },
       {
@@ -4768,7 +4768,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -4780,7 +4780,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧红']
       },
       {
@@ -4792,7 +4792,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杨霁云']
       },
       {
@@ -4804,7 +4804,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '山本初枝']
       },
       {
@@ -4816,7 +4816,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -4828,7 +4828,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧红']
       },
       {
@@ -4840,7 +4840,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许广平']
       },
       {
@@ -4852,7 +4852,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '内山书店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杨霁云']
       },
       {
@@ -4864,7 +4864,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -4876,7 +4876,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧红']
       },
       {
@@ -4888,7 +4888,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '孟十还']
       },
       {
@@ -4899,7 +4899,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['黄源', '鲁迅']
       },
       {
@@ -4911,7 +4911,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '增田涉']
       },
       {
@@ -4922,7 +4922,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['臧克家', '鲁迅']
       },
       {
@@ -4934,7 +4934,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '内山书店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -4946,7 +4946,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '内山书店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧红']
       },
       {
@@ -4957,7 +4957,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '焉于']
       },
       {
@@ -4969,7 +4969,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '金肇野']
       },
       {
@@ -4981,7 +4981,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '金肇野']
       },
       {
@@ -4993,7 +4993,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '阿法']
       },
       {
@@ -5005,7 +5005,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李霁野']
       },
       {
@@ -5016,7 +5016,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '王冶秋']
       },
       {
@@ -5028,7 +5028,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -5040,7 +5040,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧红']
       },
       {
@@ -5052,7 +5052,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '张禄如']
       },
       {
@@ -5064,7 +5064,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '增田涉']
       },
       {
@@ -5076,7 +5076,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '林绍仑']
       },
       {
@@ -5087,7 +5087,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -5098,7 +5098,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧红']
       },
       {
@@ -5110,7 +5110,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郑振铎']
       },
       {
@@ -5122,7 +5122,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '汪铭竹']
       },
       {
@@ -5134,7 +5134,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '公汗']
       },
       {
@@ -5146,7 +5146,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '张沛']
       },
       {
@@ -5158,7 +5158,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '张沛']
       },
       {
@@ -5170,7 +5170,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '窦隐夫']
       },
       {
@@ -5182,7 +5182,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '31' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '刘炜明']
       },
       {
@@ -5194,7 +5194,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '直入']
       },
       {
@@ -5205,7 +5205,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '上海疗养院', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '史沫特莱']
       },
       {
@@ -5216,7 +5216,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '上海疗养院', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['茅盾', '史沫特莱']
       },
       {
@@ -5228,7 +5228,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '克拉甫兼珂']
       },
       {
@@ -5240,7 +5240,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '艾丁格尔']
       },
       {
@@ -5252,7 +5252,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄源']
       },
       {
@@ -5264,7 +5264,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '白道']
       },
       {
@@ -5276,7 +5276,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '公汗']
       },
       {
@@ -5288,7 +5288,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '叶紫']
       },
       {
@@ -5300,7 +5300,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '10', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -5312,7 +5312,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '07', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '裘柱常']
       },
       {
@@ -5324,7 +5324,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '07', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -5336,7 +5336,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '06', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -5348,7 +5348,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '06', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李霁野']
       },
       {
@@ -5360,7 +5360,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '31' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -5371,7 +5371,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '梁得所']
       },
       {
@@ -5383,7 +5383,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '旅沪一记者']
       },
       {
@@ -5395,7 +5395,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '旅沪一记者']
       },
       {
@@ -5407,7 +5407,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '公寓', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '梁得所']
       },
       {
@@ -5419,7 +5419,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李霁野']
       },
       {
@@ -5431,7 +5431,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -5442,7 +5442,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '司徒乔寓所', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '司徒乔']
       },
       {
@@ -5453,7 +5453,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '司徒乔寓所', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['许广平', '司徒乔']
       },
       {
@@ -5465,7 +5465,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郁达夫']
       },
       {
@@ -5477,7 +5477,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -5489,7 +5489,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '辛岛骁']
       },
       {
@@ -5501,7 +5501,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '02', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '司徒乔']
       },
       {
@@ -5513,7 +5513,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '02', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '司徒乔']
       },
       {
@@ -5525,7 +5525,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '02', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '梁得所']
       },
       {
@@ -5537,7 +5537,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '02', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '台静农']
       },
       {
@@ -5549,7 +5549,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中拉']
       },
       {
@@ -5561,7 +5561,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '楮冠']
       },
       {
@@ -5572,7 +5572,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李小峰']
       },
       {
@@ -5584,7 +5584,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -5596,7 +5596,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '廖立峨']
       },
       {
@@ -5608,7 +5608,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧红']
       },
       {
@@ -5620,7 +5620,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '王冶秋']
       },
       {
@@ -5632,7 +5632,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '增田涉']
       },
       {
@@ -5644,7 +5644,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '陈仲山']
       },
       {
@@ -5656,7 +5656,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赵家璧']
       },
       {
@@ -5667,7 +5667,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹白']
       },
       {
@@ -5678,7 +5678,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '增田涉']
       },
       {
@@ -5690,7 +5690,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -5702,7 +5702,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '乐文']
       },
       {
@@ -5714,7 +5714,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -5726,7 +5726,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹聚仁']
       },
       {
@@ -5738,7 +5738,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '圆谷弘']
       },
       {
@@ -5750,7 +5750,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '增田涉']
       },
       {
@@ -5762,7 +5762,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -5774,7 +5774,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '六三园', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['仲居', '野口米次郎']
       },
       {
@@ -5786,7 +5786,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '六三园', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['仲居', '内山完造']
       },
       {
@@ -5798,7 +5798,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '孟十还']
       },
       {
@@ -5810,7 +5810,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '伊罗生']
       },
       {
@@ -5822,7 +5822,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '孟十还']
       },
       {
@@ -5834,7 +5834,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黎烈文']
       },
       {
@@ -5846,7 +5846,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '吴朗西']
       },
       {
@@ -5858,7 +5858,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄源']
       },
       {
@@ -5870,7 +5870,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -5882,7 +5882,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '唐诃']
       },
       {
@@ -5894,7 +5894,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄源']
       },
       {
@@ -5906,7 +5906,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茅盾']
       },
       {
@@ -5918,7 +5918,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黎烈']
       },
       {
@@ -5930,7 +5930,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '内山嘉吉']
       },
       {
@@ -5942,7 +5942,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '台静农']
       },
       {
@@ -5954,7 +5954,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茅盾']
       },
       {
@@ -5966,7 +5966,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '蔡斐君']
       },
       {
@@ -5978,7 +5978,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '南京饭店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茅盾']
       },
       {
@@ -5990,7 +5990,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '南京饭店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黎烈']
       },
       {
@@ -6002,7 +6002,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '南京饭店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '傅东华']
       },
       {
@@ -6014,7 +6014,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '南京饭店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '胡风']
       },
       {
@@ -6026,7 +6026,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '南京饭店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '吴朗西']
       },
       {
@@ -6038,7 +6038,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '南京饭店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '巴金']
       },
       {
@@ -6050,7 +6050,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '段炼']
       },
       {
@@ -6062,7 +6062,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李长之']
       },
       {
@@ -6074,7 +6074,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '胡风']
       },
       {
@@ -6086,7 +6086,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '隼']
       },
       {
@@ -6098,7 +6098,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '隼']
       },
       {
@@ -6110,7 +6110,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郑振铎']
       },
       {
@@ -6122,7 +6122,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -6134,7 +6134,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '田景福']
       },
       {
@@ -6146,7 +6146,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李桦']
       },
       {
@@ -6158,7 +6158,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '孟十还']
       },
       {
@@ -6170,7 +6170,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杨晦']
       },
       {
@@ -6181,7 +6181,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '冯至夫妇']
       },
       {
@@ -6192,7 +6192,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黎烈文']
       },
       {
@@ -6204,7 +6204,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '姚克']
       },
       {
@@ -6216,7 +6216,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '直入']
       },
       {
@@ -6228,7 +6228,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '新亚饭店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '姚克']
       },
       {
@@ -6240,7 +6240,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '新亚饭店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '王钧初']
       },
       {
@@ -6251,7 +6251,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赵家璧']
       },
       {
@@ -6263,7 +6263,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '台静农']
       },
       {
@@ -6275,7 +6275,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '徐懋庸']
       },
       {
@@ -6287,7 +6287,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '唐弢']
       },
       {
@@ -6299,7 +6299,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '胡风']
       },
       {
@@ -6311,7 +6311,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -6323,7 +6323,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杜德机']
       },
       {
@@ -6335,7 +6335,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄棘']
       },
       {
@@ -6347,7 +6347,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '楼炜春']
       },
       {
@@ -6359,7 +6359,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '05', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄源']
       },
       {
@@ -6371,7 +6371,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄棘']
       },
       {
@@ -6383,7 +6383,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赵令仪']
       },
       {
@@ -6394,7 +6394,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '徐懋庸']
       },
       {
@@ -6406,7 +6406,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -6418,7 +6418,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '味雅菜馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赵家璧']
       },
       {
@@ -6430,7 +6430,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '味雅菜馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郑伯奇']
       },
       {
@@ -6442,7 +6442,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '味雅菜馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '马国亮']
       },
       {
@@ -6454,7 +6454,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '味雅菜馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郁达夫']
       },
       {
@@ -6466,7 +6466,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '味雅菜馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '王映霞']
       },
       {
@@ -6478,7 +6478,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郑振铎']
       },
       {
@@ -6490,7 +6490,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许寿裳']
       },
       {
@@ -6502,7 +6502,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郑振铎']
       },
       {
@@ -6514,7 +6514,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赵家璧']
       },
       {
@@ -6526,7 +6526,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -6538,7 +6538,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -6550,7 +6550,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧红']
       },
       {
@@ -6562,7 +6562,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '山本初枝']
       },
       {
@@ -6574,7 +6574,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李桦']
       },
       {
@@ -6586,7 +6586,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '31' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '刘炜明']
       },
       {
@@ -6598,7 +6598,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '内山书店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郁达夫']
       },
       {
@@ -6610,7 +6610,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '内山书店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '刘大杰']
       },
       {
@@ -6622,7 +6622,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄源']
       },
       {
@@ -6634,7 +6634,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '康伯度']
       },
       {
@@ -6646,7 +6646,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郑振铎']
       },
       {
@@ -6658,7 +6658,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '张禄如']
       },
       {
@@ -6670,7 +6670,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '31' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '伊罗生']
       },
       {
@@ -6682,7 +6682,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '31' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['茅盾', '伊罗生']
       },
       {
@@ -6694,7 +6694,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '山本初枝']
       },
       {
@@ -6706,7 +6706,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹聚仁']
       },
       {
@@ -6718,7 +6718,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '唐弢']
       },
       {
@@ -6729,7 +6729,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '朔尔']
       },
       {
@@ -6740,7 +6740,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '内山嘉吉']
       },
       {
@@ -6752,7 +6752,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '康伯度']
       },
       {
@@ -6764,7 +6764,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '康伯度']
       },
       {
@@ -6775,7 +6775,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '莫朕']
       },
       {
@@ -6786,7 +6786,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '公汗']
       },
       {
@@ -6798,7 +6798,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '伊罗生']
       },
       {
@@ -6810,7 +6810,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['茅盾', '伊罗生']
       },
       {
@@ -6822,7 +6822,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杜德机']
       },
       {
@@ -6834,7 +6834,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '公汗']
       },
       {
@@ -6846,7 +6846,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '邓当世']
       },
       {
@@ -6858,7 +6858,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许遐']
       },
       {
@@ -6870,7 +6870,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '陈农非']
       },
       {
@@ -6882,7 +6882,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['陈农非', '陈同生']
       },
       {
@@ -6893,7 +6893,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '史贲']
       },
       {
@@ -6905,7 +6905,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '公汗']
       },
       {
@@ -6916,7 +6916,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《语丝》编辑']
       },
       {
@@ -6928,7 +6928,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '12', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '张友松、']
       },
       {
@@ -6939,7 +6939,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '12', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '夏康农']
       },
       {
@@ -6951,7 +6951,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '12', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赵景深']
       },
       {
@@ -6963,7 +6963,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', 'L•S']
       },
       {
@@ -6975,7 +6975,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '12', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '冯雪峰']
       },
       {
@@ -6987,7 +6987,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '葛何德']
       },
       {
@@ -6998,7 +6998,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '北新书局', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李小峰']
       },
       {
@@ -7009,7 +7009,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '北新书局', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['柔石', '李小峰']
       },
       {
@@ -7021,7 +7021,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '陶元庆']
       },
       {
@@ -7033,7 +7033,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '司徒乔']
       },
       {
@@ -7045,7 +7045,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '川久料理店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '长谷川如是闲']
       },
       {
@@ -7057,7 +7057,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '长谷川如是闲']
       },
       {
@@ -7069,7 +7069,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -7081,7 +7081,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '罗皑岚']
       },
       {
@@ -7092,7 +7092,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '封余']
       },
       {
@@ -7104,7 +7104,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '10', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许广平']
       },
       {
@@ -7116,7 +7116,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '10', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -7127,7 +7127,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '10', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '司徒乔']
       },
       {
@@ -7139,7 +7139,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '07', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '韦素园']
       },
       {
@@ -7151,7 +7151,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '旅沪记者']
       },
       {
@@ -7163,7 +7163,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '葛何德']
       },
       {
@@ -7175,7 +7175,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '07', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -7187,7 +7187,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '07', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '钱君匋']
       },
       {
@@ -7199,7 +7199,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '07', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '钱君匋']
       },
       {
@@ -7211,7 +7211,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['王望平', '王弼']
       },
       {
@@ -7223,7 +7223,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '长庚']
       },
       {
@@ -7235,7 +7235,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '吴渤']
       },
       {
@@ -7247,7 +7247,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '金肇野']
       },
       {
@@ -7259,7 +7259,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -7271,7 +7271,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '孟十还']
       },
       {
@@ -7283,7 +7283,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -7295,7 +7295,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧红']
       },
       {
@@ -7307,7 +7307,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -7319,7 +7319,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李桦']
       },
       {
@@ -7331,7 +7331,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杨霁云']
       },
       {
@@ -7343,7 +7343,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄源']
       },
       {
@@ -7355,7 +7355,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '杨霁云']
       },
       {
@@ -7367,7 +7367,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '公汗']
       },
       {
@@ -7379,7 +7379,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹靖华']
       },
       {
@@ -7391,7 +7391,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '增田涉']
       },
       {
@@ -7403,7 +7403,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '长庚']
       },
       {
@@ -7415,7 +7415,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郑振铎']
       },
       {
@@ -7427,7 +7427,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茅盾']
       },
       {
@@ -7439,7 +7439,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧军']
       },
       {
@@ -7451,7 +7451,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '萧红']
       },
       {
@@ -7463,7 +7463,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '赖少麒']
       },
       {
@@ -7475,7 +7475,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '段干清']
       },
       {
@@ -7487,7 +7487,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '张影']
       },
       {
@@ -7499,7 +7499,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '唐诃']
       },
       {
@@ -7511,7 +7511,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹聚仁']
       },
       {
@@ -7523,7 +7523,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '千爱里', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李霁野']
       },
       {
@@ -7535,7 +7535,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '伊罗生']
       },
       {
@@ -7547,7 +7547,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '千爱里', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '井上芳郎']
       },
       {
@@ -7559,7 +7559,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '仲度']
       },
       {
@@ -7571,7 +7571,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '张沛']
       },
       {
@@ -7583,7 +7583,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '焉于']
       },
       {
@@ -7595,7 +7595,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '伊罗生']
       },
       {
@@ -7607,7 +7607,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['茅盾', '伊罗生']
       },
       {
@@ -7619,7 +7619,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '伊罗生']
       },
       {
@@ -7631,7 +7631,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '越侨']
       },
       {
@@ -7643,7 +7643,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '华圉']
       },
       {
@@ -7654,7 +7654,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '白道']
       },
       {
@@ -7666,7 +7666,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '白道']
       },
       {
@@ -7678,7 +7678,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '史贲']
       },
       {
@@ -7690,7 +7690,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '曹聚仁']
       },
       {
@@ -7702,7 +7702,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '康伯度']
       },
       {
@@ -7714,7 +7714,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茹莼']
       },
       {
@@ -7726,7 +7726,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '孺牛']
       },
       {
@@ -7738,7 +7738,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '增田涉']
       },
       {
@@ -7750,7 +7750,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '焉于']
       },
       {
@@ -7761,7 +7761,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '焉于']
       },
       {
@@ -7773,7 +7773,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '04', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '郁达夫']
       },
       {
@@ -7785,7 +7785,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '04', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '内山完造家', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '斋藤']
       },
       {
@@ -7797,7 +7797,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '04', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '内山完造家', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '福家']
       },
       {
@@ -7809,7 +7809,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '04', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '内山完造家', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '安藤']
       },
       {
@@ -7821,7 +7821,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '04', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茅盾']
       },
       {
@@ -7833,7 +7833,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '04', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '叶圣陶']
       },
       {
@@ -7845,7 +7845,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '03', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -7857,7 +7857,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '03', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '柔石']
       },
       {
@@ -7869,7 +7869,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '03', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '冯雪峰夫妇']
       },
       {
@@ -7881,7 +7881,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '冯乃超']
       },
       {
@@ -7893,7 +7893,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '黄棘']
       },
       {
@@ -7905,7 +7905,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', 'L']
       },
       {
@@ -7917,7 +7917,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '08', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -7929,7 +7929,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '08', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '白莽']
       },
       {
@@ -7941,7 +7941,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '08', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李小峰']
       },
       {
@@ -7953,7 +7953,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '09', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -7965,7 +7965,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '08', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -7976,7 +7976,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '08', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '柳亚子']
       },
       {
@@ -7988,7 +7988,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '08', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -8000,7 +8000,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '08', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '章廷谦']
       },
       {
@@ -8012,7 +8012,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '楮冠']
       },
       {
@@ -8024,7 +8024,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '台静农']
       },
       {
@@ -8036,7 +8036,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '李霁野']
       },
       {
@@ -8048,7 +8048,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '浙江兴业银行', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '蒋抑卮']
       },
       {
@@ -8060,7 +8060,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '茅盾']
       },
       {
@@ -8072,7 +8072,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '景云里', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许广平']
       },
       {
@@ -8084,7 +8084,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '爱多亚路长耕里（今延安东路158弄）的共和旅馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['林语堂', '鲁迅']
       },
       {
@@ -8096,7 +8096,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '爱多亚路长耕里（今延安东路158弄）的共和旅馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['孙伏园', '鲁迅']
       },
       {
@@ -8108,7 +8108,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '爱多亚路长耕里（今延安东路158弄）的共和旅馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['孙福熙', '鲁迅']
       },
       {
@@ -8119,7 +8119,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '大雅楼', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['陈望道', '鲁迅']
       },
       {
@@ -8131,7 +8131,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['郑振铎', '鲁迅']
       },
       {
@@ -8143,7 +8143,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['史沫特莱', '鲁迅']
       },
       {
@@ -8155,7 +8155,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['王钧初', '鲁迅']
       },
       {
@@ -8166,7 +8166,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['郁达夫', '鲁迅']
       },
       {
@@ -8177,7 +8177,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['郑振铎', '鲁迅']
       },
       {
@@ -8189,7 +8189,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '东亚酒店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['陈望道', '鲁迅']
       },
       {
@@ -8200,7 +8200,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '12', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['史沫特莱', '鲁迅']
       },
       {
@@ -8212,7 +8212,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '12', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '上海暨南大学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['周正扶', '鲁迅']
       },
       {
@@ -8224,7 +8224,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '05', day: '31' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['托马斯•邓恩', '鲁迅']
       },
       {
@@ -8236,7 +8236,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '梁园饭店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['吴朗西', '鲁迅']
       },
       {
@@ -8248,7 +8248,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '六三园', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['仲居', '鲁迅']
       },
       {
@@ -8260,7 +8260,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '南京饭店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['黄源', '鲁迅']
       },
       {
@@ -8271,7 +8271,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '新亚饭店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['胡愈之', '鲁迅']
       },
       {
@@ -8283,7 +8283,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '川久料理店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['内山完造', '鲁迅']
       },
       {
@@ -8295,7 +8295,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '兴华酒楼', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['王望平', '鲁迅']
       },
       {
@@ -8307,7 +8307,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '冠珍酒家', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['郑振铎', '鲁迅']
       },
       {
@@ -8319,7 +8319,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '冠珍酒家', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['茅盾', '鲁迅']
       },
       {
@@ -8330,7 +8330,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '功德林', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['柳亚子', '鲁迅']
       },
       {
@@ -8341,7 +8341,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '女子师范大学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '女子师范大学校长']
       },
       {
@@ -8352,7 +8352,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '女子师范大学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['易培基', '女子师范大学校长']
       },
       {
@@ -8363,7 +8363,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '教育部佥事']
       },
       {
@@ -8374,7 +8374,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '08', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '厦门大学文科教授']
       },
       {
@@ -8385,7 +8385,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '厦门大学文科教授']
       },
       {
@@ -8396,7 +8396,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中山大学文学系主任']
       },
       {
@@ -8407,7 +8407,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中山大学文学系教务主任']
       },
       {
@@ -8418,7 +8418,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中山大学文学系主任']
       },
       {
@@ -8429,7 +8429,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中山大学文学系教务主任']
       },
       {
@@ -8440,7 +8440,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '特约著作员']
       },
       {
@@ -8451,7 +8451,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《世界革命文学》顾问']
       },
       {
@@ -8463,7 +8463,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中华民国大学院的第一批特约撰述员']
       },
       {
@@ -8475,7 +8475,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中华民国大学院的第一批特约撰述员']
       },
       {
@@ -8487,7 +8487,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《语丝》编辑']
       },
       {
@@ -8499,7 +8499,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['柔石', '《语丝》编辑']
       },
       {
@@ -8511,7 +8511,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['黎烈文', '《申报•自由谈》编辑']
       },
       {
@@ -8522,7 +8522,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['瓦扬–古久里', '世界反对帝国主义战争委员会远东会议代表法国作家']
       },
       {
@@ -8534,7 +8534,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '09', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['毛泽东', '主席团名誉主席']
       },
       {
@@ -8546,7 +8546,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '09', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '主席团名誉主席']
       },
       {
@@ -8557,7 +8557,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《译文》编辑']
       },
       {
@@ -8568,7 +8568,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['黄源', '《译文》编辑']
       },
       {
@@ -8580,7 +8580,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['陆诒', '《救亡情报》记者']
       },
       {
@@ -8592,7 +8592,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['梁得所', '《良友》画报主编']
       },
       {
@@ -8604,7 +8604,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['陈农非', '济难会作人员']
       },
       {
@@ -8616,7 +8616,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['王望平', '“中国济难会”工作人员']
       },
       {
@@ -8628,7 +8628,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['井上芳郎', '东京庆应大学图书馆馆员']
       },
       {
@@ -8640,7 +8640,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '03', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《世界文化》编辑']
       },
       {
@@ -8651,7 +8651,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '山本医院']
       },
       {
@@ -8662,7 +8662,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '德国医院']
       },
       {
@@ -8673,7 +8673,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '法国医院']
       },
       {
@@ -8684,7 +8684,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '岭南大学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '岭南大学']
       },
       {
@@ -8696,7 +8696,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '知用中学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '知用中学']
       },
       {
@@ -8707,7 +8707,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '朝花社']
       },
       {
@@ -8718,7 +8718,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['王方仁', '朝花社']
       },
       {
@@ -8729,7 +8729,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['崔真吾', '朝花社']
       },
       {
@@ -8740,7 +8740,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['柔石', '朝花社']
       },
       {
@@ -8752,7 +8752,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '05', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '燕京大学']
       },
       {
@@ -8764,7 +8764,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '05', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '北京大学']
       },
       {
@@ -8776,7 +8776,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '05', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '第二师范学院']
       },
       {
@@ -8788,7 +8788,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '05', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '第一师范学院']
       },
       {
@@ -8799,7 +8799,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '暨南大学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '暨南大学']
       },
       {
@@ -8810,7 +8810,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '朝花社']
       },
       {
@@ -8821,7 +8821,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '08', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '“夏期文艺讲习会”']
       },
       {
@@ -8832,7 +8832,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '09', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '荷兰西菜室', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '五十岁纪念会']
       },
       {
@@ -8843,7 +8843,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '06', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '日本“妇女之友会”']
       },
       {
@@ -8854,7 +8854,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '“社会科学研究会”']
       },
       {
@@ -8866,7 +8866,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '08', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '一八艺社木刻部']
       },
       {
@@ -8878,7 +8878,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '11', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '北京大学']
       },
       {
@@ -8890,7 +8890,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '11', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '辅仁大学']
       },
       {
@@ -8902,7 +8902,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '11', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '北平大学']
       },
       {
@@ -8914,7 +8914,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '11', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '女子文理学院']
       },
       {
@@ -8926,7 +8926,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '11', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '师范大学']
       },
       {
@@ -8938,7 +8938,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '11', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中国大学']
       },
       {
@@ -8949,7 +8949,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '01', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '“民权保障同盟会”']
       },
       {
@@ -8961,7 +8961,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文学》月刊编委会']
       },
       {
@@ -8973,7 +8973,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文学》月刊编委会']
       },
       {
@@ -8985,7 +8985,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '05', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '春地美术研究所']
       },
       {
@@ -8997,7 +8997,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '01', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '国民党特务']
       },
       {
@@ -9009,7 +9009,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '三闲书屋']
       },
       {
@@ -9020,7 +9020,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '03', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '国民党浙江省党部']
       },
       {
@@ -9032,7 +9032,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中国自由运动大同盟']
       },
       {
@@ -9043,7 +9043,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中国自由运动大同盟']
       },
       {
@@ -9055,7 +9055,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '朝花社']
       },
       {
@@ -9067,7 +9067,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['蔡元培', '中国民权保障同盟']
       },
       {
@@ -9079,7 +9079,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['宋庆龄', '中国民权保障同盟']
       },
       {
@@ -9091,7 +9091,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中国民权保障同盟']
       },
       {
@@ -9103,7 +9103,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '译文社']
       },
       {
@@ -9115,7 +9115,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['茅盾', '译文社']
       },
       {
@@ -9127,7 +9127,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['黄源', '译文社']
       },
       {
@@ -9139,7 +9139,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['黎烈文', '译文社']
       },
       {
@@ -9151,7 +9151,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['夏衍', '中国左翼戏剧家联盟']
       },
       {
@@ -9162,7 +9162,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中国左翼戏剧家联盟']
       },
       {
@@ -9173,7 +9173,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['胡愈之', '中国民权保障同盟']
       },
       {
@@ -9185,7 +9185,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中国共产党中央委员会']
       },
       {
@@ -9196,7 +9196,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '日本岩波书店']
       },
       {
@@ -9208,7 +9208,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '08', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '野风画会']
       },
       {
@@ -9220,7 +9220,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '北四川路魏盛里（今四川北路1881弄）', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '内山书店']
       },
       {
@@ -9232,7 +9232,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中共中央']
       },
       {
@@ -9244,7 +9244,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['茅盾', '中共中央']
       },
       {
@@ -9256,7 +9256,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中文拉丁化研究会']
       },
       {
@@ -9268,7 +9268,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '合众书店']
       },
       {
@@ -9279,7 +9279,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '日本上野图书馆']
       },
       {
@@ -9290,7 +9290,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '世界语社']
       },
       {
@@ -9302,7 +9302,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '12', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '神户版画之家']
       },
       {
@@ -9313,7 +9313,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '11', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '大夏大学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '大夏大学']
       },
       {
@@ -9325,7 +9325,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '11', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '光华大学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '光华大学']
       },
       {
@@ -9337,7 +9337,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '11', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '华兴楼', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '暨南大学国文系“同级会”']
       },
       {
@@ -9349,7 +9349,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中国左翼作家联盟']
       },
       {
@@ -9360,7 +9360,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中国左翼作家联盟']
       },
       {
@@ -9371,7 +9371,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '北平全国木刻展览筹备处']
       },
       {
@@ -9383,7 +9383,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '北平全国木刻展览筹备处']
       },
       {
@@ -9394,7 +9394,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '须藤医院', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '须藤医院']
       },
       {
@@ -9405,7 +9405,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '须藤医院', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['茅盾', '须藤医院']
       },
       {
@@ -9417,7 +9417,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '大陆大学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '大陆大学']
       },
       {
@@ -9429,7 +9429,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '04', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '上海邮务管理局']
       },
       {
@@ -9441,7 +9441,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '03', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '大陆大学']
       },
       {
@@ -9452,7 +9452,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '浙江省党部']
       },
       {
@@ -9463,7 +9463,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '03', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中山大学各主任紧急会议']
       },
       {
@@ -9474,7 +9474,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '03', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '“左翼作家联盟”成立会']
       },
       {
@@ -9485,7 +9485,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '10', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '北四川路“购买组合”第一店楼上', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '“版画展览会”']
       },
       {
@@ -9496,7 +9496,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '05', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '德国领事馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '“法西斯蒂”暴行']
       },
       {
@@ -9507,7 +9507,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '千爱里', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '“木刻展览会”']
       },
       {
@@ -9518,7 +9518,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '青年会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '“全国木刻流动展览会”']
       },
       {
@@ -9530,7 +9530,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '八仙桥基督教青年会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '苏联版画展览会']
       },
       {
@@ -9542,7 +9542,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '10', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '施高塔路（今山阴路）', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '木刻版画展览会']
       },
       {
@@ -9554,7 +9554,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '05', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '彩排音乐会']
       },
       {
@@ -9566,7 +9566,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '文坛复古']
       },
       {
@@ -9578,7 +9578,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '10', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '江湾路', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '江湾路野风画会']
       },
       {
@@ -9590,7 +9590,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '06', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '八仙桥青年会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '春地画展']
       },
       {
@@ -9602,7 +9602,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '06', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '八仙桥青年会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['春地美术研究所', '春地画展']
       },
       {
@@ -9614,7 +9614,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '08', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '木刻讲习会']
       },
       {
@@ -9630,7 +9630,7 @@ export const Narrative_luxun: Narrative = {
           lat: 0,
           lng: 0
         },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '世界版画展览会']
       },
       {
@@ -9646,7 +9646,7 @@ export const Narrative_luxun: Narrative = {
           lat: 0,
           lng: 0
         },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['内山完造', '世界版画展览会']
       },
       {
@@ -9658,7 +9658,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '05', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '“左联”全体大会']
       },
       {
@@ -9670,7 +9670,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中国自由运动大同盟秘密成立大会']
       },
       {
@@ -9681,7 +9681,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中国济难会的宴会']
       },
       {
@@ -9693,7 +9693,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '八仙桥青年会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '苏联版画展览']
       },
       {
@@ -9705,7 +9705,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '八仙桥青年会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['许广平', '苏联版画展览']
       },
       {
@@ -9717,7 +9717,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '八仙桥青年会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['周海婴', '苏联版画展览']
       },
       {
@@ -9729,7 +9729,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '许寿裳长女许世琯与汤兆恒的婚礼']
       },
       {
@@ -9741,7 +9741,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“靠天吃饭”》']
       },
       {
@@ -9753,7 +9753,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['越丁', '《名人和名言》']
       },
       {
@@ -9765,7 +9765,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '04', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['康郁', '《弄堂生意古今谈》']
       },
       {
@@ -9777,7 +9777,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '04', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['直入', '《“某”字的第四义》']
       },
       {
@@ -9789,7 +9789,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '04', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['越山', '《“天生蛮性”》']
       },
       {
@@ -9801,7 +9801,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '03', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '中华艺术大学底楼大厅', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中国左翼作家联盟成立大会']
       },
       {
@@ -9813,7 +9813,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '福生路（现罗浮路）俭德贮蓄会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '立达学园绘画展览会']
       },
       {
@@ -9825,7 +9825,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '福生路（现罗浮路）俭德贮蓄会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['许广平', '立达学园绘画展览会']
       },
       {
@@ -9837,7 +9837,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '福生路（现罗浮路）俭德贮蓄会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['周建人', '立达学园绘画展览会']
       },
       {
@@ -9849,7 +9849,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '福生路（现罗浮路）俭德贮蓄会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['许钦文', '立达学园绘画展览会']
       },
       {
@@ -9861,7 +9861,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '八仙桥青年会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '“中华全国木刻第二回流动展览会”']
       },
       {
@@ -9873,7 +9873,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '12', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '老靶子路(今武进路)40号青年会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '俄法书籍插图展览会']
       },
       {
@@ -9885,7 +9885,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '远东会议筹备工作']
       },
       {
@@ -9897,7 +9897,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '09', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '远东会议']
       },
       {
@@ -9909,7 +9909,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '09', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['宋庆龄', '远东会议']
       },
       {
@@ -9921,7 +9921,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '文路（今塘沽路）日本人俱乐部', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '日本画家堀越英之助洋画展览会']
       },
       {
@@ -9933,7 +9933,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '10', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '北四川路底施高塔路(今山阴路)千爱里40号', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '木刻画展览会']
       },
       {
@@ -9945,7 +9945,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '09', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '高尔基创作40周年纪念庆祝会']
       },
       {
@@ -9957,7 +9957,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '09', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['茅盾', '高尔基创作40周年纪念庆祝会']
       },
       {
@@ -9969,7 +9969,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '09', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['曹靖华', '高尔基创作40周年纪念庆祝会']
       },
       {
@@ -9981,7 +9981,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '03', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中国左翼作家联盟成立大会']
       },
       {
@@ -9993,7 +9993,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '03', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《对于左翼作家联盟的意见》']
       },
       {
@@ -10005,7 +10005,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '庆祝苏联十月革命十八周年的招待会']
       },
       {
@@ -10017,7 +10017,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '施高塔路', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '宇留川潘个人绘画展览会']
       },
       {
@@ -10029,7 +10029,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '施高塔路', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['柔石', '宇留川潘个人绘画展览会']
       },
       {
@@ -10041,7 +10041,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '施高塔路', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['许广平', '宇留川潘个人绘画展览会']
       },
       {
@@ -10053,7 +10053,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '外滩', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '德国S.SEKIR小画展览会']
       },
       {
@@ -10065,7 +10065,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '外滩', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['许广平', '德国S.SEKIR小画展览会']
       },
       {
@@ -10077,7 +10077,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '四川路虬江路角', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '乔小画室春季展览会']
       },
       {
@@ -10089,7 +10089,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '四川路虬江路角', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['司徒乔', '乔小画室春季展览会']
       },
       {
@@ -10101,7 +10101,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '公啡咖啡馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '为成立中国左翼作家联盟而秘密举行的筹备会议']
       },
       {
@@ -10113,7 +10113,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '公啡咖啡馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['柔石', '为成立中国左翼作家联盟而秘密举行的筹备会议']
       },
       {
@@ -10125,7 +10125,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '公啡咖啡馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['冯雪峰', '为成立中国左翼作家联盟而秘密举行的筹备会议']
       },
       {
@@ -10137,7 +10137,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '公啡咖啡馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['冯乃超', '为成立中国左翼作家联盟而秘密举行的筹备会议']
       },
       {
@@ -10148,7 +10148,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '中央公园', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《小约翰》']
       },
       {
@@ -10159,7 +10159,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '09', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《彷徨》']
       },
       {
@@ -10170,7 +10170,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '02', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《无声的中国》']
       },
       {
@@ -10181,7 +10181,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '02', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《老调子已经唱完！》']
       },
       {
@@ -10193,7 +10193,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '知用中学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《读书杂谈》']
       },
       {
@@ -10205,7 +10205,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '知用中学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《魏晋风度及文章与药及酒之关系》']
       },
       {
@@ -10216,7 +10216,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '08', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《唐宋传奇集》']
       },
       {
@@ -10227,7 +10227,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《野草》']
       },
       {
@@ -10238,7 +10238,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《唐宋传奇集》上册']
       },
       {
@@ -10249,7 +10249,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '02', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《小约翰》']
       },
       {
@@ -10260,7 +10260,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '02', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《近代美术史潮论》']
       },
       {
@@ -10271,7 +10271,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '02', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《语丝》']
       },
       {
@@ -10282,7 +10282,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《唐宋传奇集》下册']
       },
       {
@@ -10293,7 +10293,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '05', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '江湾实验中学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《老而不死论》']
       },
       {
@@ -10304,7 +10304,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '06', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《思想·山水·人物》']
       },
       {
@@ -10315,7 +10315,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '06', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《奔流》创刊号']
       },
       {
@@ -10326,7 +10326,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《而已集》']
       },
       {
@@ -10337,7 +10337,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '木刻《艺苑朝花》']
       },
       {
@@ -10348,7 +10348,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '05', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《壁下译丛》']
       },
       {
@@ -10359,7 +10359,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '06', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《艺术论》']
       },
       {
@@ -10370,7 +10370,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '中篇小说《二月》']
       },
       {
@@ -10381,7 +10381,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['柔石', '中篇小说《二月》']
       },
       {
@@ -10392,7 +10392,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文艺与批评》']
       },
       {
@@ -10403,7 +10403,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《萌芽》月刊']
       },
       {
@@ -10414,7 +10414,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《毁灭》']
       },
       {
@@ -10425,7 +10425,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '04', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《现代文艺丛书》']
       },
       {
@@ -10436,7 +10436,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '08', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《十月》']
       },
       {
@@ -10447,7 +10447,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '09', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《静静的顿河》']
       },
       {
@@ -10458,7 +10458,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['贺非', '《静静的顿河》']
       },
       {
@@ -10469,7 +10469,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《药用植物》']
       },
       {
@@ -10480,7 +10480,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '11', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《中国小说史略》']
       },
       {
@@ -10491,7 +10491,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '02', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《士敏土之图》']
       },
       {
@@ -10502,7 +10502,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《前哨》']
       },
       {
@@ -10513,7 +10513,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '04', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '同文书院', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《流氓与文学》']
       },
       {
@@ -10524,7 +10524,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《中国小说史略》']
       },
       {
@@ -10535,7 +10535,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《上海文艺之一瞥》']
       },
       {
@@ -10546,7 +10546,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '11', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《嵇康集》']
       },
       {
@@ -10557,7 +10557,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '11', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《毁灭》']
       },
       {
@@ -10568,7 +10568,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《十字街头》旬刊']
       },
       {
@@ -10580,7 +10580,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '04', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《三闲集》']
       },
       {
@@ -10592,7 +10592,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '04', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《二心集》']
       },
       {
@@ -10604,7 +10604,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '09', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《竖琴》']
       },
       {
@@ -10616,7 +10616,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '09', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《一天的工作》']
       },
       {
@@ -10627,7 +10627,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《两地书》']
       },
       {
@@ -10638,7 +10638,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文学》月刊']
       },
       {
@@ -10649,7 +10649,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《一个人的受难》']
       },
       {
@@ -10660,7 +10660,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《伪自由书》']
       },
       {
@@ -10671,7 +10671,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《北平笺谱》']
       },
       {
@@ -10682,7 +10682,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《南腔北调集》']
       },
       {
@@ -10693,7 +10693,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '05', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《引玉集》']
       },
       {
@@ -10704,7 +10704,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《译文》创刊号']
       },
       {
@@ -10715,7 +10715,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《木刻纪程》']
       },
       {
@@ -10726,7 +10726,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《准风月谈》']
       },
       {
@@ -10737,7 +10737,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《表》']
       },
       {
@@ -10748,7 +10748,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》']
       },
       {
@@ -10759,7 +10759,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '04', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《十竹斋笺谱》第一册']
       },
       {
@@ -10770,7 +10770,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《新文学大系》小说二集']
       },
       {
@@ -10781,7 +10781,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《海上述林》上卷']
       },
       {
@@ -10792,7 +10792,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《故事新编》']
       },
       {
@@ -10803,7 +10803,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵百图》木刻本']
       },
       {
@@ -10814,7 +10814,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '01', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《海燕》半月刊']
       },
       {
@@ -10825,7 +10825,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《故事新编》']
       },
       {
@@ -10836,7 +10836,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》第二部']
       },
       {
@@ -10847,7 +10847,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '上海良友图书公司（北四川路851号）', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《苏联版画》']
       },
       {
@@ -10858,7 +10858,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《海上述林》下卷']
       },
       {
@@ -10869,7 +10869,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '06', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《论现在我们的文学运动》']
       },
       {
@@ -10880,7 +10880,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '06', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《花边文学》']
       },
       {
@@ -10891,7 +10891,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《凯绥·珂勒惠支版画选集》']
       },
       {
@@ -10902,7 +10902,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '08', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《中流》创刊号']
       },
       {
@@ -10913,7 +10913,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《坏孩子和别的奇闻》']
       },
       {
@@ -10924,7 +10924,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《因太炎先生而想起的二三事》']
       },
       {
@@ -10935,7 +10935,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文艺界同人为团结御侮与言论自由宣言》']
       },
       {
@@ -10947,7 +10947,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《中流》半月刊']
       },
       {
@@ -10959,7 +10959,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《凯绥·珂勒惠支版画选集》']
       },
       {
@@ -10971,7 +10971,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['茅盾', '《凯绥·珂勒惠支版画选集》']
       },
       {
@@ -10983,7 +10983,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['史沫特莱', '《凯绥·珂勒惠支版画选集》']
       },
       {
@@ -10995,7 +10995,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《花边文学》']
       },
       {
@@ -11007,7 +11007,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '06', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《中国文艺工作者宣言》']
       },
       {
@@ -11019,7 +11019,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '05', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《凯绥·珂勒惠支版画选集》']
       },
       {
@@ -11031,7 +11031,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《生活漫画》月刊']
       },
       {
@@ -11043,7 +11043,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《记苏联版画展览会》']
       },
       {
@@ -11054,7 +11054,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《故事新编》']
       },
       {
@@ -11065,7 +11065,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '01', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《海燕》月刊']
       },
       {
@@ -11076,7 +11076,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '01', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['聂绀弩', '《海燕》月刊']
       },
       {
@@ -11087,7 +11087,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '01', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['萧年', '《海燕》月刊']
       },
       {
@@ -11099,7 +11099,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['巴金', '《文学丛刊》']
       },
       {
@@ -11111,7 +11111,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文学丛刊》']
       },
       {
@@ -11123,7 +11123,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '05', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》']
       },
       {
@@ -11134,7 +11134,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '05', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['徐懋庸', '《芒种》半月刊']
       },
       {
@@ -11145,7 +11145,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《芒种》半月刊']
       },
       {
@@ -11157,7 +11157,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['叶紫', '《丰收》']
       },
       {
@@ -11169,7 +11169,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《丰收》']
       },
       {
@@ -11181,7 +11181,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《木刻纪程》']
       },
       {
@@ -11193,7 +11193,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《不知肉味和不知水味》']
       },
       {
@@ -11205,7 +11205,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《中国人失掉自信力了吗?》']
       },
       {
@@ -11217,7 +11217,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“京派”和“海派”》']
       },
       {
@@ -11229,7 +11229,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《论人言可畏》']
       },
       {
@@ -11241,7 +11241,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《译文》月刊']
       },
       {
@@ -11253,7 +11253,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['茅盾', '《译文》月刊']
       },
       {
@@ -11265,7 +11265,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《俄罗斯的童话》']
       },
       {
@@ -11277,7 +11277,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》']
       },
       {
@@ -11289,7 +11289,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《新语林》半月刊']
       },
       {
@@ -11301,7 +11301,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《隔膜》']
       },
       {
@@ -11313,7 +11313,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《难行和不信》']
       },
       {
@@ -11325,7 +11325,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《买〈小学大全〉记》']
       },
       {
@@ -11337,7 +11337,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《从孩子的照相说起》']
       },
       {
@@ -11349,7 +11349,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '05', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《引玉集》']
       },
       {
@@ -11360,7 +11360,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《南腔北调集》']
       },
       {
@@ -11372,7 +11372,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《草鞋脚》']
       },
       {
@@ -11384,7 +11384,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['茅盾', '《草鞋脚》']
       },
       {
@@ -11396,7 +11396,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['伊罗生', '《草鞋脚》']
       },
       {
@@ -11408,7 +11408,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《伪自由书》']
       },
       {
@@ -11420,7 +11420,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '07', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['郑振铎', '《文学》月刊']
       },
       {
@@ -11432,7 +11432,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '07', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['茅盾', '《文学》月刊']
       },
       {
@@ -11444,7 +11444,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文学》月刊']
       },
       {
@@ -11456,7 +11456,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '06', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《悼杨铨》']
       },
       {
@@ -11468,7 +11468,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '05', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '“为德国法西斯压迫民权摧残文化向德国领事馆抗议书”']
       },
       {
@@ -11480,7 +11480,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '05', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['宋庆龄', '“为德国法西斯压迫民权摧残文化向德国领事馆抗议书”']
       },
       {
@@ -11492,7 +11492,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '05', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['蔡元培', '“为德国法西斯压迫民权摧残文化向德国领事馆抗议书”']
       },
       {
@@ -11504,7 +11504,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '02', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《为了忘却的记念》']
       },
       {
@@ -11515,7 +11515,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '12', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<自选集>自序》']
       },
       {
@@ -11527,7 +11527,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '12', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '改版后的《自由谈》']
       },
       {
@@ -11539,7 +11539,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '10', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '江湾路', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《美术上的大众化与形式利用问题》']
       },
       {
@@ -11550,7 +11550,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《三闲集》']
       },
       {
@@ -11561,7 +11561,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《论翻译》']
       },
       {
@@ -11572,7 +11572,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['瞿秋白', '《论翻译》']
       },
       {
@@ -11584,7 +11584,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '02', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《为抗议日军进攻上海屠杀民众宣言》']
       },
       {
@@ -11596,7 +11596,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '12', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《十字街头》']
       },
       {
@@ -11608,7 +11608,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《沉滓的泛起》']
       },
       {
@@ -11620,7 +11620,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“友邦惊诧”论》']
       },
       {
@@ -11632,7 +11632,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《答〈北斗〉杂志社问》']
       },
       {
@@ -11644,7 +11644,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '09', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《答文艺新闻社问》']
       },
       {
@@ -11656,7 +11656,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '06', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '“一八艺社1931年习作展览会”《小引》']
       },
       {
@@ -11668,7 +11668,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '04', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《黑暗中国的文艺界的现状》']
       },
       {
@@ -11680,7 +11680,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《中国无产阶级文学的前驱和血》']
       },
       {
@@ -11692,7 +11692,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《中国左翼作家联盟为国民党屠杀大批革命作家宣言》']
       },
       {
@@ -11705,7 +11705,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: [
           '鲁迅',
           '《为国民党屠杀同志致各国革命文学和文化团体及一切为人类进步而工作的著作家思想家书》'
@@ -11719,7 +11719,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《梅斐尔德木刻士敏土这图》']
       },
       {
@@ -11731,7 +11731,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '09', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《士敏土之图》']
       },
       {
@@ -11743,7 +11743,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '09', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《世界文化》月刊']
       },
       {
@@ -11755,7 +11755,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '08', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《戈里基文路》']
       },
       {
@@ -11767,7 +11767,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《艺术论》']
       },
       {
@@ -11779,7 +11779,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['普列汉诺', '《艺术论》']
       },
       {
@@ -11790,7 +11790,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '中华艺术大学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《绘画杂论》']
       },
       {
@@ -11802,7 +11802,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《车尔尼雪夫斯基的文学馆》']
       },
       {
@@ -11814,7 +11814,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《作为宣传煽动手段的电影》']
       },
       {
@@ -11825,7 +11825,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '01', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《萌芽》月刊']
       },
       {
@@ -11837,7 +11837,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文艺与批评》']
       },
       {
@@ -11849,7 +11849,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文艺理论小丛书》']
       },
       {
@@ -11861,7 +11861,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《朝花》周刊']
       },
       {
@@ -11873,7 +11873,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《近代木刻选》（一）']
       },
       {
@@ -11885,7 +11885,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《近代木刻选》（二）']
       },
       {
@@ -11897,7 +11897,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《蕗谷虹儿画选》']
       },
       {
@@ -11909,7 +11909,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《比亚兹莱画选》']
       },
       {
@@ -11921,7 +11921,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《新俄画选》']
       },
       {
@@ -11932,7 +11932,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '08', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文学的阶级性》（通信）']
       },
       {
@@ -11944,7 +11944,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '06', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《奔流》月刊']
       },
       {
@@ -11956,7 +11956,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '04', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文艺与革命（并冬芬来信）》']
       },
       {
@@ -11968,7 +11968,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《语丝》']
       },
       {
@@ -11980,7 +11980,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《革命文学》']
       },
       {
@@ -11992,7 +11992,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['北新书局', '《野草》']
       },
       {
@@ -12004,7 +12004,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《野草》']
       },
       {
@@ -12016,7 +12016,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '04', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《中国文学家对于英国智识阶级及一般民众宣言》']
       },
       {
@@ -12028,7 +12028,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['成仿吾', '《中国文学家对于英国智识阶级及一般民众宣言》']
       },
       {
@@ -12040,7 +12040,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['王独清', '《中国文学家对于英国智识阶级及一般民众宣言》']
       },
       {
@@ -12052,7 +12052,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['何畏', '《中国文学家对于英国智识阶级及一般民众宣言》']
       },
       {
@@ -12064,7 +12064,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《桃色的云》']
       },
       {
@@ -12076,7 +12076,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《伪自由书》']
       },
       {
@@ -12088,7 +12088,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《准风月谈》']
       },
       {
@@ -12100,7 +12100,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《花边文学》']
       },
       {
@@ -12112,7 +12112,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《社戏》']
       },
       {
@@ -12124,7 +12124,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《在酒楼上》']
       },
       {
@@ -12136,7 +12136,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《小说月报》']
       },
       {
@@ -12148,7 +12148,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['周瘦鹃', '《文化界同人为团结御侮与言论自由宣言》']
       },
       {
@@ -12160,7 +12160,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['郭沫若', '《文化界同人为团结御侮与言论自由宣言》']
       },
       {
@@ -12172,7 +12172,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文化界同人为团结御侮与言论自由宣言》']
       },
       {
@@ -12184,7 +12184,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['晓角', '《“立此存照”（四）》']
       },
       {
@@ -12196,7 +12196,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['晓角', '《“立此存照”（三）》']
       },
       {
@@ -12208,7 +12208,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['巴金', '《文艺界同人为团结御侮与言论自由宣言》']
       },
       {
@@ -12220,7 +12220,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['王统照', '《文艺界同人为团结御侮与言论自由宣言》']
       },
       {
@@ -12232,7 +12232,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['林语堂', '《文艺界同人为团结御侮与言论自由宣言》']
       },
       {
@@ -12244,7 +12244,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['周瘦鹃', '《文艺界同人为团结御侮与言论自由宣言》']
       },
       {
@@ -12256,7 +12256,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['茅盾', '《文艺界同人为团结御侮与言论自由宣言》']
       },
       {
@@ -12268,7 +12268,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['郭沫若', '《文艺界同人为团结御侮与言论自由宣言》']
       },
       {
@@ -12280,7 +12280,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['傅东华', '《文艺界同人为团结御侮与言论自由宣言》']
       },
       {
@@ -12292,7 +12292,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文艺界同人为团结御侮与言论自由宣言》']
       },
       {
@@ -12304,7 +12304,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死》']
       },
       {
@@ -12316,7 +12316,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '08', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['晓角', '《“立此存照”（二）》']
       },
       {
@@ -12328,7 +12328,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '08', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['晓角', '《“立此存照”（一）》']
       },
       {
@@ -12340,7 +12340,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '08', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“这也是生活”……》']
       },
       {
@@ -12352,7 +12352,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '08', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《答世界社信》']
       },
       {
@@ -12364,7 +12364,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '08', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《答世界社问：中国作家对于世界语的意见》']
       },
       {
@@ -12376,7 +12376,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《答徐懋庸并关于抗日统一战线问题》']
       },
       {
@@ -12388,7 +12388,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《捷克译本》']
       },
       {
@@ -12400,7 +12400,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '06', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《论现在我们的文学运动》']
       },
       {
@@ -12411,7 +12411,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《海上述林》（下卷）']
       },
       {
@@ -12423,7 +12423,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《三月的租界》']
       },
       {
@@ -12435,7 +12435,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《白莽作<孩儿塔>序》']
       },
       {
@@ -12447,7 +12447,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《关于<白莽遗诗序>的声明》']
       },
       {
@@ -12459,7 +12459,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '03', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<远方>按语》']
       },
       {
@@ -12471,7 +12471,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '03', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《白莽作<孩儿塔>序》']
       },
       {
@@ -12483,7 +12483,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '03', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<城与年>插图本小引》']
       },
       {
@@ -12495,7 +12495,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '03', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<译文>复刊词》']
       },
       {
@@ -12507,7 +12507,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《我要骗人》']
       },
       {
@@ -12519,7 +12519,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['何干', '《难答的问题》']
       },
       {
@@ -12531,7 +12531,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '何干']
       },
       {
@@ -12543,7 +12543,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['何干', '《登错的文章》']
       },
       {
@@ -12555,7 +12555,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '何干']
       },
       {
@@ -12567,7 +12567,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《记苏联版画展览会》']
       },
       {
@@ -12579,7 +12579,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '31' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《且介亭杂文二集》']
       },
       {
@@ -12591,7 +12591,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《且介亭杂文》']
       },
       {
@@ -12603,7 +12603,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《花边文学》']
       },
       {
@@ -12615,7 +12615,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《故事新编》']
       },
       {
@@ -12627,7 +12627,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《起死》']
       },
       {
@@ -12639,7 +12639,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《采薇》']
       },
       {
@@ -12651,7 +12651,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《出关》']
       },
       {
@@ -12663,7 +12663,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<死魂灵百图>小引》']
       },
       {
@@ -12675,7 +12675,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《论新文字》']
       },
       {
@@ -12687,7 +12687,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“题未定”草（六至九）》']
       },
       {
@@ -12699,7 +12699,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《杂谈小品文》']
       },
       {
@@ -12711,7 +12711,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》第一部']
       },
       {
@@ -12723,7 +12723,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《理水》']
       },
       {
@@ -12735,7 +12735,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《孔另境编<当代文人尺牍钞>序》']
       },
       {
@@ -12747,7 +12747,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《陀思妥夫斯基的事》']
       },
       {
@@ -12759,7 +12759,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《萧红作<生死场>序》']
       },
       {
@@ -12771,7 +12771,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《三论“文人相轻”》']
       },
       {
@@ -12783,7 +12783,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《几乎无事的悲剧》']
       },
       {
@@ -12795,7 +12795,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '03', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '中华艺术大学底楼大厅', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《对于左翼作家联盟的意见》']
       },
       {
@@ -12807,7 +12807,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '10', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《艺术论》']
       },
       {
@@ -12819,7 +12819,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '10', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《苦蓬》']
       },
       {
@@ -12831,7 +12831,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '10', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《苦蓬》-《译者附记》']
       },
       {
@@ -12843,7 +12843,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '09', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《近代世界短篇小说集（2）》：《在沙漠上》']
       },
       {
@@ -12855,7 +12855,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《放浪者伊利沙辟台》']
       },
       {
@@ -12867,7 +12867,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '09', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《放浪者伊利沙辟台》-《著者简介》']
       },
       {
@@ -12879,7 +12879,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '09', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《青湖记游（遗稿）》']
       },
       {
@@ -12891,7 +12891,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '06', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《爱尔兰文学之回顾》']
       },
       {
@@ -12903,7 +12903,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '06', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《论文集<二十年间>第三版序》']
       },
       {
@@ -12915,7 +12915,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '06', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《论文集<二十年间>第三版序》-《译者附记》']
       },
       {
@@ -12927,7 +12927,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '10', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《艺术论》']
       },
       {
@@ -12939,7 +12939,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '05', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<奔流>编校后记（十）》']
       },
       {
@@ -12950,7 +12950,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《壁下译丛》']
       },
       {
@@ -12962,7 +12962,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《现代新兴文学的诸问题》']
       },
       {
@@ -12974,7 +12974,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《艺术论》']
       },
       {
@@ -12986,7 +12986,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《艺术论》-《小序》']
       },
       {
@@ -12998,7 +12998,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<比亚兹莱画选>小引》']
       },
       {
@@ -13010,7 +13010,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《壁下译丛》']
       },
       {
@@ -13022,7 +13022,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《壁下译丛》-《小引》']
       },
       {
@@ -13034,7 +13034,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《关于<关于红笑>》']
       },
       {
@@ -13046,7 +13046,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《关于<关于红笑>》-《补记》']
       },
       {
@@ -13058,7 +13058,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1925', month: '07', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《关于文艺领域上的党的政策》']
       },
       {
@@ -13070,7 +13070,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《关于文艺领域上的党的政策》']
       },
       {
@@ -13082,7 +13082,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《往诊之夜》']
       },
       {
@@ -13094,7 +13094,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《山民牧唱》']
       },
       {
@@ -13106,7 +13106,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《山中笛韵》']
       },
       {
@@ -13118,7 +13118,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《近代木刻选集》（2）']
       },
       {
@@ -13130,7 +13130,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '暨南大学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文艺与政治的歧途》']
       },
       {
@@ -13142,7 +13142,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《卢梭和胃口》']
       },
       {
@@ -13154,7 +13154,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《补救世道文件四种》']
       },
       {
@@ -13166,7 +13166,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《在钟楼上（夜记之二）》']
       },
       {
@@ -13178,7 +13178,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《当陶元庆君的绘画展览时——我所要说的几句话》']
       },
       {
@@ -13189,7 +13189,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《唐宋传奇集》上册']
       },
       {
@@ -13201,7 +13201,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<尘影>题辞》']
       },
       {
@@ -13213,7 +13213,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['黎锦明', '《尘影》']
       },
       {
@@ -13225,7 +13225,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《吊与贺》']
       },
       {
@@ -13237,7 +13237,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《创造周报》复刊广告']
       },
       {
@@ -13249,7 +13249,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['郭沫若', '《创造周报》复刊广告']
       },
       {
@@ -13261,7 +13261,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['成仿吾', '《创造周报》复刊广告']
       },
       {
@@ -13273,7 +13273,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['郑伯奇', '《创造周报》复刊广告']
       },
       {
@@ -13285,7 +13285,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['蒋光慈', '《创造周报》复刊广告']
       },
       {
@@ -13297,7 +13297,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '暨南大学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文学与政治的歧途》']
       },
       {
@@ -13309,7 +13309,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《因太炎先生而想起的二三事》']
       },
       {
@@ -13321,7 +13321,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《曹靖华译<苏联作家七人集>序》']
       },
       {
@@ -13333,7 +13333,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《半夏小集》']
       },
       {
@@ -13345,7 +13345,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《杜勃罗夫斯基》']
       },
       {
@@ -13357,7 +13357,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《绍介<海上述林>上卷》']
       },
       {
@@ -13369,7 +13369,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《关于太炎先生二三事》']
       },
       {
@@ -13381,7 +13381,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《海上述林》上卷']
       },
       {
@@ -13392,7 +13392,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《海上述林》下卷']
       },
       {
@@ -13404,7 +13404,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['晓角', '《“立此存照”（五）》']
       },
       {
@@ -13416,7 +13416,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['晓角', '《“立此存照”（六）》']
       },
       {
@@ -13428,7 +13428,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '09', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['晓角', '《“立此存照”（七）》']
       },
       {
@@ -13440,7 +13440,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<海上述林>下卷序言》']
       },
       {
@@ -13452,7 +13452,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<出关>的“关”》']
       },
       {
@@ -13464,7 +13464,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<中国杰作小说>小引》']
       },
       {
@@ -13475,7 +13475,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《引玉集》']
       },
       {
@@ -13486,7 +13486,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《鲁迅选集》']
       },
       {
@@ -13498,7 +13498,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《恋歌》']
       },
       {
@@ -13510,7 +13510,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《恋歌》-《译后附记》']
       },
       {
@@ -13522,7 +13522,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '04', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['庚', '《EventTypesEnum.Life识字胡涂始》']
       },
       {
@@ -13534,7 +13534,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '31' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['旅隼', '《从“别字”说开去》']
       },
       {
@@ -13546,7 +13546,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '31' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《徐懋庸作<打杂集>序》']
       },
       {
@@ -13558,7 +13558,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《田军作<八月的乡村>序》']
       },
       {
@@ -13570,7 +13570,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<奇闻二则>译后附记》']
       },
       {
@@ -13582,7 +13582,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《难解的性格》']
       },
       {
@@ -13594,7 +13594,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《波斯勋章》']
       },
       {
@@ -13606,7 +13606,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《阴谋》']
       },
       {
@@ -13618,7 +13618,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<坏孩子和别的奇闻>译者后记》']
       },
       {
@@ -13629,7 +13629,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《俄罗斯童话》三则']
       },
       {
@@ -13641,7 +13641,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['敖', '《论讽刺》']
       },
       {
@@ -13653,7 +13653,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['庚', '《非有复译不可》']
       },
       {
@@ -13665,7 +13665,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['杜德机', '《“寻开心”》']
       },
       {
@@ -13676,7 +13676,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '梵澄（即徐诗荃）译的《尼采自传》']
       },
       {
@@ -13688,7 +13688,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《内山完造作<活中国的姿态>序》']
       },
       {
@@ -13700,7 +13700,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<中国新文学大系>小说二集序》']
       },
       {
@@ -13712,7 +13712,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《漫谈“漫画”》']
       },
       {
@@ -13724,7 +13724,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['且介', '《漫画而又漫画》']
       },
       {
@@ -13736,7 +13736,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['何干', '《骗月亮》']
       },
       {
@@ -13748,7 +13748,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<编完写起>案语》']
       },
       {
@@ -13760,7 +13760,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》（第一部）第一、二章']
       },
       {
@@ -13772,7 +13772,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '05', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》（第一部）第三、四章']
       },
       {
@@ -13784,7 +13784,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》（第一部）第五、六章']
       },
       {
@@ -13796,7 +13796,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》（第一部）第七、八章']
       },
       {
@@ -13808,7 +13808,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》（第一部）第九、十章']
       },
       {
@@ -13820,7 +13820,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》（第一部）第十一章']
       },
       {
@@ -13832,7 +13832,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》第一部附录一、二、三、四之A及四之B（德国沃多•培多编']
       },
       {
@@ -13844,7 +13844,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》（第一部）序言']
       },
       {
@@ -13856,7 +13856,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['栾廷石', '《“京派”与“海派”》']
       },
       {
@@ -13868,7 +13868,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<引玉集>后记》']
       },
       {
@@ -13880,7 +13880,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['倪朔尔', '《漫骂》']
       },
       {
@@ -13892,7 +13892,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['倪朔尔', '《批评家的批评家》']
       },
       {
@@ -13904,7 +13904,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['张承禄', '《未来的光荣》']
       },
       {
@@ -13916,7 +13916,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['赵令仪', '《女人未必多说谎》']
       },
       {
@@ -13928,7 +13928,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '08', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“论语一年”》']
       },
       {
@@ -13940,7 +13940,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '08', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《小品文的危机》']
       },
       {
@@ -13952,7 +13952,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '08', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《帮闲法发隐》']
       },
       {
@@ -13964,7 +13964,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '07', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<伪自由书>后记》']
       },
       {
@@ -13976,7 +13976,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《论“第三种人”》']
       },
       {
@@ -13988,7 +13988,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《又论“第三种人”》']
       },
       {
@@ -14000,7 +14000,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“硬译”与“文学的阶级性”》']
       },
       {
@@ -14012,7 +14012,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《现代电影与有产阶级》']
       },
       {
@@ -14024,7 +14024,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['L', '《现代电影与有产阶级》-《译者附记》']
       },
       {
@@ -14036,7 +14036,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《流氓的变迁》']
       },
       {
@@ -14048,7 +14048,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《毁灭》第1、2部']
       },
       {
@@ -14060,7 +14060,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《新月社批评家的任务》']
       },
       {
@@ -14072,7 +14072,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '09', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<小彼得>译本序》']
       },
       {
@@ -14084,7 +14084,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '09', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《小彼得》']
       },
       {
@@ -14096,7 +14096,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '08', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《人性的天才——迦尔洵》']
       },
       {
@@ -14108,7 +14108,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '08', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《人性的天才——迦尔洵》-《译者附记》']
       },
       {
@@ -14119,7 +14119,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《艺术论》']
       },
       {
@@ -14131,7 +14131,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '06', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《通讯（复张逢汉)》']
       },
       {
@@ -14143,7 +14143,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '06', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《表现主义的诸相》']
       },
       {
@@ -14155,7 +14155,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '03', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《奔流》稿']
       },
       {
@@ -14167,7 +14167,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '03', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《哈谟生的几句话》']
       },
       {
@@ -14179,7 +14179,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '02', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《致<近代美术史潮论>的读者诸君》']
       },
       {
@@ -14191,7 +14191,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《近代美术史潮论》']
       },
       {
@@ -14203,7 +14203,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '02', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《现代新兴文学的诸问题》']
       },
       {
@@ -14215,7 +14215,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《现代新兴文学的诸问题》-《小引》']
       },
       {
@@ -14227,7 +14227,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '01', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《谨启（致<北新>半月刊读者）》']
       },
       {
@@ -14239,7 +14239,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《近代木刻选集》（1）']
       },
       {
@@ -14251,7 +14251,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《蕗谷虹儿画选》']
       },
       {
@@ -14263,7 +14263,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '01', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<近代木刻选集>（1）附记》']
       },
       {
@@ -14275,7 +14275,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '01', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<蕗谷虹儿画选>小引》']
       },
       {
@@ -14287,7 +14287,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '01', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《托尔斯泰之死与少年欧罗巴》']
       },
       {
@@ -14299,7 +14299,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '01', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《托尔斯泰之死与少年欧罗巴》-《译后附记》']
       },
       {
@@ -14311,7 +14311,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '01', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<近代木刻选集>（1）小引》']
       },
       {
@@ -14323,7 +14323,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '01', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<奔流>编校后记（八）》']
       },
       {
@@ -14335,7 +14335,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '01', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《十月》']
       },
       {
@@ -14347,7 +14347,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '01', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《十月》-《译者识》']
       },
       {
@@ -14359,7 +14359,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '12', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《Leov Tolstoi》']
       },
       {
@@ -14371,7 +14371,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '12', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['许霞', '《访革命后的托尔斯泰故乡记》']
       },
       {
@@ -14383,7 +14383,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '12', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['奔流社同人', '《敬贺新喜》']
       },
       {
@@ -14395,7 +14395,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '12', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《托尔斯泰与马克思》']
       },
       {
@@ -14407,7 +14407,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '12', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《苏俄的文艺政策——观念形态战线和文学》']
       },
       {
@@ -14419,7 +14419,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《大江月刊》']
       },
       {
@@ -14431,7 +14431,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['陈望道', '《大江月刊》']
       },
       {
@@ -14443,7 +14443,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '10', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《关于绥蒙诺夫及其代表作<饥饿>》']
       },
       {
@@ -14455,7 +14455,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '10', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《关于绥蒙诺夫及其代表作<饥饿>》-《译者识》']
       },
       {
@@ -14467,7 +14467,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '10', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《艺术与阶级》']
       },
       {
@@ -14479,7 +14479,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '02', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《朝花夕拾》']
       },
       {
@@ -14490,7 +14490,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '09', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《游仙窟》']
       },
       {
@@ -14502,7 +14502,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '09', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《食人人种的话》']
       },
       {
@@ -14514,7 +14514,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '09', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《食人人种的话》-《译者附记》']
       },
       {
@@ -14526,7 +14526,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '02', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“革命军马前卒”和“落伍者”》']
       },
       {
@@ -14537,7 +14537,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《白莽作〈孩儿塔〉序》']
       },
       {
@@ -14549,7 +14549,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '金城大戏院', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《钦差大臣》']
       },
       {
@@ -14561,7 +14561,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '金城大戏院', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['许广平', '《钦差大臣》']
       },
       {
@@ -14573,7 +14573,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《中国新文学大系》第四集《小说二集》']
       },
       {
@@ -14584,7 +14584,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《小品文的危机》']
       },
       {
@@ -14596,7 +14596,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《欢迎反战大会国际代表的宣言》']
       },
       {
@@ -14608,7 +14608,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '10', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '野风画会：虹口公园一侧的西江湾路476弄公园坊内', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《美术上的大众化与旧形式利用问题》']
       },
       {
@@ -14620,7 +14620,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '12', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '野风画会：虹口公园一侧的西江湾路476弄公园坊内', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《美术上的大众化与旧形式利用问题》']
       },
       {
@@ -14632,7 +14632,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '02', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['茅盾', '《上海文化界告全世界书》']
       },
       {
@@ -14644,7 +14644,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '02', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《上海文化界告全世界书》']
       },
       {
@@ -14656,7 +14656,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '02', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['周起应', '《上海文化界告全世界书》']
       },
       {
@@ -14668,7 +14668,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '02', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['郁达夫', '《上海文化界告全世界书》']
       },
       {
@@ -14680,7 +14680,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '02', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['胡愈之', '《上海文化界告全世界书》']
       },
       {
@@ -14692,7 +14692,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '02', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['叶圣陶', '《上海文化界告全世界书》']
       },
       {
@@ -14704,7 +14704,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '02', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['丁玲', '《上海文化界告全世界书》']
       },
       {
@@ -14716,7 +14716,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '02', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['何丹仁', '《上海文化界告全世界书》']
       },
       {
@@ -14728,7 +14728,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '02', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['田汉', '《上海文化界告全世界书》']
       },
       {
@@ -14740,7 +14740,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '02', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['沈端先', '《上海文化界告全世界书》']
       },
       {
@@ -14752,7 +14752,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '02', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['华汉', '《上海文化界告全世界书》']
       },
       {
@@ -14764,7 +14764,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '05', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《新俄画选》']
       },
       {
@@ -14776,7 +14776,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《而已集》']
       },
       {
@@ -14788,7 +14788,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“醉眼”中的朦胧》']
       },
       {
@@ -14800,7 +14800,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《何典》-《题记》']
       },
       {
@@ -14812,7 +14812,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《为半农题记<何典>后作》']
       },
       {
@@ -14824,7 +14824,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《关于太炎先生二三事》']
       },
       {
@@ -14836,7 +14836,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《因太炎先生而想起的二三事》']
       },
       {
@@ -14848,7 +14848,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《答徐懋庸并关于抗日统一战线问题》']
       },
       {
@@ -14860,7 +14860,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《论现在我们的文学运动》']
       },
       {
@@ -14871,7 +14871,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《苏联版画集》']
       },
       {
@@ -14883,7 +14883,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵百图》']
       },
       {
@@ -14895,7 +14895,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《论现在我们的文学运动》']
       },
       {
@@ -14907,7 +14907,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '06', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《论现在我们的文学运动》']
       },
       {
@@ -14919,7 +14919,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '06', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《答托洛斯基派信》']
       },
       {
@@ -14931,7 +14931,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《三月的租界》']
       },
       {
@@ -14942,7 +14942,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '03', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《白莽作（孩儿塔）序》']
       },
       {
@@ -14953,7 +14953,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《俄罗斯童话》']
       },
       {
@@ -14965,7 +14965,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“题未定”草（五）》']
       },
       {
@@ -14977,7 +14977,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《俄罗斯的童话》广告']
       },
       {
@@ -14989,7 +14989,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['隼', '《五论“文人相轻”——明术》']
       },
       {
@@ -15001,7 +15001,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['隼', '《四论“文人相轻”》']
       },
       {
@@ -15013,7 +15013,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '现代书局', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '瞿秋白译稿两部']
       },
       {
@@ -15025,7 +15025,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<俄罗斯的童话>小引》']
       },
       {
@@ -15036,7 +15036,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《小说旧闻钞》']
       },
       {
@@ -15047,7 +15047,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《中国新文学火系•小说二集》']
       },
       {
@@ -15058,7 +15058,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《表》']
       },
       {
@@ -15070,7 +15070,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“题未定”草（一—三）》']
       },
       {
@@ -15082,7 +15082,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<中国小说史略>日本译本序》']
       },
       {
@@ -15094,7 +15094,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['直入', '《两种“黄帝子孙”》']
       },
       {
@@ -15106,7 +15106,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['干', '《文坛三户》']
       },
       {
@@ -15118,7 +15118,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《从帮忙到扯淡》']
       },
       {
@@ -15130,7 +15130,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '06', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['何干', '《<全国木刻联合展览会专辑>序》']
       },
       {
@@ -15142,7 +15142,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '04', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['隼', '《“文人相轻”》']
       },
       {
@@ -15154,7 +15154,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '04', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['旅隼', '《“京派”和“海派”》']
       },
       {
@@ -15166,7 +15166,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《中国文坛上的鬼魅》']
       },
       {
@@ -15178,7 +15178,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《答<戏>周刊编者信》']
       },
       {
@@ -15190,7 +15190,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《寄<戏>周刊编者信》']
       },
       {
@@ -15202,7 +15202,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《拾零集》']
       },
       {
@@ -15214,7 +15214,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<饥饿之城>后记》']
       },
       {
@@ -15226,7 +15226,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['乐雯', '《描写自己》']
       },
       {
@@ -15238,7 +15238,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['乐雯', '《描写自己》-《译后附记》']
       },
       {
@@ -15250,7 +15250,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['张禄如', '《<山民牧唱>序》']
       },
       {
@@ -15262,7 +15262,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['张禄如', '《<山民牧唱>序》-《译后附记》']
       },
       {
@@ -15274,7 +15274,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['乐雯', '《说述自己的纪德》']
       },
       {
@@ -15286,7 +15286,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《说“面子”》']
       },
       {
@@ -15298,7 +15298,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《木刻纪程》（一）']
       },
       {
@@ -15310,7 +15310,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《木刻纪程》']
       },
       {
@@ -15322,7 +15322,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['张沛', '《点句的难》']
       },
       {
@@ -15334,7 +15334,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['苗挺', '《又是“莎士比亚”》']
       },
       {
@@ -15346,7 +15346,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['隼', '《“以眼还眼”》']
       },
       {
@@ -15358,7 +15358,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['黄棘', '《考场三丑》']
       },
       {
@@ -15370,7 +15370,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['白道', '《中秋二愿》']
       },
       {
@@ -15382,7 +15382,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['及锋', '《商贾的批评》']
       },
       {
@@ -15394,7 +15394,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['公汗', '《中国人失掉自信力了吗》']
       },
       {
@@ -15406,7 +15406,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['公汗', '《中国语文的新生》']
       },
       {
@@ -15418,7 +15418,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['苗挺', '《“莎士比亚”》']
       },
       {
@@ -15429,7 +15429,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《译文》']
       },
       {
@@ -15440,7 +15440,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《译文》']
       },
       {
@@ -15451,7 +15451,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['茅盾', '《译文》']
       },
       {
@@ -15462,7 +15462,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['黎烈文', '《译文》']
       },
       {
@@ -15474,7 +15474,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《俄罗斯的童话》第一、二篇']
       },
       {
@@ -15486,7 +15486,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《俄罗斯的童话》第一、二篇-《后记》']
       },
       {
@@ -15498,7 +15498,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《俄罗斯的童话》第三篇']
       },
       {
@@ -15510,7 +15510,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《俄罗斯的童话》第三篇-《后记》']
       },
       {
@@ -15522,7 +15522,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《俄罗斯的童话》第七，八、九篇']
       },
       {
@@ -15534,7 +15534,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '04', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《俄罗斯的童话》第十至十六篇']
       },
       {
@@ -15546,7 +15546,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['直', '《做“杂文”也不易》']
       },
       {
@@ -15558,7 +15558,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['许遐', '《饥馑》']
       },
       {
@@ -15570,7 +15570,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['许遐', '《饥馑》-《译后附记》']
       },
       {
@@ -15582,7 +15582,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《淞隐漫录》题记']
       },
       {
@@ -15594,7 +15594,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《淞隐续录》题记']
       },
       {
@@ -15606,7 +15606,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《漫游随录图记》题记']
       },
       {
@@ -15618,7 +15618,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《风筝误》题记']
       },
       {
@@ -15630,7 +15630,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《非攻》']
       },
       {
@@ -15642,7 +15642,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['公汗', '《不知肉味和不知水味》']
       },
       {
@@ -15653,7 +15653,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《门外文谈》']
       },
       {
@@ -15665,7 +15665,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '06', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《拿来主义》']
       },
       {
@@ -15677,7 +15677,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '04', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《在现代中国的孔夫子》']
       },
       {
@@ -15689,7 +15689,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《引玉集》']
       },
       {
@@ -15701,7 +15701,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '01', day: '31' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《关于中国的两三件事》']
       },
       {
@@ -15712,7 +15712,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '12', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《答杨邨人先生公开信的公开信》']
       },
       {
@@ -15724,7 +15724,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《重三感旧》']
       },
       {
@@ -15736,7 +15736,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“感旧”以后》']
       },
       {
@@ -15748,7 +15748,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《二心集》']
       },
       {
@@ -15760,7 +15760,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '01', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《北斗》']
       },
       {
@@ -15771,7 +15771,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《关于小说题材问题的通信》']
       },
       {
@@ -15783,7 +15783,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '11', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《铁流》-《编校后记》']
       },
       {
@@ -15795,7 +15795,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '10', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“友邦惊诧”论》']
       },
       {
@@ -15807,7 +15807,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《毁灭》']
       },
       {
@@ -15819,7 +15819,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '09', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《梅斐尔德木刻(士敏土)之图》']
       },
       {
@@ -15831,7 +15831,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '09', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《梅斐尔德木刻(士敏土)之图》-《序言》']
       },
       {
@@ -15843,7 +15843,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '12', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《我和<语丝>的始终》']
       },
       {
@@ -15855,7 +15855,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '12', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《契诃夫与新文艺》']
       },
       {
@@ -15867,7 +15867,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '12', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '上海暨南大学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《离骚与反离骚》']
       },
       {
@@ -15879,7 +15879,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '12', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《恶魔》']
       },
       {
@@ -15891,7 +15891,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '12', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《恶魔》-《译者附记》']
       },
       {
@@ -15903,7 +15903,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '11', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['隋洛文', '《洞窟》']
       },
       {
@@ -15915,7 +15915,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '07', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['隋洛文', '《洞窟》-《译者附记》']
       },
       {
@@ -15927,7 +15927,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '11', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<奔流>编校后记（十二）》']
       },
       {
@@ -15939,7 +15939,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《勇敢的约翰》译稿']
       },
       {
@@ -15951,7 +15951,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['孙用', '《勇敢的约翰》译稿']
       },
       {
@@ -15963,7 +15963,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《我的态度气量和年纪》']
       },
       {
@@ -15975,7 +15975,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '04', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《扁》']
       },
       {
@@ -15987,7 +15987,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '04', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《路》']
       },
       {
@@ -15999,7 +15999,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '04', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《头》']
       },
       {
@@ -16011,7 +16011,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '04', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《通信》']
       },
       {
@@ -16023,7 +16023,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '04', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《太平歌诀》']
       },
       {
@@ -16035,7 +16035,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '04', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《铲共大观']
       },
       {
@@ -16047,7 +16047,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《卢梭与胃口》']
       },
       {
@@ -16059,7 +16059,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文学与出汗》']
       },
       {
@@ -16071,7 +16071,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '11', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《信州杂记》']
       },
       {
@@ -16083,7 +16083,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '11', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《信州杂记》-《译后记》']
       },
       {
@@ -16095,7 +16095,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '11', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《再谈香港》']
       },
       {
@@ -16107,7 +16107,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '11', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '劳动大学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《关于文学与革命问题》']
       },
       {
@@ -16119,7 +16119,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '11', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '复旦大学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《革命文学》']
       },
       {
@@ -16130,7 +16130,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《华盖集续编》']
       },
       {
@@ -16142,7 +16142,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '06', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《答托洛斯基派的信》']
       },
       {
@@ -16154,7 +16154,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》第二部第二章《译后附记》']
       },
       {
@@ -16165,7 +16165,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '05', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《海上述林》下卷']
       },
       {
@@ -16176,7 +16176,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '05', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》第二部第三章']
       },
       {
@@ -16188,7 +16188,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《写于深夜里》']
       },
       {
@@ -16200,7 +16200,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '良友图书印刷公司的编辑部', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《苏联版画集》']
       },
       {
@@ -16212,7 +16212,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '04', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《我的第一个师父》']
       },
       {
@@ -16224,7 +16224,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<海上述林>上卷序言》']
       },
       {
@@ -16236,7 +16236,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '03', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》第二部']
       },
       {
@@ -16248,7 +16248,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '02', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》第二部残稿三章']
       },
       {
@@ -16260,7 +16260,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '03', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<死魂灵百图>广告》']
       },
       {
@@ -16272,7 +16272,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》第二部第一章译后记']
       },
       {
@@ -16283,7 +16283,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《海上述林》（第一部《辨林》）']
       },
       {
@@ -16295,7 +16295,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《亥年残秋偶作》']
       },
       {
@@ -16307,7 +16307,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《桃园》']
       },
       {
@@ -16319,7 +16319,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《夏伯阳》']
       },
       {
@@ -16331,7 +16331,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '金城大戏院', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《钦差大臣》']
       },
       {
@@ -16343,7 +16343,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '金城大戏院', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['许广平', '《钦差大臣》']
       },
       {
@@ -16355,7 +16355,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《促狭鬼莱哥羌台奇》']
       },
       {
@@ -16367,7 +16367,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《促狭鬼莱哥羌台奇》-《译者附记》']
       },
       {
@@ -16379,7 +16379,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《重印<十竹斋笺谱>说明》']
       },
       {
@@ -16391,7 +16391,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['且介', '《论俗人应避雅人》']
       },
       {
@@ -16403,7 +16403,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《阿金》']
       },
       {
@@ -16415,7 +16415,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<集外集>序》']
       },
       {
@@ -16427,7 +16427,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《准风月谈》']
       },
       {
@@ -16439,7 +16439,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《病后杂谈之余——关于“舒愤懑”》']
       },
       {
@@ -16451,7 +16451,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《病后杂谈之余——关于“舒愤懑”》附记']
       },
       {
@@ -16463,7 +16463,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《给<戏>周刊编者的信》']
       },
       {
@@ -16475,7 +16475,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《病后杂谈》']
       },
       {
@@ -16487,7 +16487,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《关于新文字》']
       },
       {
@@ -16499,7 +16499,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '29' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《河南卢氏曹先生教泽碑文》']
       },
       {
@@ -16511,7 +16511,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['焉于', '《读书忌》']
       },
       {
@@ -16523,7 +16523,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《中国文坛上的鬼魅》']
       },
       {
@@ -16535,7 +16535,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['阿法', '《骂杀与捧杀》']
       },
       {
@@ -16547,7 +16547,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《寄<戏>周刊编者信》']
       },
       {
@@ -16559,7 +16559,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['张禄如', '《会友》']
       },
       {
@@ -16571,7 +16571,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['张禄如', '《会友》-《译后附记》']
       },
       {
@@ -16583,7 +16583,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《答<戏>周刊编者信》']
       },
       {
@@ -16595,7 +16595,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《假病人》']
       },
       {
@@ -16607,7 +16607,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《簿记课副手日记抄》']
       },
       {
@@ -16619,7 +16619,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《那是她》']
       },
       {
@@ -16631,7 +16631,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<奇闻三则>译后附记》']
       },
       {
@@ -16643,7 +16643,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《拿破仑与隋那》']
       },
       {
@@ -16655,7 +16655,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['公汗', '《随便翻翻》']
       },
       {
@@ -16667,7 +16667,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['张沛', '《略论梅兰芳及其他（下）》']
       },
       {
@@ -16679,7 +16679,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['张沛', '《略论梅兰芳及其他（上）》']
       },
       {
@@ -16691,7 +16691,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '31' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《脸谱臆测》']
       },
       {
@@ -16703,7 +16703,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['直入', '《势所必至，理有固然》']
       },
       {
@@ -16715,7 +16715,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<准风月谈>后记》']
       },
       {
@@ -16727,7 +16727,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['白道', '《奇怪（三）》']
       },
       {
@@ -16739,7 +16739,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['公汗', '《奇怪（三）》']
       },
       {
@@ -16751,7 +16751,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《近代世界短篇小说集（1）》：《奇剑及其他》']
       },
       {
@@ -16763,7 +16763,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《波兰姑娘》']
       },
       {
@@ -16775,7 +16775,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<一篇很短的传奇>译者附记》']
       },
       {
@@ -16787,7 +16787,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1921', month: '11', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《一篇很短的传奇》-《附记》']
       },
       {
@@ -16799,7 +16799,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1921', month: '11', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《一篇很短的传奇》']
       },
       {
@@ -16811,7 +16811,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '施高塔路', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《倒立之演技女儿》']
       },
       {
@@ -16823,7 +16823,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《面包店时代》']
       },
       {
@@ -16835,7 +16835,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《面包店时代》-《译者附记》']
       },
       {
@@ -16847,7 +16847,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《新时代的豫感》']
       },
       {
@@ -16859,7 +16859,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《新时代的豫感》-《附记》']
       },
       {
@@ -16871,7 +16871,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '07', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<奔流>编校后记（二）》']
       },
       {
@@ -16883,7 +16883,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '06', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《苏俄的文艺政策》']
       },
       {
@@ -16895,7 +16895,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '06', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<奔流>凡例五则》']
       },
       {
@@ -16907,7 +16907,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '06', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《跋世珂族的人们》']
       },
       {
@@ -16919,7 +16919,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '06', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<奔流>编校后记（一）》']
       },
       {
@@ -16931,7 +16931,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '04', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《通信（复张孟闻）》']
       },
       {
@@ -16943,7 +16943,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '04', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《关于<近代美术史潮论>插图》']
       },
       {
@@ -16955,7 +16955,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '04', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《路》']
       },
       {
@@ -16967,7 +16967,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '04', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《头》']
       },
       {
@@ -16979,7 +16979,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '04', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《通信》']
       },
       {
@@ -16991,7 +16991,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '04', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《铲共大观》']
       },
       {
@@ -17003,7 +17003,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '04', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《扁》']
       },
       {
@@ -17015,7 +17015,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '04', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《太平歌诀》']
       },
       {
@@ -17027,7 +17027,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '04', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文艺与革命》']
       },
       {
@@ -17039,7 +17039,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '31' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<思想•山水•人物>序言》']
       },
       {
@@ -17051,7 +17051,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '04', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《思想•山水•人物》']
       },
       {
@@ -17063,7 +17063,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《在上海的鲁迅启事》']
       },
       {
@@ -17075,7 +17075,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['旅沪一记者', '《本刊小信》']
       },
       {
@@ -17087,7 +17087,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '31' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<思想•山水•人物>题记》']
       },
       {
@@ -17099,7 +17099,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<示众>编者注》']
       },
       {
@@ -17111,7 +17111,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['旅沪一记者', '《通信（季廉来信按语）》']
       },
       {
@@ -17123,7 +17123,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '03', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《看司徒乔君的画》']
       },
       {
@@ -17135,7 +17135,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '02', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《烟袋》']
       },
       {
@@ -17147,7 +17147,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['中拉', '《<丙和甲>按语》']
       },
       {
@@ -17159,7 +17159,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《卢勃克和伊里纳的后来》']
       },
       {
@@ -17171,7 +17171,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《卢勃克和伊里纳的后来》-《译后附记》']
       },
       {
@@ -17183,7 +17183,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['楮冠', '《拟豫言》']
       },
       {
@@ -17195,7 +17195,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《关于知识阶级》']
       },
       {
@@ -17207,7 +17207,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《谈所谓‘大内档案’》']
       },
       {
@@ -17219,7 +17219,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文艺和革命》']
       },
       {
@@ -17231,7 +17231,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '12', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文学和出汗》']
       },
       {
@@ -17243,7 +17243,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '立达学园', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《伟人的化石》']
       },
       {
@@ -17255,7 +17255,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '劳动大学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《关于知识阶级》']
       },
       {
@@ -17267,7 +17267,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《革命文学》']
       },
       {
@@ -17278,7 +17278,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《花边文学》']
       },
       {
@@ -17290,7 +17290,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '06', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['乐文', '《药用植物》']
       },
       {
@@ -17302,7 +17302,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '06', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<苏联版画集>序》']
       },
       {
@@ -17314,7 +17314,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '06', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['许广平', '《<苏联版画集>序》']
       },
       {
@@ -17326,7 +17326,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '06', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《中国文艺工作者宣言》']
       },
       {
@@ -17338,7 +17338,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '06', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《论现在我们的文学运动》']
       },
       {
@@ -17349,7 +17349,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《死魂灵》第一部']
       },
       {
@@ -17360,7 +17360,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《海上述林》']
       },
       {
@@ -17372,7 +17372,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '“译文社丛书”的合同']
       },
       {
@@ -17384,7 +17384,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《门外文谈》']
       },
       {
@@ -17396,7 +17396,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<译文>终刊号前记》']
       },
       {
@@ -17408,7 +17408,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['茅盾', '《<译文>终刊号前记》']
       },
       {
@@ -17420,7 +17420,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<坏孩子和别的奇闻>译者后记》']
       },
       {
@@ -17432,7 +17432,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《坏孩子和别的奇闻》']
       },
       {
@@ -17444,7 +17444,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<坏孩子和别的奇闻>前记》']
       },
       {
@@ -17456,7 +17456,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['隼', '《六论“文人相轻”——二卖》']
       },
       {
@@ -17468,7 +17468,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['隼', '《七论“文人相轻”——两伤》']
       },
       {
@@ -17480,7 +17480,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《给<译文>编者订正的信》']
       },
       {
@@ -17492,7 +17492,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《村妇》']
       },
       {
@@ -17504,7 +17504,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《村妇》-《译后附记》']
       },
       {
@@ -17516,7 +17516,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['直入', '《聚“珍”》']
       },
       {
@@ -17528,7 +17528,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《俄罗斯的童话》']
       },
       {
@@ -17540,7 +17540,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['杜德机', '《逃名》']
       },
       {
@@ -17552,7 +17552,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['黄棘', '《论毛笔之类》']
       },
       {
@@ -17564,7 +17564,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '05', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['黄棘', '《再论“文人相轻”》']
       },
       {
@@ -17576,7 +17576,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '05', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['赵令仪', '《论“人言可畏”》']
       },
       {
@@ -17588,7 +17588,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<中国新文学大系>小说二集》编选感想']
       },
       {
@@ -17600,7 +17600,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《叶紫作<丰收>序》']
       },
       {
@@ -17612,7 +17612,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《坏孩子》']
       },
       {
@@ -17624,7 +17624,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《暴躁人》']
       },
       {
@@ -17636,7 +17636,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<奇闻二则>译后附记》']
       },
       {
@@ -17648,7 +17648,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《表》']
       },
       {
@@ -17660,7 +17660,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《表》-《译者的话》']
       },
       {
@@ -17671,7 +17671,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《表》']
       },
       {
@@ -17682,7 +17682,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《十竹斋笺谱》']
       },
       {
@@ -17693,7 +17693,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['郑振铎', '《十竹斋笺谱》']
       },
       {
@@ -17705,7 +17705,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '31' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《少年别》']
       },
       {
@@ -17717,7 +17717,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '31' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《少年别》-《译者附记》']
       },
       {
@@ -17729,7 +17729,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['康伯度', '《康伯度答文公直》（通信）']
       },
       {
@@ -17741,7 +17741,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['张禄如', '《赠<新语林>诗》']
       },
       {
@@ -17753,7 +17753,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['张禄如', '《致<新语林>读者辞》']
       },
       {
@@ -17765,7 +17765,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《果戈理私观》']
       },
       {
@@ -17777,7 +17777,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '04' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《果戈理私观》-《译者附记》']
       },
       {
@@ -17789,7 +17789,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《答曹聚仁先生信》']
       },
       {
@@ -17801,7 +17801,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《忆刘半农君》']
       },
       {
@@ -17813,7 +17813,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<鹭华月刊>说明》']
       },
       {
@@ -17825,7 +17825,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<母亲>木刻画序》']
       },
       {
@@ -17837,7 +17837,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《鼻子》']
       },
       {
@@ -17849,7 +17849,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<鼻子>译后记》']
       },
       {
@@ -17861,7 +17861,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['朔尔', '《做文章》']
       },
       {
@@ -17873,7 +17873,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《Spiessr Spiegel》']
       },
       {
@@ -17885,7 +17885,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《K athe Kollwitz-Werk》']
       },
       {
@@ -17897,7 +17897,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《木刻纪程》']
       },
       {
@@ -17909,7 +17909,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《木刻纪程“小引”》']
       },
       {
@@ -17921,7 +17921,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['康伯度', '《玩笑只当它玩笑（上）》']
       },
       {
@@ -17933,7 +17933,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['康伯度', '《玩笑只当它玩笑（下）》']
       },
       {
@@ -17945,7 +17945,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['莫朕', '《算账》']
       },
       {
@@ -17957,7 +17957,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['公汗', '《水性》']
       },
       {
@@ -17968,7 +17968,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《准风月谈》']
       },
       {
@@ -17980,7 +17980,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《忆韦素园君》']
       },
       {
@@ -17992,7 +17992,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['杜德机', '《买<小学大全>记》']
       },
       {
@@ -18004,7 +18004,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['公汗', '《“彻底”的底子》']
       },
       {
@@ -18016,7 +18016,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['邓当世', '《知了世界》']
       },
       {
@@ -18028,7 +18028,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['许遐', '《我的文学修养》']
       },
       {
@@ -18040,7 +18040,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['史贲', '《再论重译》']
       },
       {
@@ -18052,7 +18052,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['公汗', '《难行和不信》']
       },
       {
@@ -18063,7 +18063,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“民族主义文学”的任务和运命》']
       },
       {
@@ -18075,7 +18075,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '07', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '上海社会科学研究会', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《上海文艺之一瞥》']
       },
       {
@@ -18087,7 +18087,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“好政府主义”》']
       },
       {
@@ -18099,7 +18099,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“丧家的”“资本家的乏走狗”》']
       },
       {
@@ -18111,7 +18111,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“硬译”与“文学的阶级性”》']
       },
       {
@@ -18123,7 +18123,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《非革命的急进革命论者》']
       },
       {
@@ -18135,7 +18135,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《新月社批评家的任务》']
       },
       {
@@ -18147,7 +18147,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《近代世界短篇小说集（一）》-《小引》']
       },
       {
@@ -18159,7 +18159,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '12', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<“雄鸡和杂馔”抄>译者附记》']
       },
       {
@@ -18171,7 +18171,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '12', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<雄鸡和杂馔>抄》']
       },
       {
@@ -18183,7 +18183,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '12', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<奔流>编校后记（七）》']
       },
       {
@@ -18195,7 +18195,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '12', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['L•S', '《一九二八年世界文艺界概观》']
       },
       {
@@ -18207,7 +18207,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《跳蚤》']
       },
       {
@@ -18219,7 +18219,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《跳蚤》-《译者附记》']
       },
       {
@@ -18231,7 +18231,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《坦波林之歌》']
       },
       {
@@ -18243,7 +18243,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《坦波林之歌》-《译者附记》']
       },
       {
@@ -18255,7 +18255,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['葛何德', '《关于剧本的考察》']
       },
       {
@@ -18267,7 +18267,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '内山书店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《世界美术全集》中的第23册']
       },
       {
@@ -18279,7 +18279,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《果树园》']
       },
       {
@@ -18291,7 +18291,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《果树园》-《译者附记》']
       },
       {
@@ -18303,7 +18303,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<奔流>编校后记（六）》']
       },
       {
@@ -18315,7 +18315,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《竖琴》']
       },
       {
@@ -18327,7 +18327,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《竖琴》-《译者附记》']
       },
       {
@@ -18339,7 +18339,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《在沙漠上》']
       },
       {
@@ -18351,7 +18351,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《在沙漠上》-《译者附识》']
       },
       {
@@ -18363,7 +18363,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<东京通信>按语》']
       },
       {
@@ -18375,7 +18375,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['封余', '《关于“粗人”》']
       },
       {
@@ -18387,7 +18387,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '11', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['封余', '《<北欧文学的原理>译者识》']
       },
       {
@@ -18399,7 +18399,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '10', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<奔流>编校后记（五）》']
       },
       {
@@ -18411,7 +18411,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '10', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<捕狮>译后记》']
       },
       {
@@ -18423,7 +18423,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '10', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<大衍发微>附记》']
       },
       {
@@ -18435,7 +18435,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '10', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《捕狮》']
       },
       {
@@ -18447,7 +18447,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '10', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《北欧文学的原理》']
       },
       {
@@ -18459,7 +18459,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '10', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《北欧文学的原理》-《译者附记》']
       },
       {
@@ -18471,7 +18471,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '07', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['旅沪记者', '《复康嗣群》']
       },
       {
@@ -18483,7 +18483,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '07', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['葛何德', '《生活的演剧化》']
       },
       {
@@ -18495,7 +18495,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '07', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《复晓真》']
       },
       {
@@ -18507,7 +18507,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['长庚', '《书的还魂和赶造》']
       },
       {
@@ -18518,7 +18518,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《通讯（致郑孝观）补记》']
       },
       {
@@ -18530,7 +18530,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['公汗', '《“招贴即扯”》']
       },
       {
@@ -18542,7 +18542,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['长庚', '《隐士》']
       },
       {
@@ -18553,7 +18553,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '24' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《中国新文学大系•小说二集》']
       },
       {
@@ -18565,7 +18565,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '01', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《小说旧闻钞》']
       },
       {
@@ -18577,7 +18577,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<小说旧闻钞>再版序言》']
       },
       {
@@ -18589,7 +18589,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['仲度', '《汉字和拉丁化》']
       },
       {
@@ -18601,7 +18601,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['张沛', '《“大雪纷飞”》']
       },
       {
@@ -18613,7 +18613,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['焉于', '《看书琐记（三）》']
       },
       {
@@ -18625,7 +18625,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['越侨', '《迎神和咬人》']
       },
       {
@@ -18637,7 +18637,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['华圉', '《门外文谈》']
       },
       {
@@ -18649,7 +18649,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['白道', '《奇怪》']
       },
       {
@@ -18661,7 +18661,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<木刻纪程>告白》']
       },
       {
@@ -18673,7 +18673,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['白道', '《奇怪（二）》']
       },
       {
@@ -18685,7 +18685,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['史贲', '《安贫乐道法》']
       },
       {
@@ -18697,7 +18697,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['康伯度', '《趋时和复古》']
       },
       {
@@ -18709,7 +18709,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《译文》创刊号']
       },
       {
@@ -18721,7 +18721,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<译文>创刊前记》']
       },
       {
@@ -18733,7 +18733,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《艺术都会的巴黎》']
       },
       {
@@ -18745,7 +18745,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《艺术都会的巴黎》-《译者附记》']
       },
       {
@@ -18757,7 +18757,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '07' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['孺牛', '《从孩子的照相说起》']
       },
       {
@@ -18769,7 +18769,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['焉于', '《看书琐记（二）》']
       },
       {
@@ -18781,7 +18781,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['焉于', '《看书琐记》']
       },
       {
@@ -18793,7 +18793,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '04', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“丧家的”“资本家的乏走狗”》']
       },
       {
@@ -18805,7 +18805,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '04', day: '17' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《“好政府主义”》']
       },
       {
@@ -18817,7 +18817,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '04', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文艺政策》']
       },
       {
@@ -18829,7 +18829,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文艺政策》-《后记》']
       },
       {
@@ -18841,7 +18841,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '04', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '为神州国光社编辑《现代文艺丛书》合同一纸']
       },
       {
@@ -18853,7 +18853,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '04', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《我们要批评家》']
       },
       {
@@ -18865,7 +18865,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '03', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '中国公学分院', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《美的认识》']
       },
       {
@@ -18877,7 +18877,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '03', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '大夏大学乐天文艺社', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《象牙塔和蜗牛庐》']
       },
       {
@@ -18889,7 +18889,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '03', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '中华艺术大学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《革命文学》']
       },
       {
@@ -18901,7 +18901,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '03', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《非革命的急进革命论者》']
       },
       {
@@ -18913,7 +18913,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '03', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《习惯与改革》']
       },
       {
@@ -18924,7 +18924,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '26' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《新俄画选》']
       },
       {
@@ -18936,7 +18936,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '25' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<新俄画选>小引》']
       },
       {
@@ -18948,7 +18948,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '22' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['黄棘', '《张资平氏的“小说学”》']
       },
       {
@@ -18960,7 +18960,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '中华艺术大学', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《绘画杂论》']
       },
       {
@@ -18972,7 +18972,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《通信（柳无忌来信按语）》']
       },
       {
@@ -18984,7 +18984,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《车勒芮绥夫斯基的文学观》第一章']
       },
       {
@@ -18996,7 +18996,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文艺的大众化》']
       },
       {
@@ -19008,7 +19008,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['L', '《<毁灭>第二部一至三章译者附记》']
       },
       {
@@ -19020,7 +19020,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<文艺研究>例言》']
       },
       {
@@ -19032,7 +19032,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《艺术与哲学，伦理》前半篇']
       },
       {
@@ -19044,7 +19044,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '02', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《书籍和财色》']
       },
       {
@@ -19056,7 +19056,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '08', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《关于<子见南子>》']
       },
       {
@@ -19068,7 +19068,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '08', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<二月>小引》']
       },
       {
@@ -19080,7 +19080,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '08', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文艺与批评》']
       },
       {
@@ -19092,7 +19092,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文艺与批评》-《译者附记》']
       },
       {
@@ -19104,7 +19104,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '08', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<奔流>编校后记（十一）》']
       },
       {
@@ -19116,7 +19116,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '09', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《贵家妇女》']
       },
       {
@@ -19128,7 +19128,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '09', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《贵家妇女》-《译者附记》']
       },
       {
@@ -19140,7 +19140,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '09', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<奔流>编校后记（四）》']
       },
       {
@@ -19152,7 +19152,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '09', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '内山书店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《马克思主义艺术论》日译本']
       },
       {
@@ -19164,7 +19164,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '09', day: '01' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《通信（复章达生）》']
       },
       {
@@ -19176,7 +19176,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '08', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<我也来谈谈复旦大学>文后附白》']
       },
       {
@@ -19188,7 +19188,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '08', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<奔流>编校后记（三）》']
       },
       {
@@ -19200,7 +19200,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '08', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《革命咖啡店》']
       },
       {
@@ -19212,7 +19212,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '08', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文学的阶级性》']
       },
       {
@@ -19224,7 +19224,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '08', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《文坛的掌故》']
       },
       {
@@ -19236,7 +19236,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['楮冠', '《书苑折枝（三）》']
       },
       {
@@ -19248,7 +19248,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅', '《<唐宋传奇集>序例》']
       },
       {
@@ -19259,7 +19259,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['“左联”', '《前哨》']
       },
       {
@@ -19271,7 +19271,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '06', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海联华书局', '《花边文学》']
       },
       {
@@ -19282,7 +19282,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海文化生活出版社', '《故事新编》']
       },
       {
@@ -19294,7 +19294,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海文化生活出版社', '《文学丛刊》']
       },
       {
@@ -19306,7 +19306,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '05', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海群众图书公司', '《集外集》']
       },
       {
@@ -19318,7 +19318,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海奴隶社', '《丰收》']
       },
       {
@@ -19330,7 +19330,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海兴中书局', '《准风月谈》']
       },
       {
@@ -19342,7 +19342,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['铁木社', '《木刻纪程》']
       },
       {
@@ -19354,7 +19354,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海生活书店', '《太白》半月刊']
       },
       {
@@ -19366,7 +19366,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '07', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['光华书局', '《新语林》半月刊']
       },
       {
@@ -19377,7 +19377,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海同文书店', '《南腔北调集》']
       },
       {
@@ -19389,7 +19389,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海青光书局', '《伪自由书》']
       },
       {
@@ -19400,7 +19400,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '04', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海青光书局', '《两地书》']
       },
       {
@@ -19411,7 +19411,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '09', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海北新书局', '《三闲集》']
       },
       {
@@ -19423,7 +19423,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['“左联”', '《十字街头》']
       },
       {
@@ -19434,7 +19434,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['三闲书屋', '《梅斐尔德木刻士敏土这图》']
       },
       {
@@ -19446,7 +19446,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '08', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['光华书局', '《戈里基文路》']
       },
       {
@@ -19458,7 +19458,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['光华书局', '《艺术论》']
       },
       {
@@ -19470,7 +19470,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['“左联”', '《萌芽》月刊']
       },
       {
@@ -19482,7 +19482,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['水沫书店', '《文艺与批评》']
       },
       {
@@ -19494,7 +19494,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '06', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['大江书铺', '《艺术论》']
       },
       {
@@ -19506,7 +19506,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['大江书铺', '《文艺理论小丛书》']
       },
       {
@@ -19518,7 +19518,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['北新书局', '《野草》']
       },
       {
@@ -19530,7 +19530,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['北新书局', '《桃色的云》']
       },
       {
@@ -19542,7 +19542,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '06', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['联华书局', '《花边文学》']
       },
       {
@@ -19554,7 +19554,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['文化生活出版社', '《故事新编》']
       },
       {
@@ -19566,7 +19566,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['三闲书屋', '《死魂灵百图》']
       },
       {
@@ -19578,7 +19578,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海生活书店', '《现代作家书简》']
       },
       {
@@ -19590,7 +19590,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['容光书局', '《生死场》']
       },
       {
@@ -19602,7 +19602,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['光华书店', '《艺术论》']
       },
       {
@@ -19613,7 +19613,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['北新书局', '《壁下译丛》']
       },
       {
@@ -19625,7 +19625,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['大江书铺', '《现代新兴文学的诸问题》']
       },
       {
@@ -19637,7 +19637,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '06', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['大江书铺', '《艺术论》']
       },
       {
@@ -19649,7 +19649,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['北新书局', '《壁下译丛》']
       },
       {
@@ -19661,7 +19661,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['北新书局', '《陶元庆的出品》']
       },
       {
@@ -19673,7 +19673,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海开明书店', '《尘影》']
       },
       {
@@ -19685,7 +19685,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '11', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['良友图书印刷公司', '《苏联作家七人集》']
       },
       {
@@ -19697,7 +19697,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['诸夏怀霜社', '《海上述林》（下卷）']
       },
       {
@@ -19708,7 +19708,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['洪洋社', '《引玉集》']
       },
       {
@@ -19720,7 +19720,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海容光书局', '《八月的乡村》']
       },
       {
@@ -19732,7 +19732,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '11', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['文化生活出版社', '《死魂灵》（第一部）']
       },
       {
@@ -19744,7 +19744,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['三闲书屋', '《引玉集》']
       },
       {
@@ -19755,7 +19755,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '06', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['大江书铺', '《艺术论》']
       },
       {
@@ -19767,7 +19767,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '04', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['大江书铺', '《现代新兴文学的诸问题》']
       },
       {
@@ -19779,7 +19779,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '12', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['奔流社同人', '《敬贺新喜》']
       },
       {
@@ -19791,7 +19791,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '09', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['未名社', '《朝花夕拾》']
       },
       {
@@ -19803,7 +19803,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海北新书局', '《而已集》']
       },
       {
@@ -19818,7 +19818,7 @@ export const Narrative_luxun: Narrative = {
           lat: 0,
           lng: 0
         },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['内山书店']
       },
       {
@@ -19829,7 +19829,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海良友图书公司', '《苏联版画集》']
       },
       {
@@ -19841,7 +19841,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['三闲书屋', '《死魂灵百图》']
       },
       {
@@ -19852,7 +19852,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海联华书局', '《小说旧闻钞》']
       },
       {
@@ -19863,7 +19863,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['良友图书印刷公司', '《中国新文学火系•小说二集》']
       },
       {
@@ -19874,7 +19874,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海生活书店', '《表》']
       },
       {
@@ -19886,7 +19886,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海合众书店', '《拾零集》']
       },
       {
@@ -19898,7 +19898,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['铁木艺术社', '《木刻纪程》（一）']
       },
       {
@@ -19910,7 +19910,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['铁木艺术社', '《木刻纪程》']
       },
       {
@@ -19921,7 +19921,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '16' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海生活书店', '《译文》']
       },
       {
@@ -19933,7 +19933,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['文化生活出版社', '《俄罗斯的童话》']
       },
       {
@@ -19945,7 +19945,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['三闲书屋', '《引玉集》']
       },
       {
@@ -19957,7 +19957,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海合众书店', '《二心集》']
       },
       {
@@ -19969,7 +19969,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '09', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['大江书铺', '《毁灭》']
       },
       {
@@ -19981,7 +19981,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['三闲书屋', '《毁灭》']
       },
       {
@@ -19993,7 +19993,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['湖风书店', '《勇敢的约翰》译稿']
       },
       {
@@ -20004,7 +20004,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '10', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['北新书局', '《华盖集续编》']
       },
       {
@@ -20016,7 +20016,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['兴中书局', '《准风月谈》']
       },
       {
@@ -20028,7 +20028,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '05', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['北新书局', '《思想•山水•人物》']
       },
       {
@@ -20040,7 +20040,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['商务印书馆', '《药用植物及其他》']
       },
       {
@@ -20052,7 +20052,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['良友图书印刷公司', '《苏联版画集》']
       },
       {
@@ -20064,7 +20064,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['文化生活出版社', '“译文社丛书”的合同']
       },
       {
@@ -20076,7 +20076,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '09', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海天马书店', '《门外文谈》']
       },
       {
@@ -20088,7 +20088,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['联华书局', '《坏孩子和别的奇闻》']
       },
       {
@@ -20100,7 +20100,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['联华书局', '《坏孩子和别的奇闻》']
       },
       {
@@ -20112,7 +20112,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '08', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海文化生活出版社', '《俄罗斯的童话》']
       },
       {
@@ -20124,7 +20124,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '02', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['良友图书印刷公司', '《中国新文学大系》样本广告']
       },
       {
@@ -20136,7 +20136,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['容光书局', '《丰收》']
       },
       {
@@ -20148,7 +20148,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['生活书店', '《表》']
       },
       {
@@ -20160,7 +20160,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['北平荣宝斋', '《十竹斋笺谱》']
       },
       {
@@ -20172,7 +20172,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['美国麻省理工学院', '《草鞋脚》']
       },
       {
@@ -20184,7 +20184,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '', month: '', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海铁木艺术社', '《木刻纪程》']
       },
       {
@@ -20196,7 +20196,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '07', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['联华书局', '《小说旧闻钞》再版本']
       },
       {
@@ -20208,7 +20208,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['上海铁木艺术社', '《木刻纪程》']
       },
       {
@@ -20220,7 +20220,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '06', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['水沫书店', '《文艺政策》']
       },
       {
@@ -20232,7 +20232,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '05', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['光华书店', '《艺苑朝华》']
       },
       {
@@ -20244,7 +20244,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['水沫书店', '《文艺与批评》']
       },
       {
@@ -20255,7 +20255,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20266,7 +20266,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '03', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20278,7 +20278,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '05', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20289,7 +20289,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '10', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20300,7 +20300,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1935', month: '04', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20311,7 +20311,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '12', day: '14' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20322,7 +20322,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '11', day: '10' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20334,7 +20334,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '08', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20346,7 +20346,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '', day: '08' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20358,7 +20358,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '03', day: '02' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20369,7 +20369,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '01', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20381,7 +20381,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20393,7 +20393,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '05', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20405,7 +20405,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '05', day: '15' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20416,7 +20416,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1926', month: '05', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '公寓', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20427,7 +20427,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '03', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '白云楼', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20439,7 +20439,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '05', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20450,7 +20450,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '06', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20461,7 +20461,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '05', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '北四川路楼寓', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20472,7 +20472,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '02', day: '28' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '景云里二十三号', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20483,7 +20483,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '01', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '内山书店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20494,7 +20494,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '02', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '英租界内山支店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20505,7 +20505,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '11', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20516,7 +20516,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1933', month: '04', day: '11' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '大陆新村九号', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20528,7 +20528,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1931', month: '01', day: '20' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '日本人所经营的花园庄', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20540,7 +20540,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '06', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20552,7 +20552,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '06', day: '05' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20564,7 +20564,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '05', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20576,7 +20576,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1929', month: '02', day: '21' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '景云里第2排第1幢17号', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20588,7 +20588,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20600,7 +20600,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '10', day: '03' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '爱多亚路长耕里（今延安东路158弄）的共和旅馆', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20611,7 +20611,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '05', day: '12' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '北四川路底四川公寓', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20622,7 +20622,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '千爱里一处民房', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20633,7 +20633,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '09', day: '18' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '公寓', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20645,7 +20645,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '01', day: '30' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '内山书店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20657,7 +20657,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '02', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '英租界三马路内山书店支店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20669,7 +20669,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '03', day: '13' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '大江南饭店', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20681,7 +20681,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1932', month: '03', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '公寓', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20693,7 +20693,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1927', month: '09', day: '27' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20705,7 +20705,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1934', month: '08', day: '23' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '千爱里', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20717,7 +20717,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1930', month: '03', day: '19' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '北四川路底施高塔路内山书店的假三层楼上', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20729,7 +20729,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '09', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '景云里18号', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20740,7 +20740,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1928', month: '09', day: '09' },
         endDate: { year: '', month: '', day: '' },
         location: { name: '景云里23号', lat: 0, lng: 0 },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['柔石']
       },
       {
@@ -20755,7 +20755,7 @@ export const Narrative_luxun: Narrative = {
           lat: 0,
           lng: 0
         },
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20766,7 +20766,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '01', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20777,7 +20777,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '08', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20788,7 +20788,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '10', day: '' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       },
       {
@@ -20800,7 +20800,7 @@ export const Narrative_luxun: Narrative = {
         startDate: { year: '1936', month: '06', day: '06' },
         endDate: { year: '', month: '', day: '' },
         location: '',
-        media: '',
+        media: { url: '', caption: '', credit: '' },
         relatedEntities: ['鲁迅']
       }
     ],

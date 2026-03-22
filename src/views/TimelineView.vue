@@ -18,7 +18,7 @@
   </n-layout>
   <n-modal v-model:show="showNoDataModal" preset="dialog" title="提示" content="没有符合条件的数据可以展示" positive-text="确定" @positive-click="handleNoDataConfirm" />
   <n-drawer v-model:show="active" :width="600" :placement="right" to="#drawer-target">
-    <n-drawer-content title="知识图谱"/>
+    <n-drawer-content title="关系网络"/>
   </n-drawer>
 </template>
 

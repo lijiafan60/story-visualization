@@ -4,7 +4,7 @@
     <n-layout-header bordered class="header">
       <n-space justify="space-between" align="center" style="height: 100%">
         <div></div>
-        <n-h2 style="margin: 0">故事地图构建和可视化工具</n-h2>
+        <n-h2 style="margin: 0">红色数字叙事可视化平台</n-h2>
         <n-space>
           <n-button>登录</n-button>
           <n-button type="primary">注册</n-button>

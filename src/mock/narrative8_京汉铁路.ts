@@ -1,0 +1,431 @@
+import { Narrative, EntityTypesEnum, EventTypesEnum } from '@/mock/types'
+
+export const Narrative_jinghantielu: Narrative = {
+  id: '8',
+  title: '京汉铁路大罢工',
+  imageUrl: '/images/京汉铁路大罢工.jpg',
+  entities: [
+    {
+      id: '1',
+      name: '京汉铁路总工会筹备会',
+      desc: '',
+      type: EntityTypesEnum.Organization,
+      relation: ''
+    },
+    { id: '2', name: '赵继贤', desc: '', type: EntityTypesEnum.Person, relation: '' },
+    {
+      id: '3',
+      name: '京汉铁路总工会成立大会',
+      desc: '',
+      type: EntityTypesEnum.Event,
+      relation: ''
+    },
+    { id: '4', name: '吴佩孚', desc: '', type: EntityTypesEnum.Person, relation: '' },
+    { id: '5', name: '黄殿辰', desc: '', type: EntityTypesEnum.Person, relation: '' },
+    { id: '6', name: '靳云鹗', desc: '', type: EntityTypesEnum.Person, relation: '' },
+    { id: '7', name: '代表们', desc: '', type: EntityTypesEnum.Person, relation: '' },
+    { id: '8', name: '李震瀛', desc: '', type: EntityTypesEnum.Person, relation: '' },
+    { id: '9', name: '史文彬', desc: '', type: EntityTypesEnum.Person, relation: '' },
+    { id: '10', name: '李焕章', desc: '', type: EntityTypesEnum.Person, relation: '' },
+    { id: '11', name: '凌楚藩', desc: '', type: EntityTypesEnum.Person, relation: '' },
+    { id: '12', name: '杨德甫', desc: '', type: EntityTypesEnum.Person, relation: '' },
+    { id: '13', name: '张国焘', desc: '', type: EntityTypesEnum.Person, relation: '' },
+    { id: '14', name: '郑州', desc: '', type: EntityTypesEnum.Location, relation: '' },
+    { id: '15', name: '陈潭秋', desc: '', type: EntityTypesEnum.Person, relation: '' },
+    { id: '16', name: '罗章龙', desc: '', type: EntityTypesEnum.Person, relation: '' },
+    { id: '17', name: '包惠僧', desc: '', type: EntityTypesEnum.Person, relation: '' },
+    { id: '18', name: '林育南', desc: '', type: EntityTypesEnum.Person, relation: '' },
+    {
+      id: '19',
+      name: '京汉铁路总工会执行委员会',
+      desc: '',
+      type: EntityTypesEnum.Organization,
+      relation: ''
+    },
+    {
+      id: '20',
+      name: '总工会临时总办公处',
+      desc: '',
+      type: EntityTypesEnum.Organization,
+      relation: ''
+    },
+    { id: '21', name: '江岸机器厂工人', desc: '', type: EntityTypesEnum.Person, relation: '' },
+    { id: '22', name: '罢工', desc: '', type: EntityTypesEnum.Event, relation: '' },
+    { id: '23', name: '京汉铁路大罢工', desc: '', type: EntityTypesEnum.Event, relation: '' },
+    { id: '24', name: '项英', desc: '', type: EntityTypesEnum.Person, relation: '' },
+    { id: '25', name: '二七惨案', desc: '', type: EntityTypesEnum.Event, relation: '' },
+    { id: '26', name: '《申报》', desc: '', type: EntityTypesEnum.Document, relation: '' },
+    {
+      id: '27',
+      name: '《京汉路工潮益烈》',
+      desc: '',
+      type: EntityTypesEnum.Document,
+      relation: ''
+    },
+    { id: '28', name: '中共中央', desc: '', type: EntityTypesEnum.Organization, relation: '' },
+    {
+      id: '29',
+      name: '《为吴佩孚惨杀京汉路工告工人阶级与国民》',
+      desc: '',
+      type: EntityTypesEnum.Document,
+      relation: ''
+    },
+    {
+      id: '30',
+      name: '京汉铁路总工会',
+      desc: '',
+      type: EntityTypesEnum.Organization,
+      relation: ''
+    },
+    {
+      id: '31',
+      name: '湖北省工团联合会',
+      desc: '',
+      type: EntityTypesEnum.Organization,
+      relation: ''
+    }
+  ],
+  events: [
+    {
+      id: '1',
+      title: '京汉铁路总工会筹备会呈文赵继贤决定召开京汉铁路总工会成立大会',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '为统一全线工会组织，京汉铁路总工会筹备会决定1923年2月1日在郑州召开京汉铁路总工会成立大会，并呈文京汉铁路局局长赵继贤。',
+      startDate: { year: '1923', month: '01', day: '05' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '郑州', lat: 34.75798, lng: 113.66541 },
+      media: '',
+      relatedEntities: ['京汉铁路总工会筹备会', '赵继贤', '京汉铁路总工会成立大会']
+    },
+    {
+      id: '2',
+      title: '赵继贤表面同意召开京汉铁路总工会成立大会',
+      type: EventTypesEnum.Rebellion,
+      description: '赵表面同意，却暗中密报军阀吴佩孚禁止大会召开。',
+      startDate: { year: '1923', month: '01', day: '' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '郑州', lat: 34.75798, lng: 113.66541 },
+      media: '',
+      relatedEntities: ['赵继贤', '京汉铁路总工会成立大会']
+    },
+    {
+      id: '3',
+      title: '赵继贤密报吴佩孚暗中组织京汉铁路总工会成立大会',
+      type: EventTypesEnum.Rebellion,
+      description: '赵表面同意，却暗中密报军阀吴佩孚禁止大会召开。',
+      startDate: { year: '1923', month: '01', day: '' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '郑州', lat: 34.75798, lng: 113.66541 },
+      media: '',
+      relatedEntities: ['赵继贤', '吴佩孚', '京汉铁路总工会成立大会']
+    },
+    {
+      id: '4',
+      title: '黄殿辰宣布电令吴佩孚',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '1月28日，郑州警察局长黄殿辰率领警察多人，到总工会筹备处宣布吴佩孚的电令，禁止铁路工人于2月1日在郑州举行大会。',
+      startDate: { year: '1923', month: '01', day: '28' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '郑州', lat: 34.75798, lng: 113.66541 },
+      media: '',
+      relatedEntities: ['黄殿辰', '吴佩孚']
+    },
+    {
+      id: '5',
+      title: '吴佩孚电令靳云鹗',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '次日，吴佩孚从洛阳电令郑州驻军师长靳云鹗对铁路工会活动实行监视，不准工人举行集会。',
+      startDate: { year: '1923', month: '01', day: '29' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '郑州', lat: 34.75798, lng: 113.66541 },
+      media: '',
+      relatedEntities: ['吴佩孚', '靳云鹗']
+    },
+    {
+      id: '6',
+      title: '代表们会谈失败吴佩孚',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '1月30日，共产党员李震瀛、史文彬、李焕章及工人代表凌楚藩、杨德甫等代表全体工人到洛阳面见吴佩孚，提出：根据约法和吴佩孚1921年的政治主张，京汉路总工会召开成立大会是合法的，吴非但不能禁止，而且应给以保护。但吴佩孚仍坚持反对大会的召开并以武力相威胁。代表们回郑州将吴的态度告诉全体工人代表后，工人们无比愤怒，一致同意冲破一切阻力，按时召开大会。',
+      startDate: { year: '1923', month: '01', day: '30' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '洛阳', lat: 34.61812, lng: 112.45402 },
+      media: '',
+      relatedEntities: ['代表们', '吴佩孚']
+    },
+    {
+      id: '7',
+      title: '李震瀛面见吴佩孚',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '1月30日，共产党员李震瀛、史文彬、李焕章及工人代表凌楚藩、杨德甫等代表全体工人到洛阳面见吴佩孚，提出：根据约法和吴佩孚1921年的政治主张，京汉路总工会召开成立大会是合法的，吴非但不能禁止，而且应给以保护。但吴佩孚仍坚持反对大会的召开并以武力相威胁。代表们回郑州将吴的态度告诉全体工人代表后，工人们无比愤怒，一致同意冲破一切阻力，按时召开大会。',
+      startDate: { year: '1923', month: '01', day: '30' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '洛阳', lat: 34.61812, lng: 112.45402 },
+      media: '',
+      relatedEntities: ['李震瀛', '吴佩孚']
+    },
+    {
+      id: '8',
+      title: '史文彬面见吴佩孚',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '1月30日，共产党员李震瀛、史文彬、李焕章及工人代表凌楚藩、杨德甫等代表全体工人到洛阳面见吴佩孚，提出：根据约法和吴佩孚1922年的政治主张，京汉路总工会召开成立大会是合法的，吴非但不能禁止，而且应给以保护。但吴佩孚仍坚持反对大会的召开并以武力相威胁。代表们回郑州将吴的态度告诉全体工人代表后，工人们无比愤怒，一致同意冲破一切阻力，按时召开大会。',
+      startDate: { year: '1923', month: '01', day: '30' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '洛阳', lat: 34.61812, lng: 112.45402 },
+      media: '',
+      relatedEntities: ['史文彬', '吴佩孚']
+    },
+    {
+      id: '9',
+      title: '李焕章面见吴佩孚',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '1月30日，共产党员李震瀛、史文彬、李焕章及工人代表凌楚藩、杨德甫等代表全体工人到洛阳面见吴佩孚，提出：根据约法和吴佩孚1923年的政治主张，京汉路总工会召开成立大会是合法的，吴非但不能禁止，而且应给以保护。但吴佩孚仍坚持反对大会的召开并以武力相威胁。代表们回郑州将吴的态度告诉全体工人代表后，工人们无比愤怒，一致同意冲破一切阻力，按时召开大会。',
+      startDate: { year: '1923', month: '01', day: '30' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '洛阳', lat: 34.61812, lng: 112.45402 },
+      media: '',
+      relatedEntities: ['李焕章', '吴佩孚']
+    },
+    {
+      id: '10',
+      title: '凌楚藩面见吴佩孚',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '1月30日，共产党员李震瀛、史文彬、李焕章及工人代表凌楚藩、杨德甫等代表全体工人到洛阳面见吴佩孚，提出：根据约法和吴佩孚1924年的政治主张，京汉路总工会召开成立大会是合法的，吴非但不能禁止，而且应给以保护。但吴佩孚仍坚持反对大会的召开并以武力相威胁。代表们回郑州将吴的态度告诉全体工人代表后，工人们无比愤怒，一致同意冲破一切阻力，按时召开大会。',
+      startDate: { year: '1923', month: '01', day: '30' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '洛阳', lat: 34.61812, lng: 112.45402 },
+      media: '',
+      relatedEntities: ['凌楚藩', '吴佩孚']
+    },
+    {
+      id: '11',
+      title: '杨德甫面见吴佩孚',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '1月30日，共产党员李震瀛、史文彬、李焕章及工人代表凌楚藩、杨德甫等代表全体工人到洛阳面见吴佩孚，提出：根据约法和吴佩孚1925年的政治主张，京汉路总工会召开成立大会是合法的，吴非但不能禁止，而且应给以保护。但吴佩孚仍坚持反对大会的召开并以武力相威胁。代表们回郑州将吴的态度告诉全体工人代表后，工人们无比愤怒，一致同意冲破一切阻力，按时召开大会。',
+      startDate: { year: '1923', month: '01', day: '30' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '洛阳', lat: 34.61812, lng: 112.45402 },
+      media: '',
+      relatedEntities: ['杨德甫', '吴佩孚']
+    },
+    {
+      id: '12',
+      title: '张国焘抵达郑州',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '1月31日，参会代表陆续抵达郑州。中共中央及党的有关组织对这次大会十分重视，派出负责工人运动的成员出席这次大会。其中有中共中央执行委员、中央特派员张国焘，中共武汉市委书记陈潭秋，中国劳动组合书记部副主任罗章龙，中共北京地委委员包惠僧，中国劳动组合书记部武汉分部主任林育南等。',
+      startDate: { year: '1923', month: '01', day: '31' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '郑州', lat: 34.75798, lng: 113.66541 },
+      media: '',
+      relatedEntities: ['张国焘', '郑州']
+    },
+    {
+      id: '13',
+      title: '陈潭秋抵达郑州',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '1月31日，参会代表陆续抵达郑州。中共中央及党的有关组织对这次大会十分重视，派出负责工人运动的成员出席这次大会。其中有中共中央执行委员、中央特派员张国焘，中共武汉市委书记陈潭秋，中国劳动组合书记部副主任罗章龙，中共北京地委委员包惠僧，中国劳动组合书记部武汉分部主任林育南等。',
+      startDate: { year: '1923', month: '01', day: '31' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '郑州', lat: 34.75798, lng: 113.66541 },
+      media: '',
+      relatedEntities: ['陈潭秋', '郑州']
+    },
+    {
+      id: '14',
+      title: '罗章龙抵达郑州',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '1月31日，参会代表陆续抵达郑州。中共中央及党的有关组织对这次大会十分重视，派出负责工人运动的成员出席这次大会。其中有中共中央执行委员、中央特派员张国焘，中共武汉市委书记陈潭秋，中国劳动组合书记部副主任罗章龙，中共北京地委委员包惠僧，中国劳动组合书记部武汉分部主任林育南等。',
+      startDate: { year: '1923', month: '01', day: '31' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '郑州', lat: 34.75798, lng: 113.66541 },
+      media: '',
+      relatedEntities: ['罗章龙', '郑州']
+    },
+    {
+      id: '15',
+      title: '包惠僧抵达郑州',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '1月31日，参会代表陆续抵达郑州。中共中央及党的有关组织对这次大会十分重视，派出负责工人运动的成员出席这次大会。其中有中共中央执行委员、中央特派员张国焘，中共武汉市委书记陈潭秋，中国劳动组合书记部副主任罗章龙，中共北京地委委员包惠僧，中国劳动组合书记部武汉分部主任林育南等。',
+      startDate: { year: '1923', month: '01', day: '31' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '郑州', lat: 34.75798, lng: 113.66541 },
+      media: '',
+      relatedEntities: ['包惠僧', '郑州']
+    },
+    {
+      id: '16',
+      title: '林育南抵达郑州',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '1月31日，参会代表陆续抵达郑州。中共中央及党的有关组织对这次大会十分重视，派出负责工人运动的成员出席这次大会。其中有中共中央执行委员、中央特派员张国焘，中共武汉市委书记陈潭秋，中国劳动组合书记部副主任罗章龙，中共北京地委委员包惠僧，中国劳动组合书记部武汉分部主任林育南等。',
+      startDate: { year: '1923', month: '01', day: '31' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '郑州', lat: 34.75798, lng: 113.66541 },
+      media: '',
+      relatedEntities: ['林育南', '郑州']
+    },
+    {
+      id: '17',
+      title: '京汉铁路总工会成立大会召开郑州',
+      type: EventTypesEnum.Rebellion,
+      description: '2月1日，京汉铁路总工会成立大会在郑州召开。',
+      startDate: { year: '1923', month: '02', day: '01' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '郑州', lat: 34.75798, lng: 113.66541 },
+      media: '',
+      relatedEntities: ['京汉铁路总工会成立大会', '郑州']
+    },
+    {
+      id: '18',
+      title: '李震瀛会上发言京汉铁路总工会成立大会',
+      type: EventTypesEnum.Rebellion,
+      description: '京汉铁路总工会成立大会秘书李震瀛登上讲台，高声宣布京汉铁路总工会成立了。',
+      startDate: { year: '1923', month: '02', day: '01' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '郑州', lat: 34.75798, lng: 113.66541 },
+      media: '',
+      relatedEntities: ['李震瀛', '京汉铁路总工会成立大会']
+    },
+    {
+      id: '19',
+      title: '吴佩孚强行解散京汉铁路总工会成立大会',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '吴佩孚丢弃“保护劳工”的假面具，命令郑州全城戒严，强行解散会议，封闭总工会会所，并令代表立即离开郑州。',
+      startDate: { year: '1923', month: '02', day: '01' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '郑州', lat: 34.75798, lng: 113.66541 },
+      media: '',
+      relatedEntities: ['吴佩孚', '京汉铁路总工会成立大会']
+    },
+    {
+      id: '20',
+      title: '京汉铁路总工会执行委员会迁移总工会临时总办公处',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '代表们受此凌辱，十分愤怒。为此，京汉铁路总工会执行委员会遂决定2月4日开始举行全路总罢工，并将总工会临时总办公处移至武汉江岸。',
+      startDate: { year: '1923', month: '02', day: '04' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '武汉', lat: 30.58245, lng: 114.26303 },
+      media: '',
+      relatedEntities: ['京汉铁路总工会执行委员会', '总工会临时总办公处']
+    },
+    {
+      id: '21',
+      title: '江岸机器厂工人首先罢工',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '2月4日上午，江岸机器厂工人首先罢工。到中午，全路2万多人全部罢工，1200多公里铁路顿时瘫痪。',
+      startDate: { year: '1923', month: '02', day: '04' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '郑州', lat: 34.75798, lng: 113.66541 },
+      media: '',
+      relatedEntities: ['江岸机器厂工人', '罢工']
+    },
+    {
+      id: '22',
+      title: '张国焘领导京汉铁路大罢工',
+      type: EventTypesEnum.Rebellion,
+      description: '党领导这次罢工的主要负责人为张国焘、项英、罗章龙、林育南等。',
+      startDate: { year: '1923', month: '02', day: '04' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '郑州', lat: 34.75798, lng: 113.66541 },
+      media: '',
+      relatedEntities: ['张国焘', '京汉铁路大罢工']
+    },
+    {
+      id: '23',
+      title: '项英领导京汉铁路大罢工',
+      type: EventTypesEnum.Rebellion,
+      description: '党领导这次罢工的主要负责人为张国焘、项英、罗章龙、林育南等。',
+      startDate: { year: '1923', month: '02', day: '04' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '郑州', lat: 34.75798, lng: 113.66541 },
+      media: '',
+      relatedEntities: ['项英', '京汉铁路大罢工']
+    },
+    {
+      id: '24',
+      title: '罗章龙领导京汉铁路大罢工',
+      type: EventTypesEnum.Rebellion,
+      description: '党领导这次罢工的主要负责人为张国焘、项英、罗章龙、林育南等。',
+      startDate: { year: '1923', month: '02', day: '04' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '郑州', lat: 34.75798, lng: 113.66541 },
+      media: '',
+      relatedEntities: ['罗章龙', '京汉铁路大罢工']
+    },
+    {
+      id: '25',
+      title: '林育南领导京汉铁路大罢工',
+      type: EventTypesEnum.Rebellion,
+      description: '党领导这次罢工的主要负责人为张国焘、项英、罗章龙、林育南等。',
+      startDate: { year: '1923', month: '02', day: '04' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '郑州', lat: 34.75798, lng: 113.66541 },
+      media: '',
+      relatedEntities: ['林育南', '京汉铁路大罢工']
+    },
+    {
+      id: '26',
+      title: '吴佩孚制造二七惨案',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '京汉铁路大罢工引起列强和军阀当局的恐慌，2月7日，吴佩孚在帝国主义支持下，调动2万多军警镇压罢工工人，制造了二七惨案。\n在江岸，全副武装的军警将工会包围，工人纠察团副团长曾玉良等36人被杀害。\n在长辛店，机车厂铆工、纠察队副队长葛树贵等6人被打死。\n在郑州车站，郑州铁路工会委员长高斌惨遭酷刑而牺牲。\n在江岸、涞水、高碑店，被捕后死于狱中的有4人。\n此外，罢工工人被捕的有40多人，被开除的达1000多人。\n罢工领导人、共产党员林祥谦，京汉铁路总工会与湖北省工团联合会法律顾问、共产党员施洋壮烈牺牲。',
+      startDate: { year: '1923', month: '02', day: '07' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '河南', lat: 33.88256, lng: 113.61457 },
+      media: '',
+      relatedEntities: ['吴佩孚', '二七惨案']
+    },
+    {
+      id: '27',
+      title: '《申报》刊登《京汉路工潮益烈》',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '1923年2月8日《申报》4版刊登《京汉路工潮益烈》专电：东方通讯社六日汉口电云、京汉铁路之同盟罢工工人组织决死队、因破坏刘家庙附近之轨道数十条、遂与武装之军起冲突。',
+      startDate: { year: '1923', month: '02', day: '08' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '', lat: 0, lng: 0 },
+      media: '',
+      relatedEntities: ['《申报》', '《京汉路工潮益烈》']
+    },
+    {
+      id: '28',
+      title: '中共中央发表《为吴佩孚惨杀京汉路工告工人阶级与国民》',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '二七惨案发生后，中共中央发表《为吴佩孚惨杀京汉路工告工人阶级与国民》书，号召全国人民和工人阶级团结起来，打倒压迫和惨杀工人的军阀，为自由而奋斗。全国各地工人和各阶层民众，迅速掀起一场声势浩大的声讨军阀、支援京汉铁路工人的运动。',
+      startDate: { year: '1923', month: '02', day: '27' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '', lat: 0, lng: 0 },
+      media: '',
+      relatedEntities: ['中共中央', '《为吴佩孚惨杀京汉路工告工人阶级与国民》']
+    },
+    {
+      id: '29',
+      title: '京汉铁路总工会下令复工湖北省工团联合会',
+      type: EventTypesEnum.Rebellion,
+      description:
+        '为了保存革命力量，京汉铁路总工会和为了保存革命力量，京汉铁路总工会和湖北省工团联合会忍痛于2月9日下令复工。忍痛于2月9日下令复工。',
+      startDate: { year: '1923', month: '02', day: '09' },
+      endDate: { year: '', month: '', day: '' },
+      location: { name: '', lat: 0, lng: 0 },
+      media: '',
+      relatedEntities: ['京汉铁路总工会', '湖北省工团联合会']
+    }
+  ],
+  description: '',
+}
