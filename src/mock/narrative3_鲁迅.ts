@@ -1,6 +1,6 @@
 import { Narrative, EntityTypesEnum, EventTypesEnum } from '@/mock/types'
 
-export const Narrative_3: Narrative = {
+export const Narrative_luxun: Narrative = {
     id: '3',
     title: '鲁迅',
     description: '',

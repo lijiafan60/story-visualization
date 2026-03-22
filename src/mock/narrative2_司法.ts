@@ -3,6 +3,7 @@ import { Narrative, EntityTypesEnum, EventTypesEnum } from '@/mock/types'
 export const Narrative_sifa: Narrative = {
     id: '2',
     title: '司法类事件',
+    imageUrl: '/images/雨花英烈.jpg',
     entities: [
       { id: '1', name: '谢文锦', desc: '', type: EntityTypesEnum.Person, relation: '' },
       { id: '2', name: '蒋介石', desc: '', type: EntityTypesEnum.Person, relation: '' },
@@ -2092,6 +2093,5 @@ export const Narrative_sifa: Narrative = {
         relatedEntities: ['张应春', '赵笏臣']
       }
     ],
-    description: '',
-    imageUrl: ''
+    description: ''
 }

@@ -1,10 +1,10 @@
 import { Narrative, EntityTypesEnum, EventTypesEnum } from '@/mock/types'
 
-export const Narrative_1: Narrative = {
-    id: '1',
+export const Narrative_dengzhongxia: Narrative = {
+    id: '4',
     title: '邓中夏',
     description: '',
-    imageUrl: '/images/邓中夏.png',
+    imageUrl: '/images/邓中夏.jpg',
     events: [
       {
         id: 1,

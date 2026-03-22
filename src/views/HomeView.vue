@@ -218,7 +218,7 @@ onMounted(async () => {
 }
 
 .narrative-card {
-  height: 400px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   margin: 0 10px;
