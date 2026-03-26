@@ -2,7 +2,7 @@ import { Narrative, EntityTypesEnum, EventTypesEnum } from '@/mock/types'
 
 export const Narrative_yuhua: Narrative = {
     id: '1',
-    title: '雨花英烈',
+    title: '雨花数据分析',
     imageUrl: '/images/雨花英烈.jpg',
     entities: [
       { id: '1', name: '便衣侦缉队', desc: '', type: EntityTypesEnum.Organization, relation: '' },

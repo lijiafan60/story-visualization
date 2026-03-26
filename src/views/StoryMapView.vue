@@ -7,7 +7,7 @@
         <n-h2 style="margin: 0">{{title}} - 故事地图</n-h2>
         <n-space>
           <n-button @click="goToTimeline(narrativeId)" secondary round>故事描述</n-button>
-          <n-button @click="activeToKnowledge()" secondary round>关系网络</n-button>
+          <!-- <n-button @click="activeToKnowledge()" secondary round>关系网络</n-button> -->
           <n-button @click="goToTimeline(narrativeId)" secondary round>时间线可视化</n-button>
         </n-space>
       </n-flex>

@@ -3,7 +3,7 @@ import { Narrative, EntityTypesEnum, EventTypesEnum } from '@/mock/types'
 export const Narrative_jinghantielu: Narrative = {
   id: '8',
   title: '京汉铁路大罢工',
-  imageUrl: '/images/京汉铁路大罢工.jpg',
+  imageUrl: '/images/京汉铁路大罢工.png',
   entities: [
     {
       id: '1',

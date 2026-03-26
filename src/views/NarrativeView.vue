@@ -6,7 +6,7 @@
         <n-button @click="goToHome" secondary round>主页</n-button>
         <n-h2 style="margin: 0">{{ title }}</n-h2>
         <n-flex>
-          <n-button @click="activeToKnowledge()" secondary round>关系网络</n-button>
+          <!-- <n-button @click="activeToKnowledge()" secondary round>关系网络</n-button> -->
           <n-button @click="goToTimeline(narrativeId)" secondary round>叙事时间线</n-button>
           <n-button @click="goToStoryMap(narrativeId)" secondary round>叙事地图</n-button>
         </n-flex>

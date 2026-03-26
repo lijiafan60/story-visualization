@@ -94,20 +94,16 @@ export enum EntityTypesEnum {
 export const entityTypes: EntityTypesEnum[] = Object.values(EntityTypesEnum);
 
 export enum EventTypesEnum {
-  Connect = "社交",
+  Connect = "社会",
+  Culture = "文化",
   Life = "人生",
-  Heath = "健康",
-  Creat = "作品创作",
+  Creat = "创作",
   Work = "作品",
   Counterwork = "对抗",
   Judicial = "司法",
-  Movement = "迁移",
-  Activity = "文娱活动",
-  Political = "政治事件",
+  Movement = "转移",
+  Political = "政务",
   Rebellion = "反叛",
-  Connect_mao = "茅盾",
-  Letter_cao = "曹靖华",
-  Letter_xiao = "萧军",
   Speech = "演讲"
 }
 
